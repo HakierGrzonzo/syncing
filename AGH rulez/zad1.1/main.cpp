@@ -48,10 +48,29 @@ int main(){
 		Odcinek making = Odcinek(0);
 		while(true){
 			if(making.length < targetLength){
-				if(targetLength - making.length >= making.length){
-					//clog << "Attempting to Glue new plank\n";
-					making = Glue(making, basePlank);
-					used++;
+				if(targetLength - making.length >= basePlank.length){
+					if(scraps.empty()){
+						//clog << "Attempting to Glue new plank\n";
+						making = Glue(making, basePlank);
+						used++;
+					}
+					else{
+						//clog << "making use of scraps\n";
+						Odcinek small = *min_element(scraps.begin(), scraps.end());
+						scraps.erase(min_element(scraps.begin(), scraps.end()));	
+						if(small.length + making.length <= targetLength){
+							making = Glue(making, small);
+						}
+						else{
+							int requiredLength = targetLength - making.length;
+							Odcinek scrap1;
+							Odcinek scrap2;
+							tie(scrap1, scrap2) = small.Divide(requiredLength);
+							cuting++;
+							scraps.push_back(scrap2);
+							making = Glue(making, scrap1);
+						}
+					}
 				}
 				else{
 					if(scraps.empty()){
@@ -59,30 +78,43 @@ int main(){
 						int requiredLength = targetLength - making.length;
 						Odcinek scrap1;
 						Odcinek scrap2;
-						//clog << "cuting\n";
 						tie(scrap1, scrap2) = basePlank.Divide(requiredLength);
 						making = Glue(making, scrap1);
 						used++;
 						cuting++;
-						//clog << "adding to a pile\n";
 						scraps.push_back(scrap2);
 					}
 					else{
-						Odcinek					
+						//clog << "making use of scraps\n";
+						Odcinek small = *min_element(scraps.begin(), scraps.end());
+						scraps.erase(min_element(scraps.begin(), scraps.end()));	
+						if(small.length + making.length <= targetLength){
+							making = Glue(making, small);
+						}
+						else{
+							int requiredLength = targetLength - making.length;
+							Odcinek scrap1;
+							Odcinek scrap2;
+							tie(scrap1, scrap2) = small.Divide(requiredLength);
+							cuting++;
+							scraps.push_back(scrap2);
+							making = Glue(making, scrap1);
+						}					
 					}
 				}
 			}
 			else{
-				cout << "ToDo";
+				throw 69;
 			}
-
+			//clog << "current plank length: " << making.length << "\n";
 			if(making.length == targetLength){
 			       made++;
+			       //cout << "\n";
 			       break;
-			}
-					
+			}		
 		}
 	}
-	cout << made << "\t" << cuting << "\t" << used << "\n";
+	//cout << made << "\t" << cuting << "\t" << used << "\n";
+	cout << cuting;
 	return 0;
 }
