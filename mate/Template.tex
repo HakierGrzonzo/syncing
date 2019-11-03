@@ -1,0 +1,164 @@
+%&pdflatex --translate-file=il2-pl
+%Wzór dokumentu
+%tu zmień marginesy i rozmiar czcionki
+	\documentclass[a4paper,12pt]{article}
+	\usepackage[margin=2.5cm]{geometry}
+    
+	\usepackage{inputenc}[utf8]
+ %Lepiej tego nie zmieniaj, jak co to dodawaj pakiety
+	\usepackage{titlesec}
+	\usepackage{titling}
+	\usepackage{fancyhdr}
+	\usepackage{mdframed}
+	\usepackage{graphicx}
+	\usepackage{amsmath}
+	\usepackage{amssymb}
+	\usepackage{amsfonts}
+	
+%inny wygląd
+	%\usepackage{tgbonum}
+	
+	
+	%Zmienne, zmień je!
+	\graphicspath{ {./ilustracje/} }
+    \title{title}
+    \author{Grzegorz Koperwas}
+    \date{[data]}
+    
+  %lokalizacja polska (odkomentuj jak piszesz po polsku)
+  
+    \usepackage{polski}
+    %\usepackage[polish]{babel} 
+    \usepackage{indentfirst}
+	\usepackage{icomma} 
+	
+    \brokenpenalty=1000
+    \clubpenalty=1000
+    \widowpenalty=1000    
+ 
+ %nie odkometowuj wszystkiego, użyj mózgu
+    %\renewcommand\thechapter{\arabic{chapter}.}
+	\renewcommand\thesection{\arabic{section}.}
+	\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}.}
+	\renewcommand\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
+
+%Makra
+    
+\newcommand{\obrazek}[2]{
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=#1]{#2}
+	\end{figure}
+}     
+            
+    
+    \newcommand{\twierdzonko}[1]{
+        \begin{center}
+        \begin{mdframed}
+        #1
+        \end{mdframed}          
+        \end{center}
+    } 
+    
+    \newcommand{\dwanajeden}[2]{
+	\ensuremath \left( \begin{array}{c}
+		#1\\
+		#2
+	\end{array} \right)
+}  
+      
+%Stopka i head (sekcja której nie powinno się zmieniać)
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyfoot{}
+    
+    %Zmieniaj od tego miejsca
+	\rfoot{\thepage}
+	%\lfoot{Grzegorz Koperwas, \LaTeX note}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{1pt}
+
+    
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+		\Large{\textbf{I LICEUM OGÓLNOKSZTAŁCĄCE IM. EDWARDA DEMBOWSKIEGO W GLIWICACH}}
+
+		\vspace{3cm}
+
+		Grzegorz Koperwas
+
+		\vspace{2.5cm}
+
+		\textbf{Badanie przebiegu zmieności funkcji}
+
+		\[f \left( x \right) = x^4 - 6x^2 + 8x + 24 \]
+
+		\vfill
+
+		Gliwce
+		\vspace{0.5cm}
+
+		\titlerule
+		\vspace{0.6cm}
+
+		2019
+
+	\end{center}
+
+\end{titlepage}
+
+\section{Analiza wzoru funkcji}
+
+Dana jest funkcja:
+\[ f \left( x \right) = x^4  - 6x^2 + 8x + 24 \]
+
+Funkcja jest wielomianem więc dziedzna jest zbiorem liczb rzeczywistych:
+\[D_f = \mathbb{R} \]
+
+\subsection{Miejsca zerowe:}
+\[ p: \quad \pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm 12, \pm 24\]
+
+\begin{center}
+	
+\begin{tabular}{l|c|c|c|c|c|}
+
+\cline{2-6}
+
+                           & $1$ & $0$  & $-6$ & $8$  & $24$    \\ \hline
+
+\multicolumn{1}{|l|}{$-2$} &     & $-2$ & $4$  & $4$  & $-24$   \\ \hline
+
+                           & $1$ & $-2$ & $-2$ & $12$ & $0 = R$ \\ \cline{2-6} 
+
+\end{tabular}
+\end{center}
+
+\[ \left(x + 2 \right) \cdot \left( x^3 - 2x^2 - 2x + 12 \right) \]
+
+\begin{center}
+	\begin{tabular}{l|c|c|c|c|}
+
+\cline{2-5}
+
+                           & $1$ & $-2$ & $-2$ & $12$    \\ \hline
+
+\multicolumn{1}{|l|}{$-2$} &     & $-2$ & $8$  & $-12$   \\ \hline
+
+                           & $1$ & $-4$ & $6$  & $0 = R$ \\ \cline{2-5} 
+
+\end{tabular}
+\end{center}
+\begin{minipage}[c]{0.7\textwidth}
+	\[ \left(x + 2 \right)^2 \cdot \left( x^2 - 4x + 6 \right) \]
+\end{minipage}
+\hspace{0.15cm} \vline \hspace{0.15cm}
+\begin{minipage}[c]{0.2\textwidth}
+	\begin{align*}
+		\Delta &= 16 - 4 \cdot 6 = \\
+		&= -8 < 0
+	\end{align*}
+\end{minipage}
+
+\end{document}
