@@ -42,6 +42,8 @@
 	\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}.}
 	\renewcommand\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
 
+	\titleformat{\section}{\Large \bfseries}{}{1em}{\thesection \hspace{0.5em}}[\titlerule]
+
 %Makra
     
 \newcommand{\obrazek}[2]{
@@ -165,18 +167,16 @@ Miejscem zerowym danej funkcji jest $-2$.
 
 \subsection{Przecięcie z osią $OY$}
 
-\[f \left( 0 \right) &= 0^4  - 6\cdot 0^2 + 8\cdot 0 + 24 = 24 \]
+\[f \left( 0 \right) = 0^4  - 6\cdot 0^2 + 8\cdot 0 + 24 = 24 \]
 
 Funkcja przecina oś $0Y$ w punkcie $ \left( 0; \, 24 \right)$.
 
 \subsection{Granice na krańcach dziedziny}
 
 \begin{align*}
-	\lim_{x \to - \infty} f \left( x \right) &=
-	\lim_{x \to - \infty} \underbrace{x^4}_{\to + \infty} \cdot \left( 1 - \underbrace{\frac{6}{x^2} + \frac{8}{x^3} + \frac{24}{x^4}}_{\to 0} \right) \\
+	\lim\limits_{x \to - \infty} f \left( x \right) &=\lim\limits_{x \to - \infty} \underbrace{x^4}_{\to + \infty} \cdot \left( 1 - \underbrace{\frac{6}{x^2} + \frac{8}{x^3} + \frac{24}{x^4}}_{\to 0} \right) =\\
 	&= + \infty \\
-	
-	\lim_{x \to + \infty} f\left( x \right) &= \lim_{x \to +\infty} \underbrace{x^4}_{\to + \infty} \cdot \left( 1 - \underbrace{\frac{6}{x^2} + \frac{8}{x^3} + \frac{24}{x^4}}_{\to 0} \right) = \\
+	\lim\limits_{x \to + \infty} f\left( x \right) &= \lim\limits_{x \to +\infty} \underbrace{x^4}_{\to + \infty} \cdot \left( 1 - \underbrace{\frac{6}{x^2} + \frac{8}{x^3} + \frac{24}{x^4}}_{\to 0} \right) = \\
 	&= + \infty
 \end{align*}
 
