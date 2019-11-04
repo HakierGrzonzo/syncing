@@ -151,14 +151,40 @@ Funkcja jest wielomianem więc dziedzna jest zbiorem liczb rzeczywistych:
 \end{tabular}
 \end{center}
 \begin{minipage}[c]{0.7\textwidth}
-	\[ \left(x + 2 \right)^2 \cdot \left( x^2 - 4x + 6 \right) \]
+	\[ \left(x + 2 \right)^2 \cdot \underbrace{\left( x^2 - 4x + 6 \right)}_{\Delta < 0} \]
 \end{minipage}
 \hspace{0.15cm} \vline \hspace{0.15cm}
 \begin{minipage}[c]{0.2\textwidth}
 	\begin{align*}
-		\Delta &= 16 - 4 \cdot 6 = \\
+		\Delta &= 16 - 4 \cdot 6 = \
 		&= -8 < 0
 	\end{align*}
 \end{minipage}
+
+Miejscem zerowym danej funkcji jest $-2$.
+
+\subsection{Przecięcie z osią $OY$}
+
+\[f \left( 0 \right) &= 0^4  - 6\cdot 0^2 + 8\cdot 0 + 24 = 24 \]
+
+Funkcja przecina oś $0Y$ w punkcie $ \left( 0; \, 24 \right)$.
+
+\subsection{Granice na krańcach dziedziny}
+
+\begin{align*}
+	\lim_{x \to - \infty} f \left( x \right) &=
+	\lim_{x \to - \infty} \underbrace{x^4}_{\to + \infty} \cdot \left( 1 - \underbrace{\frac{6}{x^2} + \frac{8}{x^3} + \frac{24}{x^4}}_{\to 0} \right) \\
+	&= + \infty \\
+	
+	\lim_{x \to + \infty} f\left( x \right) &= \lim_{x \to +\infty} \underbrace{x^4}_{\to + \infty} \cdot \left( 1 - \underbrace{\frac{6}{x^2} + \frac{8}{x^3} + \frac{24}{x^4}}_{\to 0} \right) = \\
+	&= + \infty
+\end{align*}
+
+Funkcja nie posiada asymptot.
+
+\section{Analiza pierwszej pochodnej}
+Obliczamy pierwszą pochodną:
+\[ f' \left( x \right) = 4x^3 - 12x + 8 \]
+
 
 \end{document}
