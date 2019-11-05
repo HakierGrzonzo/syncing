@@ -1,11 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7230) (preloaded format=pdflatex 2019.11.2)  4 NOV 2019 21:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.11.4)  4 NOV 2019 22:08
 entering extended mode
-**./Template.tex
-(Template.tex
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+ (/usr/share/texmf-dist/web2c/il2-pl.tcx)
+**Template.tex
+(./Template.tex
 LaTeX2e <2018-12-01>
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/base/article.cls
+(/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/base/size12.clo
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -20,21 +23,21 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/oberdiek/ifvtex.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/ifxetex/ifxetex.sty
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -49,15 +52,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+)
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2019/07/16 v2.11 Sectioning titles
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box27
 \beforetitleunit=\skip43
 \aftertitleunit=\skip44
@@ -68,13 +70,13 @@ Package: titlesec 2019/07/16 v2.11 Sectioning titles
 \titlewidthlast=\dimen114
 \titlewidthfirst=\dimen115
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/titling/titling.sty
+(/usr/share/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip45
 \thanksmargin=\skip46
 \droptitle=\skip47
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip48
@@ -87,40 +89,41 @@ s
 \f@nch@O@olf=\skip55
 \f@nch@O@orf=\skip56
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/mdframed/mdframed.sty
+(/usr/share/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/oberdiek/ltxcmds.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/oberdiek/etexcmds.sty
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/oberdiek/ifluatex.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/l3packages/xparse/xparse.
-sty (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-08-25 L3 programming layer (loader) 
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-04-06 L3 programming layer (loader) 
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-08-25 L3 programming layer (code)
+(/usr/share/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-04-06 L3 programming layer (code)
 \c_max_int=\count91
 \l_tmpa_int=\count92
 \l_tmpb_int=\count93
 \g_tmpa_int=\count94
 \g_tmpb_int=\count95
 \g__kernel_prg_map_int=\count96
-\c__ior_term_noprompt_ior=\count97
+\c__ior_term_ior=\count97
 \c_log_iow=\count98
 \l_iow_line_count_int=\count99
 \l__iow_line_target_int=\count100
@@ -171,53 +174,51 @@ Package: expl3 2019-08-25 L3 programming layer (code)
 \l__sort_A_int=\count126
 \l__sort_B_int=\count127
 \l__sort_C_int=\count128
-\l__str_internal_int=\count129
-\c__str_replacement_char_int=\count130
-\l__tl_analysis_normal_int=\count131
-\l__tl_analysis_index_int=\count132
-\l__tl_analysis_nesting_int=\count133
-\l__tl_analysis_type_int=\count134
-\l__regex_internal_a_int=\count135
-\l__regex_internal_b_int=\count136
-\l__regex_internal_c_int=\count137
-\l__regex_balance_int=\count138
-\l__regex_group_level_int=\count139
-\l__regex_mode_int=\count140
-\c__regex_cs_in_class_mode_int=\count141
-\c__regex_cs_mode_int=\count142
-\l__regex_catcodes_int=\count143
-\l__regex_default_catcodes_int=\count144
-\c__regex_catcode_D_int=\count145
-\c__regex_catcode_S_int=\count146
-\c__regex_catcode_L_int=\count147
-\c__regex_catcode_O_int=\count148
-\c__regex_catcode_A_int=\count149
-\c__regex_all_catcodes_int=\count150
-\l__regex_show_lines_int=\count151
-\l__regex_min_state_int=\count152
-\l__regex_max_state_int=\count153
-\l__regex_left_state_int=\count154
-\l__regex_right_state_int=\count155
-\l__regex_capturing_group_int=\count156
-\l__regex_min_pos_int=\count157
-\l__regex_max_pos_int=\count158
-\l__regex_curr_pos_int=\count159
-\l__regex_start_pos_int=\count160
-\l__regex_success_pos_int=\count161
-\l__regex_curr_char_int=\count162
-\l__regex_curr_catcode_int=\count163
-\l__regex_last_char_int=\count164
-\l__regex_case_changed_char_int=\count165
-\l__regex_curr_state_int=\count166
-\l__regex_step_int=\count167
-\l__regex_min_active_int=\count168
-\l__regex_max_active_int=\count169
-\l__regex_replacement_csnames_int=\count170
-\l__regex_match_count_int=\count171
-\l__regex_min_submatch_int=\count172
-\l__regex_submatch_int=\count173
-\l__regex_zeroth_submatch_int=\count174
-\g__regex_trace_regex_int=\count175
+\l__tl_analysis_normal_int=\count129
+\l__tl_analysis_index_int=\count130
+\l__tl_analysis_nesting_int=\count131
+\l__tl_analysis_type_int=\count132
+\l__regex_internal_a_int=\count133
+\l__regex_internal_b_int=\count134
+\l__regex_internal_c_int=\count135
+\l__regex_balance_int=\count136
+\l__regex_group_level_int=\count137
+\l__regex_mode_int=\count138
+\c__regex_cs_in_class_mode_int=\count139
+\c__regex_cs_mode_int=\count140
+\l__regex_catcodes_int=\count141
+\l__regex_default_catcodes_int=\count142
+\c__regex_catcode_D_int=\count143
+\c__regex_catcode_S_int=\count144
+\c__regex_catcode_L_int=\count145
+\c__regex_catcode_O_int=\count146
+\c__regex_catcode_A_int=\count147
+\c__regex_all_catcodes_int=\count148
+\l__regex_show_lines_int=\count149
+\l__regex_min_state_int=\count150
+\l__regex_max_state_int=\count151
+\l__regex_left_state_int=\count152
+\l__regex_right_state_int=\count153
+\l__regex_capturing_group_int=\count154
+\l__regex_min_pos_int=\count155
+\l__regex_max_pos_int=\count156
+\l__regex_curr_pos_int=\count157
+\l__regex_start_pos_int=\count158
+\l__regex_success_pos_int=\count159
+\l__regex_curr_char_int=\count160
+\l__regex_curr_catcode_int=\count161
+\l__regex_last_char_int=\count162
+\l__regex_case_changed_char_int=\count163
+\l__regex_curr_state_int=\count164
+\l__regex_step_int=\count165
+\l__regex_min_active_int=\count166
+\l__regex_max_active_int=\count167
+\l__regex_replacement_csnames_int=\count168
+\l__regex_match_count_int=\count169
+\l__regex_min_submatch_int=\count170
+\l__regex_submatch_int=\count171
+\l__regex_zeroth_submatch_int=\count172
+\g__regex_trace_regex_int=\count173
 \c_empty_box=\box28
 \l_tmpa_box=\box29
 \l_tmpb_box=\box30
@@ -262,69 +263,70 @@ Package: expl3 2019-08-25 L3 programming layer (code)
 \l__coffin_display_x_dim=\dimen146
 \l__coffin_display_y_dim=\dimen147
 \g__file_internal_ior=\read1
-\l__seq_internal_a_int=\count176
-\l__seq_internal_b_int=\count177
+\l__seq_internal_a_int=\count174
+\l__seq_internal_b_int=\count175
+\c__deprecation_minus_one=\count176
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdfmo
-de.def
-File: l3backend-pdfmode.def 2019-04-06 v L3 Experimental backend support: PDF m
-ode
-\l__kernel_color_stack_int=\count178
-\l__pdf_internal_box=\box46
+(/usr/share/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count177
 ))
-Package: xparse 2019-05-28 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count179
-\g__xparse_grabber_int=\count180
-\l__xparse_m_args_int=\count181
-\l__xparse_v_nesting_int=\count182
+Package: xparse 2019-03-05 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count178
+\g__xparse_grabber_int=\count179
+\l__xparse_m_args_int=\count180
+\l__xparse_v_nesting_int=\count181
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count183
+\etb@tempcnta=\count182
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/oberdiek/zref-abspage.sty
+(/usr/share/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2018/11/21 v2.27 Module abspage for zref (HO)
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/oberdiek/zref-base.sty
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/zref-base.sty
 Package: zref-base 2018/11/21 v2.27 Module base for zref (HO)
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/oberdiek/kvdefinekeys.s
-ty
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/oberdiek/auxhook.sty
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/generic/oberdiek/atbegshi.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
-\c@abspage=\count184
+\c@abspage=\count183
 Package zref Info: New property: abspage on input line 62.
-) (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/needspace/needspace.sty
+)
+(/usr/share/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
-) (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/graphics/color.sty
+)
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \mdf@templength=\skip63
-\c@mdf@globalstyle@cnt=\count185
+\c@mdf@globalstyle@cnt=\count184
 \mdf@skipabove@length=\skip64
 \mdf@skipbelow@length=\skip65
 \mdf@leftmargin@length=\skip66
@@ -364,14 +366,15 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \mdf@subsubtitlebelowskip@length=\skip100
 \mdf@subsubtitleinneraboveskip@length=\skip101
 \mdf@subsubtitleinnerbelowskip@length=\skip102
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/mdframed/md-frame-0.mdf
+
+(/usr/share/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box47
-\mdf@footnotebox=\box48
-\mdf@splitbox@one=\box49
-\mdf@splitbox@two=\box50
-\mdf@splitbox@save=\box51
+\mdf@frametitlebox=\box46
+\mdf@footnotebox=\box47
+\mdf@splitbox@one=\box48
+\mdf@splitbox@two=\box49
+\mdf@splitbox@save=\box50
 \mdfsplitboxwidth=\skip103
 \mdfsplitboxtotalwidth=\skip104
 \mdfsplitboxheight=\skip105
@@ -399,77 +402,79 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip127
 \mdfsubtitleheight=\skip128
 \mdfsubsubtitleheight=\skip129
-\c@mdfcountframes=\count186
+\c@mdfcountframes=\count185
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count187
-\c@mdf@env@i=\count188
-\c@mdf@env@ii=\count189
-\c@mdf@zref@counter=\count190
+\mdf@envdepth=\count186
+\c@mdf@env@i=\count187
+\c@mdf@env@ii=\count188
+\c@mdf@zref@counter=\count189
 Package zref Info: New property: mdf@pagevalue on input line 895.
-) (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
-) (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip130
 
 For additional information on amsmath, use the `?' option.
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen150
 ))
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen151
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count191
+\inf@bad=\count190
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count192
-\leftroot@=\count193
+\uproot@=\count191
+\leftroot@=\count192
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count194
-\DOTSCASE@=\count195
+\classnum@=\count193
+\DOTSCASE@=\count194
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box51
+\strutbox@=\box52
 \big@size=\dimen152
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count196
-\c@MaxMatrixCols=\count197
+\macc@depth=\count195
+\c@MaxMatrixCols=\count196
 \dotsspace@=\muskip16
-\c@parentequation=\count198
-\dspbrk@lvl=\count199
+\c@parentequation=\count197
+\dspbrk@lvl=\count198
 \tag@help=\toks20
-\row@=\count266
-\column@=\count267
-\maxfields@=\count268
+\row@=\count199
+\column@=\count266
+\maxfields@=\count267
 \andhelp@=\toks21
 \eqnshift@=\dimen153
 \alignsep@=\dimen154
@@ -484,32 +489,22 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/polski/polski.sty
+(/usr/share/texmf-dist/tex/latex/polski/polski.sty
 Package: polski 2017/05/04 v1.3.4 Polish language package
 
    Inputenc package detected. Catcodes not changed.
-
-! Package polski Error: No hyphenation patterns for language `polish'.
-
-See the polski package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108   \selecthyphenation{polish}
-                                  
-? 
    Switching to Polish text encoding and Polish maths fonts.
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/base/ot4enc.def
+(/usr/share/texmf-dist/tex/latex/base/ot4enc.def
 File: ot4enc.def 2018/08/11 v2.0j Standard LaTeX file
 Now handling font encoding OT4 ...
 ... no UTF-8 mapping file for font encoding OT4
@@ -517,7 +512,7 @@ Now handling font encoding OT4 ...
 LaTeX Font Info:    Try loading font information for OT4+cmr on input line 360.
 
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/polski/ot4cmr.fd
+(/usr/share/texmf-dist/tex/latex/polski/ot4cmr.fd
 File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
@@ -552,13 +547,12 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 360.
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
+(/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/was/icomma.sty
+(/usr/share/texmf-dist/tex/latex/was/icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
-)
-(Template.aux)
+) (./Template.aux)
 \openout1 = `Template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -610,26 +604,24 @@ LaTeX Font Info:    ... okay on input line 84.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box54
-
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+\AtBeginShipoutBox=\box53
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count269
+\scratchcounter=\count268
 \scratchdimen=\dimen159
-\scratchbox=\box55
-\nofMPsegments=\count270
-\nofMParguments=\count271
+\scratchbox=\box54
+\nofMPsegments=\count269
+\nofMParguments=\count270
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count272
+\MPscratchCnt=\count271
 \MPscratchDim=\dimen160
-\MPnumerator=\count273
-\makeMPintoPDFobject=\count274
+\MPnumerator=\count272
+\makeMPintoPDFobject=\count273
 \everyMPtoPDFconversion=\toks25
-)
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.st
-y
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/oberdiek/grfext.sty
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -638,22 +630,35 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-)
-LaTeX Font Info:    Try loading font information for OML+plm on input line 98.
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/polski/omlplm.fd
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+! LaTeX Error: Command \th unavailable in encoding OT4.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ...ĄCE IM. EDWARDA DEMBOWSKIEGO W GLIWICACH}
+                                                  }
+? 
+LaTeX Font Info:    Try loading font information for OML+plm on input line 98.
+(/usr/share/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Try loading font information for OMS+plsy on input line 98.
 
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/polski/omsplsy.fd
+(/usr/share/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Try loading font information for OMX+plex on input line 98.
 
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/polski/omxplex.fd
+(/usr/share/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
@@ -664,67 +669,55 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <10> on input line 98.
 LaTeX Font Info:    Try loading font information for U+msa on input line 98.
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 98.
 
-(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 ! Undefined control sequence.
 <argument> \ttl@makeline 
                          {{\leaders \hrule height .4\p@ \hfill \kern \z@ }}
-l.106 		\vspace
-               {0.6cm}
+l.106 ^^I^^I\vspace
+                   {0.6cm}
 ? 
 [1
 
-{/home/hakiergrzonzo/.miktex/texmfs/data/pdftex/config/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <8> on input line 117.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <6> on input line 117.
-
-Overfull \hbox (57.13184pt too wide) detected at line 163
-[]
- []
-
-
-Overfull \hbox (28.37334pt too wide) in paragraph at lines 155--165
-$[]$   |  $[]$ 
- []
-
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <14.4> on input line 168.
+(Font)              <14.4> on input line 169.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 168.
-[1] [2] (Template.aux) ) 
+(Font)              <7> on input line 169.
+ [1] [2] (./Template.aux) ) 
 Here is how much of TeX's memory you used:
- 14783 strings out of 494857
- 270516 string characters out of 3177752
- 323927 words of memory out of 3000000
- 18308 multiletter control sequences out of 15000+200000
- 544841 words of font info for 63 fonts, out of 3000000 for 9000
- 0 hyphenation exceptions out of 8191
- 47i,16n,65p,835b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/d
-vips/pl/plms.enc}{/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl
-/plme.enc}{/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl/plmi.e
-nc}{/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl/plrm.enc}</ho
-me/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb></home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plbx1
-2.pfb></home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plex10.
-pfb></home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plmi12.pf
-b></home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plmi8.pfb><
-/home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plr12.pfb></ho
-me/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plr17.pfb></home/
-hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plr8.pfb></home/haki
-ergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plsy10.pfb></home/hakier
-grzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plsy8.pfb>
-Output written on Template.pdf (3 pages, 67270 bytes).
+ 14251 strings out of 492623
+ 255661 string characters out of 6135669
+ 314872 words of memory out of 5000000
+ 18031 multiletter control sequences out of 15000+600000
+ 544841 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 47i,16n,65p,833b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/pl/plms.enc}{
+/usr/share/texmf-dist/fonts/enc/dvips/pl/plme.enc}{/usr/share/texmf-dist/fonts/
+enc/dvips/pl/plmi.enc}{/usr/share/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/
+share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/tex
+mf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/pl/plex10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plmi12.pfb></usr
+/share/texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/share/texmf-dist/fonts/
+type1/public/pl/plr12.pfb></usr/share/texmf-dist/fonts/type1/public/pl/plr17.pf
+b></usr/share/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texmf-dist/
+fonts/type1/public/pl/plsy10.pfb></usr/share/texmf-dist/fonts/type1/public/pl/p
+lsy8.pfb>
+Output written on Template.pdf (3 pages, 58981 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
