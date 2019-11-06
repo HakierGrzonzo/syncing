@@ -45,7 +45,14 @@
 	\titleformat{\section}{\Large \bfseries}{}{1em}{\thesection \hspace{0.5em}}[\titlerule]
 
 %Makra
-    
+	\newcommand{\fodx}{
+		\ensuremath f \left( x \right)
+	}
+	\newcommand{\podx}{
+		\ensuremath f' \left( x \right)
+	}
+
+
 \newcommand{\obrazek}[2]{
 	\begin{figure}[h]
 		\centering
@@ -124,36 +131,30 @@ Funkcja jest wielomianem więc dziedzna jest zbiorem liczb rzeczywistych:
 
 \begin{center}
 	
-\begin{tabular}{l|c|c|c|c|c|}
-
-\cline{2-6}
-
+\begin{tabular}{l|c|c|c|c|c}
                            & $1$ & $0$  & $-6$ & $8$  & $24$    \\ \hline
 
-\multicolumn{1}{|l|}{$-2$} &     & $-2$ & $4$  & $4$  & $-24$   \\ \hline
+		$-2$ &     & $-2$ & $4$  & $4$  & $-24$   \\ \hline
 
-                           & $1$ & $-2$ & $-2$ & $12$ & $0 = R$ \\ \cline{2-6} 
+                           & $1$ & $-2$ & $-2$ & $12$ & $0 = R$ \\  
 
 \end{tabular}
 \end{center}
 
-\[ \left(x + 2 \right) \cdot \left( x^3 - 2x^2 - 2x + 12 \right) \]
+\[\fodx =  \left(x + 2 \right) \cdot \left( x^3 - 2x^2 - 2x + 12 \right) \]
 
 \begin{center}
-	\begin{tabular}{l|c|c|c|c|}
-
-\cline{2-5}
-
+	\begin{tabular}{l|c|c|c|c}
                            & $1$ & $-2$ & $-2$ & $12$    \\ \hline
 
-\multicolumn{1}{|l|}{$-2$} &     & $-2$ & $8$  & $-12$   \\ \hline
+		$-2$	&  & $-2$& $8$  & $-12$   \\ \hline
 
-                           & $1$ & $-4$ & $6$  & $0 = R$ \\ \cline{2-5} 
+                           & $1$ & $-4$ & $6$  & $0 = R$ \\ 
 
 \end{tabular}
 \end{center}
 \begin{minipage}[c]{0.7\textwidth}
-	\[ \left(x + 2 \right)^2 \cdot \underbrace{\left( x^2 - 4x + 6 \right)}_{\Delta < 0} \]
+	\[\fodx =  \left(x + 2 \right)^2 \cdot \underbrace{\left( x^2 - 4x + 6 \right)}_{\Delta < 0} \]
 \end{minipage}
 \hspace{0.15cm} \vline \hspace{0.15cm}
 \begin{minipage}[c]{0.2\textwidth}
@@ -164,7 +165,7 @@ Funkcja jest wielomianem więc dziedzna jest zbiorem liczb rzeczywistych:
 \end{minipage}
 \vspace{0.5cm}
 
-Miejscem zerowym danej funkcji jest $-2$.
+Funkcja posiada miejsce zerowe $-2$ drugiego stopnia.
 
 \subsection{Przecięcie z osią $OY$}
 
@@ -191,6 +192,32 @@ Pierwsza pochodna danej funkcji jest wielomianem więc jej dzidziną jest zbiór
 \[ D_{f'} = \mathbb{R} \]
 
 \subsection{Miejsca zerowe pochodnej}
+\[ p: \pm 1, \pm 2, \pm 4, \pm 8\]
+\begin{center}
+	\begin{tabular}{l|c|c|c|c}		
+		& $4$	& $0$	& $-12$	& $8$	\\ \hline
+	$1$	&	& $4$	& $4$	& $-8$	\\ \hline
+		& $4$	& $4$	& $-8$	& $0 = R$\\ 
+	\end{tabular}
+\end{center}
+\begin{align*}
+	\podx &= \left( x - 1 \right) \cdot \left( 4x^2 + 4x - 8 \right) \\
+	4x^2 &+ 4x - 8 = 0 \\
+	x^2 &+ x - 2 = 0 \\
+	\Delta &= 1 + 4 \cdot 2 \cdot 1 = 9 > 0\\
+	\sqrt{\Delta} &= \sqrt{9} = 3\\
+	x_{1, 2} &= \frac{-1 \pm 3}{2} \Rightarrow x_1 = -2, \, x_2 = 1\\
+	\podx &= \left( x - 1 \right)^2 \cdot \left( x + 2 \right)
+\end{align*}
 
+Pochodna funkcji posiada miejsce zerowe w $1$ drugiego stopnia. Pochodna funkcji posiada miejsce zerowe w punkcie $-2$. 
+
+\subsection{Wyznaczanie ekstremów funkcji}
+\subsubsection{Warunek konieczny ekstremum}
+
+\begin{align*}
+	\podx &= 0 \Leftrightarrow \left( x - 1 \right)^2 \cdot \left( x + 2 \right)  = 0\\
+	\podx &= 0 \Leftrightarrow x \in \left\{ -2; 1 \right\}
+\end{align*}
 
 \end{document}
