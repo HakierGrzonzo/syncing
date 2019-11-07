@@ -21,9 +21,9 @@
 	
 	%Zmienne, zmień je!
 	\graphicspath{ {./ilustracje/} }
-    \title{title}
+    \title{Badanie przebiegu zmieności funkcji}
     \author{Grzegorz Koperwas}
-    \date{[data]}
+    \date{\today}
     
   %lokalizacja polska (odkomentuj jak piszesz po polsku)
   
@@ -51,7 +51,12 @@
 	\newcommand{\podx}{
 		\ensuremath f' \left( x \right)
 	}
-
+	\newcommand{\dodx}{
+		\ensuremath f'' \left( x \right)
+	}
+	\newcommand{\naw}[1]{
+		\ensuremath \left( #1 \right)
+	}
 
 \newcommand{\obrazek}[2]{
 	\begin{figure}[h]
@@ -69,11 +74,11 @@
         \end{center}
     } 
     
-    \newcommand{\dwanajeden}[2]{
-	\ensuremath \left( \begin{array}{c}
+    \newcommand{\dnj}[2]{
+	\ensuremath  \begin{array}{c}
 		#1\\
 		#2
-	\end{array} \right)
+	\end{array} 
 }  
       
 %Stopka i head (sekcja której nie powinno się zmieniać)
@@ -126,6 +131,7 @@ Dana jest funkcja:
 Funkcja jest wielomianem więc dziedzna jest zbiorem liczb rzeczywistych:
 \[D_f = \mathbb{R} \]
 
+Funkcja jest wielomianem więc jest ciągła w dziedzinie. Funkcja jest różniczkowalna w dziedzinie. Funkcja nie jest parzysta, nie jest nieparzysta.
 \subsection{Miejsca zerowe:}
 \[ p: \quad \pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm 12, \pm 24\]
 
@@ -165,7 +171,7 @@ Funkcja jest wielomianem więc dziedzna jest zbiorem liczb rzeczywistych:
 \end{minipage}
 \vspace{0.5cm}
 
-Funkcja posiada miejsce zerowe $-2$ drugiego stopnia.
+Funkcja posiada miejsce zerowe w punkcie $\left(-2; 0 \right)$ drugiego stopnia. 
 
 \subsection{Przecięcie z osią $OY$}
 
@@ -182,7 +188,7 @@ Funkcja przecina oś $0Y$ w punkcie $ \left( 0; \, 24 \right)$.
 	&= + \infty
 \end{align*}
 
-Funkcja nie posiada asymptot.
+Funkcja nie posiada asymptot. 
 
 \section{Analiza pierwszej pochodnej}
 Obliczamy pierwszą pochodną:
@@ -213,11 +219,125 @@ Pierwsza pochodna danej funkcji jest wielomianem więc jej dzidziną jest zbiór
 Pochodna funkcji posiada miejsce zerowe w $1$ drugiego stopnia. Pochodna funkcji posiada miejsce zerowe w punkcie $-2$. 
 
 \subsection{Wyznaczanie ekstremów funkcji}
-\subsubsection{Warunek konieczny ekstremum}
+\subsubsection*{Warunek konieczny ekstremum}
 
 \begin{align*}
 	\podx &= 0 \Leftrightarrow \left( x - 1 \right)^2 \cdot \left( x + 2 \right)  = 0\\
 	\podx &= 0 \Leftrightarrow x \in \left\{ -2; 1 \right\}
 \end{align*}
+Podejrzewam że funkcja ma ekstremum w $x_0 = -2$ oraz w $x_1 = 1$.
+
+\#todo
+
+\[ \left\{
+	\begin{array}{l}
+		\podx > 0 \Leftrightarrow x \in \left( -2; 1 \right) \cup \left( 1; + \infty \right) \\
+		\podx < 0 \Leftrightarrow x \in \left( - \infty; -2 \right)
+	\end{array}
+\right. \]
+
+\subsubsection*{Warunek wystarczający ekstremum}
+
+\[ \left.
+		\begin{array}{l}
+			x \in S^- \left( -2, \delta \right) \Rightarrow \podx < 0 \\
+			x \in S^+ \left( -2, \delta \right) \Rightarrow \podx > 0
+		\end{array}
+	\right\} \Rightarrow f \left( -2 \right) = 0 = f_{\text{min}}
+\]
+Funkcja posiada minimum w punkcie $\left( -2; 0 \right)$.
+
+\[ \left.
+		\begin{array}{l}
+			x \in S^- \left( 1, \delta \right) \Rightarrow \podx > 0 \\
+			x \in S^+ \left( 1, \delta \right) \Rightarrow \podx > 0
+		\end{array}
+	\right\} \Rightarrow 
+\]
+$\Rightarrow$ funkcja nie posiada ekstremum w $\left( 1; 27 \right)$.
+
+\subsection{Monotoniczność funkcji}
+
+\[ \left\{
+	\begin{array}{l}
+		\podx > 0 \Leftrightarrow x \in \left( -2; 1 \right) \cup \left( 1; + \infty \right) \\
+		\podx < 0 \Leftrightarrow x \in \left( - \infty; -2 \right)
+	\end{array}
+\right. \]
+więc:
+\begin{itemize}
+	\item Funkcja jest rosnąca w przedziale $\left\langle -2; +\infty \right)$.
+\item Funkcja jest malejąca w przedziale $\left( -\infty ; -2 \right\rangle$.
+\end{itemize}
+
+\section{Analiza drugiej pochodnej}
+
+\[ \dodx = 12x^2 - 12\]
+
+Druga pochodna funkcji jest wielomianem, więc dziedzina drugiej pochodnej to zbiór liczb rzeczywistych.
+\[ D_{\dodx} = \mathbb{R} \]
+
+\subsection{Punkty przegięcia}
+
+\subsubsection*{Warunek konieczny punktu przegięcia}
+
+\begin{align*}
+	\dodx = 0 &\Leftrightarrow 12x^2 - 12 = 0\\
+	x^2 -1 &= 0 \\
+	\left( x - 1 \right) \cdot \left( x + 1 \right) &= 0\\
+	x = 1 &\vee x = - 1 \Rightarrow \\
+	\Rightarrow x &\in \left\{ -1; 1 \right\}
+\end{align*}
+
+\[\left\{
+	\begin{array}{l}
+		\dodx > 0 \Leftrightarrow x \in \left( -\infty; -1 \right) \cup \left( 1; +\infty \right)\\
+		\dodx < 0 \Leftrightarrow x \in \left( -1; 1 \right)
+	\end{array}
+\right.
+\]
+
+Więc:
+\begin{itemize}
+	\item Krzywa jest wypukła w $\left( -\infty; -1 \right) \cup \left( 1; +\infty \right)$
+	\item Krzywa jest wklęsła w $\left( -1; 1 \right)$
+
+\end{itemize}
+
+\subsubsection*{Warunek wystarczający punktu przegięcia}
+
+\[ \left.
+		\begin{array}{l}
+			x \in S^- \left(-1; \delta \right) \Rightarrow \dodx > 0 \\
+			x \in S^+ \left(-1; \delta \right) \Rightarrow \dodx < 0
+		\end{array}
+	\right\} \Rightarrow P_1 = \left(-1; f \left(-1 \right) \right) = \left( -1; 11 \right) \text{ p.p.}
+\]
+Funkcja posiada punkt przegięcia w $\left( -1; 11 \right)$.
+
+\[ \left.
+		\begin{array}{l}
+			x \in S^- \left(1; \delta \right) \Rightarrow \dodx < 0 \\
+			x \in S^+ \left(1; \delta \right) \Rightarrow \dodx > 0
+		\end{array}
+	\right\} \Rightarrow P_2 = \left(1; f \left(1 \right) \right) = \left( 1; 27 \right) \text{ p.p.}
+\]
+Funkcja posiada punkt przegięcia w $\left( 1; 27 \right)$.
+
+\section{Tabela przebiegu zmienności funkcji}
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{c|c|c|c|c|c|c|c|c|c|}
+		$x$	& $\naw{ -\infty; -2}$	& $-2$	& $\naw{ -2; -1}$	& $-1$	& $\naw{-1; 0}$	& $0$	& $\naw{0;1}$	& $1$	& $\naw{1; +\infty}$	\\ \hline 
+		$\podx$	& $-$			& $0$	& $+$			& $+$	& $+$		& $+$	& $+$		& $0$	& $+$			\\ \hline
+		$\dodx$	& $+$			& $+$	& $+$			& $0$	& $-$		& $-$	& $-$		& $0$	& $+$			\\ \hline
+		$\fodx$	& $^{+\infty} \searrow_{\:0}$	& $\dnj{\min}{0}$	& $_0 \nearrow^{\: 11}$	& $11$	& $_{11}\nearrow^{\: 24}$	& $24$	& $_{24}\nearrow^{\: 27}$	& $27$	& $_{27}\nearrow^{\: + \infty}$ \\
+			& $\smile$		& $\smile$	& $\smile$	& 	& $\frown$	& $\frown$	& $\frown$ 	&	& $\smile$
+	\end{tabular}
+	\caption{Tabela zmienności funkcji $\fodx = x^4 - 6x^2 + 8x + 24$}
+	\label{tab:tabelken}
+\end{table}
+
 
 \end{document}
