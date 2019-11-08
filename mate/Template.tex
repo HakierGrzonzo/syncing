@@ -7,6 +7,7 @@
 	\usepackage{inputenc}[utf8]
  %Lepiej tego nie zmieniaj, jak co to dodawaj pakiety
 	\usepackage{titlesec}
+	\usepackage{tikz}
 	\usepackage{titling}
 	\usepackage{fancyhdr}
 	\usepackage{mdframed}
@@ -128,7 +129,7 @@
 Dana jest funkcja:
 \[ f \left( x \right) = x^4  - 6x^2 + 8x + 24 \]
 
-Funkcja jest wielomianem więc dziedzna jest zbiorem liczb rzeczywistych:
+Funkcja jest wielomianem więc jej dziedzna jest zbiorem liczb rzeczywistych:
 \[D_f = \mathbb{R} \]
 
 Funkcja jest wielomianem więc jest ciągła w dziedzinie. Funkcja jest różniczkowalna w dziedzinie. Funkcja nie jest parzysta, nie jest nieparzysta.
@@ -226,8 +227,20 @@ Pochodna funkcji posiada miejsce zerowe w $1$ drugiego stopnia. Pochodna funkcji
 	\podx &= 0 \Leftrightarrow x \in \left\{ -2; 1 \right\}
 \end{align*}
 Podejrzewam że funkcja ma ekstremum w $x_0 = -2$ oraz w $x_1 = 1$.
-
-\#todo
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+		\draw (0,3)[thick,->] -- (10,3) node[anchor=north west] {$x$};
+		\draw (2,0) -- (3,3);
+		\draw (3,3) .. controls (3.8,5) and (5.2,5) .. (6,3);
+		\draw (6,3) -- (8,8) node[anchor=north west] {$\podx$};
+		\draw[thick] (3, 3.15) -- (3, 2.85) node[anchor = north] {$-2$};
+		\draw[thick] (6, 3.15) -- (6, 2.85) node[anchor = north] {$1$} ;
+		\node[anchor = center] at (4.5,3.85){$+$};
+		\node[anchor = center] at (2,2.15){$-$};
+		\node[anchor = center] at (7,3.85){$+$};
+	\end{tikzpicture}
+\end{figure}
 
 \[ \left\{
 	\begin{array}{l}
@@ -288,6 +301,14 @@ Druga pochodna funkcji jest wielomianem, więc dziedzina drugiej pochodnej to zb
 	x = 1 &\vee x = - 1 \Rightarrow \\
 	\Rightarrow x &\in \left\{ -1; 1 \right\}
 \end{align*}
+
+\begin{figure}[h]
+	\centering
+	\begin{tikzpicture}
+		\draw[thick, ->] (0,3) -- (8,3);
+		\draw (1,5) parabola bend (4,1) (7, 5);
+	\end{tikzpicture}
+\end{figure}
 
 \[\left\{
 	\begin{array}{l}
