@@ -7,7 +7,14 @@
 	\usepackage{inputenc}[utf8]
  %Lepiej tego nie zmieniaj, jak co to dodawaj pakiety
 	\usepackage{titlesec}
-	\usepackage{tikz}
+	\usepackage{siunitx,tabularx}
+	\sisetup{parse-numbers=false}
+	\usepackage{rotating}
+	\usepackage{pgf,tikz,pgfplots}
+	\usepackage{float}
+	\pgfplotsset{compat=1.15}
+	\usepackage{mathrsfs}
+	\usetikzlibrary{arrows}
 	\usepackage{titling}
 	\usepackage{fancyhdr}
 	\usepackage{mdframed}
@@ -15,6 +22,8 @@
 	\usepackage{amsmath}
 	\usepackage{amssymb}
 	\usepackage{amsfonts}
+	\usepackage{booktabs,caption,subcaption}
+	\captionsetup[table]{aboveskip=0pt,font=bf}
 	
 %inny wygląd
 	%\usepackage{tgbonum}
@@ -106,13 +115,13 @@
 
 		\vspace{2.5cm}
 
-		\textbf{Badanie przebiegu zmieności funkcji}
+		\textbf{Badanie przebiegu zmienności funkcji}
 
 		\[f \left( x \right) = x^4 - 6x^2 + 8x + 24 \]
 
 		\vfill
 
-		Gliwce
+		Gliwice
 		\vspace{0.5cm}
 
 		\titlerule
@@ -129,10 +138,10 @@
 Dana jest funkcja:
 \[ f \left( x \right) = x^4  - 6x^2 + 8x + 24 \]
 
-Funkcja jest wielomianem więc jej dziedzna jest zbiorem liczb rzeczywistych:
+Funkcja jest wielomianem więc jej dziedzina jest zbiorem liczb rzeczywistych:
 \[D_f = \mathbb{R} \]
 
-Funkcja jest wielomianem więc jest ciągła w dziedzinie. Funkcja jest różniczkowalna w dziedzinie. Funkcja nie jest parzysta, nie jest nieparzysta.
+Funkcja jest ciągła w dziedzinie. Funkcja jest różniczkowalna w dziedzinie. 
 \subsection{Miejsca zerowe:}
 \[ p: \quad \pm 1, \pm 2, \pm 3, \pm 4, \pm 6, \pm 12, \pm 24\]
 
@@ -191,11 +200,33 @@ Funkcja przecina oś $0Y$ w punkcie $ \left( 0; \, 24 \right)$.
 
 Funkcja nie posiada asymptot. 
 
+\subsection{Parzystość i nieparzystość}
+\subsubsection*{Parzystość}
+Funkcja jest parzysta gdy:
+\begin{align*}
+	\fodx &= f \left( -x \right) \\
+	\naw{-x}^4 - 6 \cdot \naw{-x}^2 - 8x +24 &= x^4 - 6x^2 + 8x +24
+\end{align*}
+By wielomiany były równe, muszą być tego samego stopnia oraz posiadać takie same współczynniki. $-8 \neq 8$ więc wielomiany nie są równe, zatem:
+\[\fodx \neq f \left( -x \right)\]
+Więc funkcja nie jest parzysta.
+
+\subsubsection*{Nieparzystość}
+
+Funkcja jest nieparzysta gdy:
+\begin{align*}
+	- \fodx &= f \naw{ -x } \\
+	- x^4 + 6x^2 -8x -24 &= \naw{-x}^4 - 6 \cdot \naw{-x}^2 - 8x +24
+\end{align*}
+
+By wielomiany były równe, muszą być tego samego stopnia oraz posiadać takie same współczynniki. $24 \neq -24$ więc wielomiany nie są równe, zatem:
+\[ - \fodx \neq f \naw{ -x } \]
+Więc funkcja nie jest nieparzysta.
 \section{Analiza pierwszej pochodnej}
 Obliczamy pierwszą pochodną:
 \[ f' \left( x \right) = 4x^3 - 12x + 8 \]
 
-Pierwsza pochodna danej funkcji jest wielomianem więc jej dzidziną jest zbiór liczb rzeczywistych.
+Pierwsza pochodna danej funkcji jest wielomianem więc jej dziedziną jest zbiór liczb rzeczywistych.
 \[ D_{f'} = \mathbb{R} \]
 
 \subsection{Miejsca zerowe pochodnej}
@@ -233,7 +264,7 @@ Podejrzewam że funkcja ma ekstremum w $x_0 = -2$ oraz w $x_1 = 1$.
 		\draw (0,3)[thick,->] -- (10,3) node[anchor=north west] {$x$};
 		\draw (2,0) -- (3,3);
 		\draw (3,3) .. controls (3.8,5) and (5.2,5) .. (6,3);
-		\draw (6,3) -- (8,8) node[anchor=north west] {$\podx$};
+		\draw (6,3) -- (8,7) node[anchor=north west] {$\podx$};
 		\draw[thick] (3, 3.15) -- (3, 2.85) node[anchor = north] {$-2$};
 		\draw[thick] (6, 3.15) -- (6, 2.85) node[anchor = north] {$1$} ;
 		\node[anchor = center] at (4.5,3.85){$+$};
@@ -305,8 +336,13 @@ Druga pochodna funkcji jest wielomianem, więc dziedzina drugiej pochodnej to zb
 \begin{figure}[h]
 	\centering
 	\begin{tikzpicture}
-		\draw[thick, ->] (0,3) -- (8,3);
-		\draw (1,5) parabola bend (4,1) (7, 5);
+		\draw[thick, ->] (0,3) -- (8,3) node[anchor=north west] {$x$};
+		\draw (1,5) parabola bend (4,1) (7, 5) node[anchor=north west] {$\dodx$};
+		\draw (1.88,3.15) -- (1.88,2.85) node[anchor = north] {$-1$};
+		\draw (6.14,3.15) -- (6.14,2.85) node[anchor = north] {$1$};
+		\node at (1, 3.85) {$+$};
+		\node at (7, 3.85) {$+$};
+		\node at (4, 2.15) {$-$};
 	\end{tikzpicture}
 \end{figure}
 
@@ -345,20 +381,53 @@ Funkcja posiada punkt przegięcia w $\left( -1; 11 \right)$.
 \]
 Funkcja posiada punkt przegięcia w $\left( 1; 27 \right)$.
 
+	
 \section{Tabela przebiegu zmienności funkcji}
+\vspace{0.7cm}
 
-\begin{table}[h]
-	\centering
-	\begin{tabular}{c|c|c|c|c|c|c|c|c|c|}
+\rotatebox{90}{
+	\begin{minipage}{22.125cm}
+		\vspace{4cm}	
+		\LARGE
+		\begin{tabularx}{\linewidth}{c|c|c|c|c|c|c|c|c|c|}
 		$x$	& $\naw{ -\infty; -2}$	& $-2$	& $\naw{ -2; -1}$	& $-1$	& $\naw{-1; 0}$	& $0$	& $\naw{0;1}$	& $1$	& $\naw{1; +\infty}$	\\ \hline 
 		$\podx$	& $-$			& $0$	& $+$			& $+$	& $+$		& $+$	& $+$		& $0$	& $+$			\\ \hline
 		$\dodx$	& $+$			& $+$	& $+$			& $0$	& $-$		& $-$	& $-$		& $0$	& $+$			\\ \hline
 		$\fodx$	& $^{+\infty} \searrow_{\:0}$	& $\dnj{\min}{0}$	& $_0 \nearrow^{\: 11}$	& $11$	& $_{11}\nearrow^{\: 24}$	& $24$	& $_{24}\nearrow^{\: 27}$	& $27$	& $_{27}\nearrow^{\: + \infty}$ \\
 			& $\smile$		& $\smile$	& $\smile$	& 	& $\frown$	& $\frown$	& $\frown$ 	&	& $\smile$
-	\end{tabular}
-	\caption{Tabela zmienności funkcji $\fodx = x^4 - 6x^2 + 8x + 24$}
-	\label{tab:tabelken}
-\end{table}
+	\end{tabularx}
+	\vspace{0.5cm}
+	\captionof{table}{Tabela zmienności funkcji $\fodx = x^4 - 6x^2 + 8x + 24$}
+\end{minipage}}
+\pagebreak
 
+
+\section{Wykresy funkcji}
+
+\definecolor{uuuuuu}{rgb}{1,0.26666666666666666,0.26666666666666666}
+\definecolor{qqwuqq}{rgb}{0,0.39215686274509803,0}
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.5cm,y=0.7cm]
+\begin{axis}[
+x=1.5cm,y=0.7cm,
+axis lines=middle,
+xmin=-4,
+xmax=4,
+ymin=-1,
+ymax=30,
+xtick={-2,1},
+ytick={1, 24, 27},]
+\clip(-4.5,-1.5) rectangle (4.5,30.5);
+\draw[line width=2pt,color=qqwuqq,smooth,samples=100,domain=-4:4] plot(\x,{(\x)^(4)-6*(\x)^(2)+8*(\x)+24});
+\begin{scriptsize}
+\draw[color=qqwuqq] (2,24) node {$\fodx =x^4 - 6x^2 + 8x +24 $};
+\draw node[anchor = north east] at (4,0){x};
+\draw node[anchor = north west] at (0,30){y};
+\end{scriptsize}
+\end{axis}
+\end{tikzpicture}
+\caption{Wykres funkcji $\fodx = x^4 - 6x^2 + 8x +24$ z programu \emph{Geogebra}} 
+\end{figure}
 
 \end{document}
