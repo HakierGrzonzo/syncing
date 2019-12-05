@@ -1,0 +1,99 @@
+%&pdflatex --translate-file=il2-pl
+%Wzór dokumentu
+\usepackage{inputenc}[utf8]
+%tu zmień marginesy i rozmiar czcionki
+    \documentclass[a4paper,12pt]{article}
+    \usepackage[margin=3.5cm]{geometry}
+    
+ %Lepiej tego nie zmieniaj, jak co to dodawaj pakiety
+	\usepackage{titlesec}
+	\usepackage{titling}
+	\usepackage{fancyhdr}
+	\usepackage{mdframed}
+	\usepackage{graphicx}
+	\usepackage{amsmath}
+	\usepackage{amsfonts}
+	
+%inny wygląd
+	%\usepackage{tgbonum}
+	
+	
+	%Zmienne, zmień je!
+	\graphicspath{ {./ilustracje/} }
+    \title{Maszyna Turinga}
+    \author{INF974658}
+    \date{[data]}
+    
+  %lokalizacja polska (odkomentuj jak piszesz po polsku)
+  
+    \usepackage{polski}
+    %\usepackage[polish]{babel} 
+    \usepackage{indentfirst}
+	\usepackage{icomma} 
+	
+    \brokenpenalty=1000
+    \clubpenalty=1000
+    \widowpenalty=1000    
+ 
+ %nie odkometowuj wszystkiego, użyj mózgu
+    %\renewcommand\thechapter{\arabic{chapter}.}
+	\renewcommand\thesection{\arabic{section}.}
+	\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}.}
+	\renewcommand\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
+
+%Makra
+    
+\newcommand{\obrazek}[2]{
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=#1]{#2}
+	\end{figure}
+}     
+            
+    
+    \newcommand{\twierdzonko}[1]{
+        \begin{center}
+        \begin{mdframed}
+        #1
+        \end{mdframed}          
+        \end{center}
+    } 
+    
+    \newcommand{\dwanajeden}[2]{
+	\ensuremath \left( \begin{array}{c}
+		#1\\
+		#2
+	\end{array} \right)
+}  
+      
+%Stopka i head (sekcja której nie powinno się zmieniać)
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyfoot{}
+    
+    %Zmieniaj od tego miejsca
+    \lhead{\theauthor, \guillemotleft tur\guillemotright}
+	\rfoot{\thepage}
+	\renewcommand{\headrulewidth}{1pt}
+	\renewcommand{\footrulewidth}{1pt}
+
+    
+\begin{document}
+
+\section{Opis działania}
+
+\subsection*{Opis stanów:}
+
+\begin{itemize}
+	\item $q_1$ - Stan początkowy, szkukam ,,a'' lub ,,b'', idąc w lewo. Jeżeli znajdę ,,a'' lub ,,b'' to idę w prawo i przechodzę w $q_2$.
+	\item $q_2$ - Zmieniam komórkę taśmy na ,,X'' i przechodzę w $q_3$.
+	\item $q_3$ - Szukam ,,b'' idąc w lewo. Jeżeli na taśmie jest ,,b'' to zmieniam je na ,,z'' i przechodzę w $q_4$.\\
+		Jeżeli na taśmie jest ,,$\emptyset$'' to przechodzę w $q_5$.
+	\item $q_4$ - Szukam cyfry lub ,,$\emptyset$''. Jeżeli znaleziona liczba nie jest dziewiątką to dodaje do niej 1.\\
+		Jeżeli znalezłem ,,9'' to zmieniam je na ,,0'' i idę w lewo.\\
+		Jeśli znalazłem ,,$\emptyset$'' to zmieniam go na ,,1'', idę w lewo i zmieniam stan na $q_3$. 
+	\item $q_5$ - Szukam ,,X'', idąc w prawo. Gdy go znajdę to zmieniam stan na $q_6$.
+	\item $q_6$ - Szukam ,,a'' idąc w lewo. Jeżeli na taśmie jest ,,a'' to przechodzę w $q_
+\end{itemize}<++>
+
+\end{document}
