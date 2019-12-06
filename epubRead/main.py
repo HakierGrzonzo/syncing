@@ -15,9 +15,12 @@ def OpenChapter(chapter):
     text = chapter.get_body_content().decode("utf-8")
     text = html2text.html2text(text).split('\n')
     res = str()
+    breaks = list()
     for line in text:
         res += ' ' + line + '\n'
-    return res
+        if line == str():
+            breaks.append(len(res) - 2)
+    return res, breaks
 
 def OpenFile(file):
     book = epub.read_epub(file)
@@ -31,11 +34,28 @@ def SetState(state_):
     global state
     state = state_
 
-def Display(text, cursorPos = 0, titlebar = str()):
+def Display(text, cursorPos = 0, titlebar = str(), breaks = None):
     kb = KeyBindings()
-    doc = pt.document.Document(text = text, cursor_position = cursorPos) 
+    doc = pt.document.Document(text = text, cursor_position = cursorPos)
     Displayer = Buffer(read_only = True, multiline = True, document = doc)
     SetState(None)
+    @kb.add('j')
+    def parNext_(event):
+        if not breaks == None:
+            for par in breaks:
+                if par > Displayer.cursor_position:
+                    Displayer._set_cursor_position(par)
+                    break
+    @kb.add('k')
+    def parPrev_(event):
+        if not breaks == None:
+            x = breaks
+            x.reverse()
+            for par in x:
+                if par < Displayer.cursor_position:
+                    Displayer._set_cursor_position(par)
+                    break
+
     @kb.add('c-q')
     def exit_(event):
         SetState('exit')
@@ -48,23 +68,24 @@ def Display(text, cursorPos = 0, titlebar = str()):
 
     @kb.add('h')
     def prev_(event):
-        SetState('next')
+        SetState('prev')
         event.app.exit()
+
     Tooltip = pt.HTML('<ansigreen>Press crtl-q to exit ' + titlebar + ' </ansigreen>')
     root_container = HSplit([
         Window(content = BufferControl(buffer = Displayer)),
         Window(content = FormattedTextControl(text = Tooltip))
         ])
-            
+
     layout = Layout(root_container)
     app = Application(key_bindings = kb, layout = layout, full_screen = True)
     app.run()
     return Displayer.cursor_position
-    
+
 def Settings():
     try:
         file = open(os.path.expanduser('~/.tinypub.json'), 'r')
-    except: 
+    except:
         file = open(os.path.expanduser('~/.tinypub.json'), 'w+')
         file.write(json.dumps({'name': 'tinypub'}))
         file.close()
@@ -95,16 +116,25 @@ if __name__ == '__main__':
         settings[bookTitle] = dict()
         chapter = 0
         cursor = 0
+    if chapter >= len(book):
+        chapter = 0
+        cursor = 0
+        input('The saved stats were corrupted, starting from first chapter. Press any key to continue.')
     while state != 'exit':
         try:
             status = ' ' + str(chapter + 1) + '/' + str(len(book))
-            cursor = Display(OpenChapter(book[chapter]), cursorPos = cursor, titlebar = status)
+            text, breaks = OpenChapter(book[chapter])
+            cursor = Display(text, cursorPos = cursor, titlebar = status, breaks=breaks)
             if state == 'next':
                 cursor = 0
                 chapter += 1
+                if chapter == len(book):
+                    state = 'exit'
+                    print('The End')
             elif state == 'prev':
                 cursor = 0
-                chapter -= 1
+                if not chapter == 0:
+                    chapter -= 1
         except Exception as e:
             print(e)
             SetState('exit')
