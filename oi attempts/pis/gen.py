@@ -23,9 +23,6 @@ if __name__ == "__main__":
     files = ["Prus.txt", "Sienkiewicz.txt", "Mickiewicz.txt"]
     texts = list()
     for x in files:
-        texts.append(open(directory + x, "r").read().replace(".", "").replace(",", "").lower())
-    x = 0
-    for text in texts:
-        print(files[x])
-        x += 1
-        handleText(text)
+        texts.append(open(directory + x, "r").read().lower().replace("a", "").replace("e", "").replace("o")
+
+    print(texts[2])
