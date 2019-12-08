@@ -11,9 +11,27 @@ from prompt_toolkit.layout.layout import Layout
 from prompt_toolkit.key_binding import KeyBindings
 from prompt_toolkit.buffer import  Buffer
 
+__version__ = 'tinypub v.1'
+
 def OpenChapter(chapter):
     text = chapter.get_body_content().decode("utf-8")
-    text = html2text.html2text(text).split('\n')
+    text = html2text.html2text(text)
+    # Try to restore formating from markdown (depracated)
+    """
+    MdChars = {'_': 'i', '**': 'b'}
+    for char, replacement in MdChars.items():
+        isSeekingFirst = True
+        while not text.find(char) == -1:
+            if isSeekingFirst:
+                text = text.replace(char, '<'+ replacement + '>', 1)
+                isSeekingFirst = False
+            else:
+                text = text.replace(char, '</' + replacement + '>', 1)
+                isSeekingFirst = True
+        if not isSeekingFirst:
+            print('fuck up on ', char)
+    """
+    text = text.split('\n')
     res = str()
     breaks = list()
     for line in text:
@@ -49,7 +67,7 @@ def Display(text, cursorPos = 0, titlebar = str(), breaks = None):
     @kb.add('k')
     def parPrev_(event):
         if not breaks == None:
-            x = breaks
+            x = breaks.copy()
             x.reverse()
             for par in x:
                 if par < Displayer.cursor_position:
@@ -83,14 +101,24 @@ def Display(text, cursorPos = 0, titlebar = str(), breaks = None):
     return Displayer.cursor_position
 
 def Settings():
+    global __version__
     try:
         file = open(os.path.expanduser('~/.tinypub.json'), 'r')
+        settings = json.loads(file.read())
     except:
         file = open(os.path.expanduser('~/.tinypub.json'), 'w+')
-        file.write(json.dumps({'name': 'tinypub'}))
+        file.write(json.dumps({'name': __version__}))
         file.close()
         file = open(os.path.expanduser('~/.tinypub.json'), 'r')
-    return json.loads(file.read())
+        settings = json.loads(file.read())
+    # Convert old .tinypub.json formats to new spec
+    if not 'books' in settings.keys():
+        settings['books'] = dict()
+        for key, value in settings.items():
+            if key != 'name' and key != 'books':
+                settings['books'][key] = value
+        settings['name'] = __version__
+    return settings
 
 def DumpSettings(settings):
     file = open(os.path.expanduser('~/.tinypub.json'), 'w')
@@ -110,12 +138,13 @@ if __name__ == '__main__':
         raise Exception('File not specified')
     bookTitle, x = bookTitle[0]
     try:
-        chapter = settings[bookTitle]['chapter']
-        cursor = settings[bookTitle]['cursor']
+        chapter = settings['books'][bookTitle]['chapter']
+        cursor = settings['books'][bookTitle]['cursor']
     except:
-        settings[bookTitle] = dict()
+        settings['books'][bookTitle] = dict()
         chapter = 0
         cursor = 0
+        settings['books'][bookTitle]['pathToFile'] = fname
     if chapter >= len(book):
         chapter = 0
         cursor = 0
@@ -137,7 +166,8 @@ if __name__ == '__main__':
                     chapter -= 1
         except Exception as e:
             print(e)
+            raise e
             SetState('exit')
-    settings[bookTitle]['chapter'] = chapter
-    settings[bookTitle]['cursor'] = cursor
+    settings['books'][bookTitle]['chapter'] = chapter
+    settings['books'][bookTitle]['cursor'] = cursor
     DumpSettings(settings)
