@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from ebooklib import epub
 import fileinput, json
 import ebooklib
