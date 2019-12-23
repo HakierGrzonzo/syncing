@@ -14,14 +14,17 @@
 	\usepackage{amsmath}
 	\usepackage{amsfonts}
 	\usepackage{tabularx}
-	
+		\usepackage{tikz}
+		\usetikzlibrary{arrows}
+		\usepackage[section]{placeins}
+		\usepackage{rotating}
 %inny wygląd
 	%\usepackage{tgbonum}
 	
 	
 	%Zmienne, zmień je!
 	\graphicspath{ {./images/} }
-	\title{Badanie zależności okresu drgań wachadła matematycznego od jego długości.}
+	\title{Badanie zależności okresu drgań wahadła od jego długości.}
     \author{Grzegorz Koperwas}
 	\date{\today{}}
     
@@ -83,24 +86,52 @@
 \begin{document}
 \begin{titlepage}
 		\maketitle
+		\thispagestyle{empty}
 \end{titlepage}
 
 
 \section{Wstęp teoretyczny}
 
-Celem doświadczenia było wyznaczenie przyspieszenia grawitacyjnego $g$ poprzez pomiar czasu w jakim wachadło wykona 10 cykli w zależności od długości wachadła. 
-(tu ma być obrazek z tikz-a)
+Celem doświadczenia było wyznaczenie przyspieszenia grawitacyjnego $g$ poprzez pomiar czasu
+w jakim wahadło wykona 10 cykli w zależności od długości wahadła. 
 
-Z praw Newton'a:
+\begin{figure}[h]
+		\begin{tikzpicture}[scale = 1]
+				\draw [fill = black] (0,0) circle [radius = 0.5];
+				\draw [->, thick] (0,0) -- (0, -4) node [below]{$Q$};
+				\draw [->, thick, rotate = 30, scale= 0.9] (0,0) -- (0, -4) node [below]{$Q\cos\alpha$};
+				\draw [->, thick, rotate = -60, scale= 0.6] (0,0) -- (0, -4) node [below]{$Q\sin\alpha$};
+				\draw [->, thick, rotate = 210, scale= 0.9] (0,0) -- (0, -4) node [above]{$N$};
+				\draw [rotate = 210, scale = 1.5](1,0) arc (0:60:1);
+				\node at (-.6,-.9){$\alpha$};
+				\draw [dashed, thin, rotate = -60](0,0) arc (0:-30:12);
+		\end{tikzpicture}
+		\centering
+		% Jak masz to zamiar zajebać mi Kamilu Kowalski (lub ktokolwiek inny) to wiedz że wisisz mi piwo lub 3
+		% Jak myślisz że się nie skapnę to jesteś w błędzie
+		% Za długo czasu mi zrobienie tego gówna zajeło byś ty kochany człeku se to ukradł
+		\caption{Wahadło w stanie największego wychylenia}
+\end{figure}
+
+Gdzie:
+\begin{itemize}
+		\item $Q$ - ciężar
+		\item $N$ - naciąg
+\end{itemize}
+
+Z praw Newtona:
 \[F = ma\]
 
-Gdzie F jest siłą wypadkową działającą na wachadło. Na wachadło działa siła ciężkości i naciągu sznurka. Siła naciągu jest równa składowej siły ciężkości prostopadłej do toru ruchu wachadła, zatem siła wypadkowa jest równa równoległej składowej siły ciężkości. Zatem:
+Gdzie F jest siłą wypadkową działającą na wahadło. Na wahadło działa siła ciężkości i naciągu
+sznurka. Siła naciągu jest równa składowej siły ciężkości prostopadłej do toru ruchu wahadła,
+zatem siła wypadkowa jest równa równoległej składowej siły ciężkości. Zatem:
 \begin{align*}
 		ma &= -mg\sin \alpha \\
 		a &= -g\sin \alpha
 \end{align*}
 
-Przyspieszenie $a$ może zostać powiązane z zmianą kąta $\alpha$. Niech $s$ to długość łuku zakreślanego przez wachadło.
+Przyspieszenie $a$ może zostać powiązane z zmianą kąta $\alpha$. Niech $s$ to długość łuku
+zakreślanego przez wahadło.
 \begin{align*}
 		s &= l\alpha\\
 		v &= \frac{ds}{dt} = l \frac{d\alpha}{dt}\\
@@ -115,7 +146,8 @@ zatem:
 		\label{eq:preAprox}
 \end{equation}
 
-Dla małych kątów możemy założyć że $\sin \alpha\approx \alpha$, zatem po podstawieniu do równiania \ref{eq:preAprox} otrzymujemy równanie oscylatora harmonicznego:
+Dla małych kątów możemy założyć że $\sin \alpha\approx \alpha$, zatem po podstawieniu do równania
+\ref{eq:preAprox} otrzymujemy równanie oscylatora harmonicznego:
 \[ \frac{d^2 \alpha}{d t^2} + \frac{g}{l} \alpha = 0 \]
 
 Dla warunków początkowych $\alpha \left( 0 \right) = \alpha_0$ i $\frac{d\alpha}{dt}\left( 0 \right) = 0$:
@@ -133,9 +165,9 @@ Ostatecznie w celu uzyskania wykresu $T^2 \left(l\right)$:
 		\label{eq:wykres}
 \end{equation}
 
-\begin{table}[h]
+\begin{sidewaystable}[p]
 		\centering
-		\footnotesize{
+		\Large
 		\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
 				\hline
 	długość             &\multicolumn{10}{c|}{czas t (s) $\pm 0,01$s} \\ \cline{2-11}
@@ -149,10 +181,9 @@ Ostatecznie w celu uzyskania wykresu $T^2 \left(l\right)$:
 		  20,0  & 8,87 & 8,97 & 9,02 & 9,01 & 8,97 & 8,99 & 8,91 & 8,88 & 8,93 & 8,84\\
 		  10,0  & 6,09 & 6,27 & 6,18 & 6,20 & 6,25 & 6,49 & 6,18 & 6,33 & 6,25 & 6,27\\\hline
 \end{tabular}
-}
 		\caption{Tabela wyników pomiarów}
 		\label{tab:pomiar}
-\end{table}
+\end{sidewaystable}
 
 \section{Analiza wyników pomiarów}
 
@@ -160,13 +191,13 @@ Dla wyników doświadczenia w tabeli \ref{tab:pomiar} obliczamy:
 \begin{itemize}
 		\item Średni czas $\bar{t}$.
 		\item Odchylenie standardowe średniego czasu $\Delta \bar{t}$.
-		\item Okres wychyleń wachadła $T$.
+		\item Okres wychyleń wahadła $T$.
 		\item Niepewność okresu $\Delta T$.
 		\item Kwadrat okresu $T^2$.
 		\item Niepewność kwadratu okresu $\Delta \left( T^2 \right)$.
 
 \end{itemize}
-\subsection*{Odcylenie standardowe}
+\subsection*{Odchylenie standardowe}
 Odchylenie standardowe średniej jest równe:
 \[ \Delta \bar{t} = \sqrt{\frac{\sum \limits^n_{i = 1}\left( x_i - \bar{x}\right)^2}{n\left(n-1 \right)}}\]
 Przykładowo:
@@ -182,9 +213,9 @@ Przykładowo:
 
 \subsection*{Okres}
 
-Okres wychyleń wachadła obliczamy za pomocą wzoru:
+Okres wychyleń wahadła obliczamy za pomocą wzoru:
 \[ T = \frac{\bar{x}}{n}\]
-gdzie $n$ to liczba wychyleń wykonanych przez wachadło w czasie mierzonym $t$.
+gdzie $n$ to liczba wychyleń wykonanych przez wahadło w czasie mierzonym $t$.
 
 Przykładowo:
 \[ \frac{18,06}{10} \approx 1,80 \]
@@ -214,9 +245,12 @@ Niepewność $T^2$ jest obliczana w poniższy sposób:
 		\label{tab:obrobione}
 \end{table}
 
-\subsection*{Wykres:}
-\obrazek{0.55}{wykres}{Wykres $T^2 \left(l \right)$}
-
+\begin{sidewaysfigure}[p]
+		\centering
+		\includegraphics[width = \linewidth]{wykres}
+		\caption{Wykres funkcji $T^2 \left( l \right)$}
+		\label{fig:wykres}
+\end{sidewaysfigure}
 \section{Wnioski}
 \subsection*{Obliczanie przyspieszenia grawitacyjnego:}
 
@@ -239,7 +273,26 @@ Zatem błąd względny otrzymanej wartości wynosi:
 		&\approx 1,12 \text{\%}
 \end{align*}
 
-\subsection*{Możliwe źródła niepewności:}
+\subsection*{Możliwe źródła niepewności i błędów:}
+
+Na jakość pomiarów głównie wpływał błąd losowy pomiaru czasu oraz błędy losowe i systematyczne pomiaru długości wahadła. Znając
+wady używanej przez nas metody czasu postanowiliśmy im przeciwdziałać poprzez dokonywanie dziesięciu pomiarów dla każdej
+długości wahadła, patrząc na obliczone przez nas odchylenia standardowe możemy zauważyć że wpływ losowości tej metody na wynik
+doświadczenia był pomijalny.
+
+Jednakże nie zostały przez nas podjęte żadne działania mające na celu ograniczenie wpływu błędu systematycznego, który mógł wynikać
+z złej metody pomiaru długości sznurka na którym został powieszony ciężarek będący wahadłem. Miarka którą dokonywaliśmy pomiaru była
+przymocowana na stałe do statywu, jednak była przesunięta względem punktu do którego było przymocowane wahadło, miarka również
+mogła nie być równoległa względem sznurka podczas pomiaru, mógł wystąpić znaczący błąd paralaksy. Być może z tego powodu wykres
+oparty na naszych danych nie przechodzi przez początek układu współrzędnych.
+
+W celu poprawy jakości wyników powinniśmy byli dokonywać bezpośredniego pomiaru długości sznurka miarką, która nie była przyczepiona
+na stałe do statywu.
+
+Na wynik eksperymentu mógł mieć wpływ również opór powietrza jak i niedoskonałe właściwości sznurka, jednak ich wpływu nie jestem w
+stanie określić.
+\listoftables
+\listoffigures
 
 
 
