@@ -32,3 +32,6 @@
 *.app
 
 *.epub
+
+*.pyc
+*.json

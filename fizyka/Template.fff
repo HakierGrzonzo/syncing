@@ -1,0 +1,22 @@
+\begin{figure}[h]
+\begin{tikzpicture}[scale = 1]
+\draw [fill = black] (0,0) circle [radius = 0.5];
+\draw [->, thick] (0,0) -- (0, -4) node [below]{$Q$};
+\draw [->, thick, rotate = 30, scale= 0.9] (0,0) -- (0, -4) node [below]{$Q\cos\alpha$};
+\draw [->, thick, rotate = -60, scale= 0.6] (0,0) -- (0, -4) node [below]{$Q\sin\alpha$};
+\draw [->, thick, rotate = 210, scale= 0.9] (0,0) -- (0, -4) node [above]{$N$};
+\draw [rotate = 210, scale = 1.5](1,0) arc (0:60:1);
+\node at (-.6,-.9){$\alpha$};
+\draw [dashed, thin, rotate = -60](0,0) arc (0:-30:12);
+\end{tikzpicture}
+\centering
+\caption{Wachad\IeC {\l }o w stanie najwi\IeC {\k e}kszego wychylenia}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[p]
+\centering
+\includegraphics[width = \linewidth]{wykres}
+\caption{Wykres funkcji $T^2 \left( l \right)$}
+\label{fig:wykres}
+\end{figure}
