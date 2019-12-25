@@ -13,30 +13,41 @@ from prompt_toolkit.key_binding import KeyBindings
 from prompt_toolkit.buffer import  Buffer
 
 __version__ = 'tinypub v.1'
+log = list()
+html2text.BODY_WIDTH = 90
 
-def OpenChapter(chapter):
+def CleanUpper(text):
+    global log 
+    res = str() 
+    for line in text:
+        try:
+            textToStrip = line[line.find('](') + 1: line.find(')') + 1]
+            if line.find('](') != -1:
+                line = line.replace(textToStrip, '')
+                line = line.replace('![','')
+                #line = line.replace('[','').replace(']','')
+            else:
+                line = line.replace(textToStrip, '')
+                line = line.replace('![','')
+            log.append('Striping:' + textToStrip)
+        except Exception as e:
+            log.append(e) 
+        if line != str():
+            res += line + ' '
+        else:
+            res += '\n'
+    return html2text.optwrap(res).split('\n')
+
+
+def OpenChapter(chapter, images = None):
     text = chapter.get_body_content().decode("utf-8")
     text = html2text.html2text(text)
-    # Try to restore formating from markdown (depracated)
-    """
-    MdChars = {'_': 'i', '**': 'b'}
-    for char, replacement in MdChars.items():
-        isSeekingFirst = True
-        while not text.find(char) == -1:
-            if isSeekingFirst:
-                text = text.replace(char, '<'+ replacement + '>', 1)
-                isSeekingFirst = False
-            else:
-                text = text.replace(char, '</' + replacement + '>', 1)
-                isSeekingFirst = True
-        if not isSeekingFirst:
-            print('fuck up on ', char)
-    """
     text = text.split('\n')
+    text = CleanUpper(text)
     res = str()
     breaks = list()
     for line in text:
-        res += ' ' + line + '\n'
+        res += ' '  + line + '\n'
         if line == str():
             breaks.append(len(res) - 2)
     return res, breaks
@@ -55,7 +66,10 @@ def SetState(state_):
 
 def Display(text, cursorPos = 0, titlebar = str(), breaks = None):
     kb = KeyBindings()
-    doc = pt.document.Document(text = text, cursor_position = cursorPos)
+    try:
+        doc = pt.document.Document(text = text, cursor_position = cursorPos)
+    except AssertionError:
+        doc = pt.document.Document(text = text, cursor_position = 0)
     Displayer = Buffer(read_only = True, multiline = True, document = doc)
     SetState(None)
     @kb.add('j')
@@ -125,18 +139,10 @@ def DumpSettings(settings):
     file = open(os.path.expanduser('~/.tinypub.json'), 'w')
     file.write(json.dumps(settings))
 
-if __name__ == '__main__':
-    state = None
-    settings = Settings()
-    if len(sys.argv) > 1:
-        fname = str()
-        for x in sys.argv[1:]:
-            fname += x + ' '
-        fname = fname[:len(fname) - 1]
-        book, bookTitle = OpenFile(fname)
-
-    else:
-        raise Exception('File not specified')
+def main(fname):
+    global settings
+    global state
+    book, bookTitle = OpenFile(fname)
     bookTitle, x = bookTitle[0]
     try:
         chapter = settings['books'][bookTitle]['chapter']
@@ -172,3 +178,19 @@ if __name__ == '__main__':
     settings['books'][bookTitle]['chapter'] = chapter
     settings['books'][bookTitle]['cursor'] = cursor
     DumpSettings(settings)
+
+if __name__ == '__main__':
+    Debug = False 
+    state = None
+    settings = Settings()
+    if len(sys.argv) > 1:
+        fname = str()
+        for x in sys.argv[1:]:
+            fname += x + ' '
+        fname = fname[:len(fname) - 1]
+        main(fname)
+    else:
+        raise Exception('File not specified')
+    if Debug:
+        for x in log:
+            print(x)
