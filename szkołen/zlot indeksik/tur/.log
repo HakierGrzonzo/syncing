@@ -1,0 +1,29 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7230) (preloaded format=latex 2019.11.4)  24 DEC 2019 10:23
+entering extended mode
+**Template.tex
+(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/tools/.tex
+LaTeX2e <2018-12-01>
+File ignored)
+*
+(Please type a command or say `\end')
+*X
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> X
+     
+? X
+ 
+Here is how much of TeX's memory you used:
+ 8 strings out of 494858
+ 372 string characters out of 3177778
+ 52480 words of memory out of 3000000
+ 3766 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 5i,0n,4p,93b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

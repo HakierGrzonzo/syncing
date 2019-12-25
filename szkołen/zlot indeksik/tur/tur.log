@@ -1,34 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7230) (preloaded format=pdflatex 2019.11.2)  13 NOV 2019 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7230) (preloaded format=pdflatex 2019.11.2)  24 DEC 2019 14:12
 entering extended mode
 **./tur.tex
 (tur.tex
 LaTeX2e <2018-12-01>
-
-! LaTeX Error: \usepackage before \documentclass.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \usepackage{
-                inputenc}[utf8]
-? 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 \usepackage{inputenc}[
-                          utf8]
-? 
-Missing character: There is no [ in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no ] in font nullfont!
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/base/size12.clo
@@ -40,17 +14,12 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \c@subsubsection=\count83
 \c@paragraph=\count84
 \c@subparagraph=\count85
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 3--274
-[]
- []
-
 \c@figure=\count86
 \c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-[1{/home/hakiergrzonzo/.miktex/texmfs/data/pdftex/config/pdftex.map}])
+)
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
@@ -517,6 +486,18 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
+(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count269
+\rotFPtop=\skip133
+\rotFPbot=\skip134
+\rot@float@box=\box54
+\rot@mess@toks=\toks22
+)
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/polski/polski.sty
 Package: polski 2017/05/04 v1.3.4 Polish language package
 
@@ -582,20 +563,20 @@ Package: icomma 2002/03/10 v2.0 (WaS)
 ) (tur.aux)
 \openout1 = `tur.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -604,15 +585,15 @@ LaTeX Font Info:    ... okay on input line 81.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(99.58464pt, 398.3386pt, 99.58464pt)
-* v-part:(T,H,B)=(99.58464pt, 645.87756pt, 99.58464pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=398.3386pt
-* \textheight=645.87756pt
-* \oddsidemargin=27.31465pt
-* \evensidemargin=27.31465pt
-* \topmargin=-9.68535pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -630,21 +611,21 @@ LaTeX Font Info:    ... okay on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box54
+\AtBeginShipoutBox=\box55
 
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count269
+\scratchcounter=\count270
 \scratchdimen=\dimen159
-\scratchbox=\box55
-\nofMPsegments=\count270
-\nofMParguments=\count271
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count272
+\scratchbox=\box56
+\nofMPsegments=\count271
+\nofMParguments=\count272
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count273
 \MPscratchDim=\dimen160
-\MPnumerator=\count273
-\makeMPintoPDFobject=\count274
-\everyMPtoPDFconversion=\toks23
+\MPnumerator=\count274
+\makeMPintoPDFobject=\count275
+\everyMPtoPDFconversion=\toks24
 )
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.st
 y
@@ -659,76 +640,79 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
 
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
-LaTeX Font Info:    Try loading font information for OML+plm on input line 88.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 94.
 
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 94.
 
 
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 88.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 94.
 
 
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 88.
+(Font)              <12> on input line 94.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 88.
+(Font)              <8> on input line 94.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 88.
-LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+(Font)              <6> on input line 94.
+LaTeX Font Info:    Try loading font information for U+msa on input line 94.
 
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+LaTeX Font Info:    Try loading font information for U+msb on input line 94.
 
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2
+[1{/home/hakiergrzonzo/.miktex/texmfs/data/pdftex/config/pdftex.map}
 
-] (tur.aux) ) 
+] [2]
+(tur.aux) ) 
 Here is how much of TeX's memory you used:
- 14545 strings out of 494857
- 268032 string characters out of 3177752
- 315317 words of memory out of 3000000
- 18078 multiletter control sequences out of 15000+200000
- 539816 words of font info for 46 fonts, out of 3000000 for 9000
+ 14658 strings out of 494857
+ 269550 string characters out of 3177752
+ 336186 words of memory out of 3000000
+ 18185 multiletter control sequences out of 15000+200000
+ 540320 words of font info for 47 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 47i,11n,65p,830b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl/plm
-s.enc}{/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl/plrm.enc}{
-/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl/plmi.enc}</home/h
-akiergrzonzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plbx12.p
-fb></home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plmi12.pfb
-></home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plr12.pfb></
-home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plr8.pfb></home
-/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plsy10.pfb>
-Output written on tur.pdf (2 pages, 46963 bytes).
+ 47i,12n,65p,830b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl/plms.
+enc}{/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl/plrm.enc}{/h
+ome/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl/plmi.enc}</home/hak
+iergrzonzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></h
+ome/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plbx12.pfb></hom
+e/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plmi12.pfb></home/
+hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plr12.pfb></home/hak
+iergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plr8.pfb></home/hakierg
+rzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plsy10.pfb>
+Output written on tur.pdf (2 pages, 46646 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

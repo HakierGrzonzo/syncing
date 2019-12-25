@@ -1,0 +1,160 @@
+%&pdflatex --translate-file=il2-pl
+%Wzór dokumentu
+%tu zmień marginesy i rozmiar czcionki
+    \documentclass[a4paper,12pt]{article}
+    \usepackage[margin=2.5cm]{geometry}
+    
+ %Lepiej tego nie zmieniaj, jak co to dodawaj pakiety
+	\usepackage{titlesec}
+	\usepackage{titling}
+	\usepackage{fancyhdr}
+	\usepackage{mdframed}
+	\usepackage{graphicx}
+	\usepackage{amsmath}
+	\usepackage{amsfonts}
+	\usepackage{rotating}
+	
+%inny wygląd
+	%\usepackage{tgbonum}
+	
+	
+	%Zmienne, zmień je!
+	\graphicspath{ {./ilustracje/} }
+    \title{Maszyna Turinga}
+    \author{INF974658}
+    \date{[data]}
+    
+  %lokalizacja polska (odkomentuj jak piszesz po polsku)
+  
+    \usepackage{polski}
+    %\usepackage[polish]{babel} 
+    \usepackage{indentfirst}
+	\usepackage{icomma} 
+	
+    \brokenpenalty=1000
+    \clubpenalty=1000
+    \widowpenalty=1000    
+ 
+ %nie odkometowuj wszystkiego, użyj mózgu
+    %\renewcommand\thechapter{\arabic{chapter}.}
+	\renewcommand\thesection{\arabic{section}.}
+	\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}.}
+	\renewcommand\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
+
+%Makra
+	\newcommand{\tur}[2]{
+			$q_{#1},$ #2
+	}
+    
+	\renewcommand{\nu}{
+			$\emptyset$
+	}
+\newcommand{\obrazek}[2]{
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=#1]{#2}
+	\end{figure}
+}     
+            
+    
+    \newcommand{\twierdzonko}[1]{
+        \begin{center}
+        \begin{mdframed}
+        #1
+        \end{mdframed}          
+        \end{center}
+    } 
+    
+    \newcommand{\dwanajeden}[2]{
+	\ensuremath \left( \begin{array}{c}
+		#1\\
+		#2
+	\end{array} \right)
+}  
+      
+%Stopka i head (sekcja której nie powinno się zmieniać)
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyfoot{}
+    
+    %Zmieniaj od tego miejsca
+    \lhead{\theauthor, \guillemotleft tur\guillemotright}
+	\rfoot{\thepage}
+	\renewcommand{\headrulewidth}{1pt}
+	\renewcommand{\footrulewidth}{1pt}
+
+    
+\begin{document}
+
+\section{Opis działania}
+
+\subsection*{Opis stanów:}
+
+\begin{itemize}
+	\item $q_1$ - Stan początkowy, szkukam ,,a'' lub ,,b'', idąc w lewo. Jeżeli znajdę ,,a'' lub ,,b'' to idę w prawo i przechodzę w $q_2$.
+	\item $q_2$ - Zmieniam komórkę taśmy na ,,X'' i przechodzę w $q_3$.
+	\item $q_3$ - Szukam ,,b'' idąc w lewo. Jeżeli na taśmie jest ,,b'' to zmieniam je na ,,z'' i przechodzę w $q_4$.\\
+		Jeżeli na taśmie jest ,,$\emptyset$'' to przechodzę w $q_5$.
+	\item $q_4$ - Szukam cyfry lub ,,$\emptyset$''. Jeżeli znaleziona liczba nie jest dziewiątką to dodaje do niej 1.\\
+		Jeżeli znalezłem ,,9'' to zmieniam je na ,,0'' i idę w lewo.\\
+		Jeśli znalazłem ,,$\emptyset$'' to zmieniam go na ,,1'', idę w lewo i zmieniam stan na $q_3$. 
+	\item $q_5$ - Szukam ,,X'', idąc w prawo. Gdy go znajdę to zmieniam stan na $q_6$.
+	\item $q_6$ - Szukam ,,a'' idąc w lewo.
+			Jeżeli na taśmie jest ,,a'' to zamieniam je na ,,z'' i  przechodzę w $q_7$.\\
+			Jeżeli znajduje ,,$\emptyset$'' to przechodzę w $q_8$.
+	\item $q_7$ - Szukam cyfry, idąc w prawo. Jeśli znajdę cyfrę to odejmuję od niej jeden. \\
+			Jeżeli liczba jest równa 0 to zamieniam ją na 9 i idę w prawo.\\
+			Jeżeli znajdę ,,$\emptyset$'' to przechodzę w $q_9$.
+	\item $q_8$ - Szukam cyfry różnej od zera, idąc w prawo. Jeżeli ją znajdę to przechodzę w $q_{10}$.\\
+			Jeżeli znajdę ,,$\emptyset$'' lub 0 to przechodzę w $q_{11}$.
+\end{itemize}
+\subsubsection*{Stany końcowe:}
+\begin{itemize}
+	\item $q_9$ - szukam ,,X'' idąc w prawo, zmieniam go na A.
+	\item $q_{10}$ - szukam ,,X'' idąc w lewo, zmieniam go na B.
+	\item $q_{11}$ - szukam ,,X'' idąc w lewo, zmieniam go na N.
+\end{itemize}
+
+\section{Tabela}
+\begin{sidewaystable}[h]
+		\centering
+		\begin{tabular}{c|c|c|c|c|c|c|c|c|c|c|c|}
+				&	$q_1$	&	$q_2$	&	$q_3$	&	$q_4$	&	$q_5$	&	$q_6$	&	$q_7$	&	$q_8$	&	$q_9$	&	$q_{10}$	&	$q_{11}$	\\ \hline
+
+			a	&	\tur{2}{P, a}	&	&	\tur{3}{L, a}	&	\tur{4}{P, a}	&	\tur{5}{P, a}	&	\tur{7}{P, z}	&	\tur{7}{P, a}	&	\tur{8}{P, a}	&&&\\\hline
+
+			b	&	\tur{2}{P, b}	&	&	\tur{4}{P, z}	&	\tur{4}{L, b}	&	\tur{5}{P, b}	&	\tur{6}{L, b}	&	\tur{7}{P, b}	&	\tur{8}{P, b}	&&&\\\hline
+
+			X	&	&	&	\tur{3}{L, X}	&	\tur{4}{P, X}	&	\tur{6}{L, X}	&	\tur{6}{L, X}	&	\tur{7}{P, X}	&	\tur{8}{P, X}	&	\tur{9}{0, A}
+			&	\tur{10}{0, B}	& \tur{11}{0, N} \\\hline
+
+			z	&	&	&	\tur{3}{L, z}	&	\tur{4}{P, z}	&	\tur{5}{P, z}	&	\tur{6}{L, z}	&	\tur{7}{P, z}	&	\tur{8}{P, z}	& \tur{9}{P, z}	&&\\\hline
+			
+			$\emptyset$	&	\tur{1}{L, \nu}	&	\tur{3}{L, X}	&	\tur{5}{P, \nu}	&	\tur{3}{L, 1}	&	\tur{5}{P, \nu}	&	\tur{8}{P, \nu}	&	\tur{9}{L, \nu}	&
+			\tur{11}{L, \nu}	&	\tur{9}{P, \nu}	&	\tur{10}{L, \nu}	&	\tur{11}{L, \nu} \\\hline
+			
+			0   &   &   &  \tur{3}{L, 0}    &   \tur{3}{L, 1}   &   \tur{5}{P, 0}   &   \tur{6}{L, 0}   &   \tur{7}{P, 9}   &   \tur{11}{L, 0}  &   &   \tur{10}{L, 0}  &   \tur{11}{L, 0} \\\hline
+
+1   &   &   &  \tur{3}{L, 1}    &   \tur{3}{L, 2}   &   \tur{5}{P, 1}   &   \tur{6}{L, 1}   &   \tur{6}{L, 0}   &   \tur{10}{L, 1}  &   &   \tur{10}{L, 1}  &   \tur{11}{L, 1} \\\hline
+
+2   &   &   &  \tur{3}{L, 2}    &   \tur{3}{L, 3}   &   \tur{5}{P, 2}   &   \tur{6}{L, 2}   &   \tur{6}{L, 1}   &   \tur{10}{L, 2}  &   &   \tur{10}{L, 2}  &   \tur{11}{L, 2} \\\hline
+
+3   &   &   &  \tur{3}{L, 3}    &   \tur{3}{L, 4}   &   \tur{5}{P, 3}   &   \tur{6}{L, 3}   &   \tur{6}{L, 2}   &   \tur{10}{L, 3}  &   &   \tur{10}{L, 3}  &   \tur{11}{L, 3} \\\hline
+
+4   &   &   &  \tur{3}{L, 4}    &   \tur{3}{L, 5}   &   \tur{5}{P, 4}   &   \tur{6}{L, 4}   &   \tur{6}{L, 3}   &   \tur{10}{L, 4}  &   &   \tur{10}{L, 4}  &   \tur{11}{L, 4} \\\hline
+
+5   &   &   &  \tur{3}{L, 5}    &   \tur{3}{L, 6}   &   \tur{5}{P, 5}   &   \tur{6}{L, 5}   &   \tur{6}{L, 4}   &   \tur{10}{L, 5}  &   &   \tur{10}{L, 5}  &   \tur{11}{L, 5} \\\hline
+
+6   &   &   &  \tur{3}{L, 6}    &   \tur{3}{L, 7}   &   \tur{5}{P, 6}   &   \tur{6}{L, 6}   &   \tur{6}{L, 5}   &   \tur{10}{L, 6}  &   &   \tur{10}{L, 6}  &   \tur{11}{L, 6} \\\hline
+
+7   &   &   &  \tur{3}{L, 7}    &   \tur{3}{L, 8}   &   \tur{5}{P, 7}   &   \tur{6}{L, 7}   &   \tur{6}{L, 6}   &   \tur{10}{L, 7}  &   &   \tur{10}{L, 7}  &   \tur{11}{L, 7} \\\hline
+
+8   &   &   &  \tur{3}{L, 8}    &   \tur{3}{L, 9}   &   \tur{5}{P, 8}   &   \tur{6}{L, 8}   &   \tur{6}{L, 7}   &   \tur{10}{L, 8}  &   &   \tur{10}{L, 8}  &   \tur{11}{L, 8} \\\hline
+
+9   &   &   &  \tur{3}{L, 9}    &   \tur{4}{P, 0}   &   \tur{5}{P, 9}   &   \tur{6}{L, 9}   &   \tur{6}{L, 8}   &   \tur{10}{L, 9}  &   &   \tur{10}{L, 9}  &   \tur{11}{L, 9} \\\hline
+		\end{tabular}
+		\caption{Tabela charakterystyczna maszyny Turinga}
+\end{sidewaystable}
+
+
+\end{document}
