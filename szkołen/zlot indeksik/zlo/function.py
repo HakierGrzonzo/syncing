@@ -1,28 +1,40 @@
 from sys import stdout
-from multiprocessing import Pool
+from multiprocessing import Pool, cpu_count
 comp = 0
 
-def Pow(k):
+def Pow(m):
+    print('comp\tz\ty\tm\tifif')
     comp = 0
-    a = 2
-    z = a
+    z = 3
     y = 1
-    m = k
+    ifif =False
+    print(comp, z, y, m, 'None', sep='\t')
     while m != 0:
         comp = comp +1
         if m % 2 == 1:
+            ifif = True
             y = y*z
         m = int(m/2)
         z = z*z
+        print(comp, z, y, m, ifif, sep='\t')
+        ifif = False
     return comp
 
+def avrage(lis):
+    x = 0
+    for z in lis:
+        x += z
+    x / len(lis)
+    return x
+
 def handleStuff(n):
-    p = Pool(10)
-    res = p.map(Pow, range(2**n))
-    return max(res)
+    p = Pool(cpu_count())
+    res = avrage(p.map(Pow, range(2**n - 1)))
+    return res / len(range(2**n - 1))
 
 if __name__ == "__main__":
-    for n in range(2,129):
-        toMake = 2**n -1
-        print(str(n) + "\t" +str(handleStuff(n)))
-        comp = 0
+    n = 1
+    while True:
+        Pow(n)
+        n += 1
+        input()

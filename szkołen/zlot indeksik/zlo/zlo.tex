@@ -1,0 +1,183 @@
+%&pdflatex --translate-file=il2-pl
+%Wzór dokumentu
+%tu zmień marginesy i rozmiar czcionki
+    \documentclass[a4paper,12pt]{article}
+    \usepackage[margin=2.5cm]{geometry}
+
+ %Lepiej tego nie zmieniaj, jak co to dodawaj pakiety
+	\usepackage{titlesec}
+	\usepackage{titling}
+	\usepackage{fancyhdr}
+	\usepackage{mdframed}
+	\usepackage{graphicx}
+	\usepackage{amsmath}
+	\usepackage{amsfonts}
+	\usepackage{rotating}
+  \usepackage{listings}
+
+%inny wygląd
+	%\usepackage{tgbonum}
+
+
+	%Zmienne, zmień je!
+	\graphicspath{ {./ilustracje/} }
+    \title{Baza Danych}
+    \author{INF974658}
+    \date{[data]}
+
+  %lokalizacja polska (odkomentuj jak piszesz po polsku)
+
+    \usepackage{polski}
+    %\usepackage[polish]{babel}
+    \usepackage{indentfirst}
+	\usepackage{icomma}
+
+    \brokenpenalty=1000
+    \clubpenalty=1000
+    \widowpenalty=1000
+
+ %nie odkometowuj wszystkiego, użyj mózgu
+    %\renewcommand\thechapter{\arabic{chapter}.}
+	\renewcommand\thesection{\arabic{section}.}
+	\renewcommand\thesubsection{\arabic{subsection}.}
+	\renewcommand\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
+
+%Makra
+\newcommand{\obrazek}[2]{
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=#1]{#2}
+	\end{figure}
+}
+
+
+    \newcommand{\twierdzonko}[1]{
+        \begin{center}
+        \begin{mdframed}
+        #1
+        \end{mdframed}
+        \end{center}
+    }
+
+    \newcommand{\dwanajeden}[2]{
+	\ensuremath \left( \begin{array}{c}
+		#1\\
+		#2
+	\end{array} \right)
+}
+
+%Stopka i head (sekcja której nie powinno się zmieniać)
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyfoot{}
+
+    %Zmieniaj od tego miejsca
+    \lhead{\theauthor, \guillemotleft zlo\guillemotright}
+	\rfoot{\thepage}
+	\renewcommand{\headrulewidth}{1pt}
+	\renewcommand{\footrulewidth}{1pt}
+	
+	\titleformat{\section}{\Large\bfseries}{\thesection}{0.5em}{}[\titlerule]
+	\titleformat{\subsection}{\large}{\thesubsection}{0.5em}{}[\titlerule]
+
+\begin{document}
+\section*{Opis funkcji:}
+
+Dana jest funkcja Pow\footnote{tu przepisana na język \emph{Python} z zachowaniem numeracji wierszy
+z danego zapisu w pseudokodzie}:
+\lstset{language = python,
+	numbers = left,
+	columns = fullflexible,
+	frame = single}
+	\begin{lstlisting}
+def Pow(a, k):
+	z = a
+	y = 1
+	m = k
+	while m != 0:
+		if m % 2 == 1:
+			y = y*z
+			
+		m = int(m/2)
+		z = z*z
+		
+	return y
+	\end{lstlisting}
+	
+	Gdzie k jest wartością całkowitą nieujemną zapisaną na $n$ bitach, zatem:
+	\[ k \in \left\langle 0 ; 2^n - 1 \right\rangle \wedge k \in Z\]
+\subsection{Obliczyć pesymistyczną złożoność czasową przyjmując operację porównania w wierszu 6 funkcji
+jako operację dominującą.}
+
+Operacja porównania w wierszu 6 jest wywyoływana podczas każdej iteracji pętli w wierszu 5. Podczas każdej
+iteracji tej pętli wartość $m$ jest dzielona przez 2 bez reszty w wierszu 9. Gdy wartość $m$ staje się równa 0
+pętla przestaje się wykonywać. Na przykład:
+
+
+\begin{minipage}[l]{0.3\textwidth}
+\begin{align*}
+		15 &\rightarrow 7 \\
+		7 &\rightarrow 3 \\
+		3 &\rightarrow 1 \\
+		1 &\rightarrow 0 
+\end{align*}
+\end{minipage}
+\begin{minipage}[l]{0.3\textwidth}
+\begin{align*}
+		9 &\rightarrow 4 \\
+		4 &\rightarrow 2 \\
+		2 &\rightarrow 1 \\
+		1 &\rightarrow 0 
+\end{align*}
+\end{minipage}
+\begin{minipage}[l]{0.3\textwidth}
+\begin{align*}
+		17 &\rightarrow 8 \\
+		8 &\rightarrow 4 \\
+		4 &\rightarrow 2 \\
+		2 &\rightarrow 1 \\
+		1 &\rightarrow 0 
+\end{align*}
+\end{minipage}
+
+
+Liczby 9 i 15 da się zapisać na 4 bitach, ale liczbę 17 da się zapisać na minimalnie 5 bitach. Zatem pętla wykonuje
+się dla dannego $k$ $n_m$ razy, gdzie $n_m$ to minimalna liczba bitów potrzebna do zapisania liczby $k$. 
+
+Zatem pesymistyczna złożoność dla $n \in N^+$ to:
+\[T_\text{pes}(n) = n\]
+
+\subsection{Obliczyć średnią złożoność czasową przyjmując operację porównania w wierszu 6
+funkcji jako operację dominującą.}
+
+Z poprzedniego zadania wiemy że złożoność dla liczby zapisanej na minimalnej liczbie bitów jest
+równa ilości jej bitów. Zatem złożoność średnia jest równa:
+
+\begin{align*}
+ T_\text{śr}(n) &= \frac{1 \cdot 1 + 2\cdot2 + 3 \cdot 4 + 4 \cdot 8 + \dots + n\cdot2^{n -  1}}{2 + 2 + 4 + 8 + \dots +
+ 2^{n - 1}} = \\
+ &= \frac{1 \cdot 1 + 2\cdot2 + 3 \cdot 4 + 4 \cdot 8 + \dots + n\cdot2^{n -  1}}{2^n}
+\end{align*}
+
+\subsection{Obliczyć średnią liczbę wykonanych operacji mnożenia w wierszu 7 funkcji}
+
+\subsection{Opisać  krótko,  jaki  warunek  musi  spełnić  wykładnik k aby  zachodził  przypadek pesymistyczny}
+
+Z obliczeń z zadania pierwszego wiemy że złożoność dla liczby $k_4$ zapisanej na minimalnej liczbie bitów jest
+równa ilości jej bitów. Zatem liczba bitów $k_4$ jest równa $n$.
+
+Zatem:
+\[ k_4 \in \left\langle 2^{n-1} - 1; 2^n - 1 \right\rangle \wedge k_4 \in Z\]
+
+Aby wykładnik $k_4$ był przypadkiem pesymistycznym funkcji Pow.
+
+\subsection{Obliczyć liczbę przypadków, dla których zachodzi przypadek pesymistyczny}
+
+Z poprzedniego zadania wiemy, że przypadek pesymistyczny zachodzi dla liczby przypadków $k_5$,
+która jest zależna od $n$
+\begin{align*}
+		k_5 &= 2^n - 1 - \left( 2^{n-1} - 1 \right) = 2^n - 2^{n- 1} = \\
+		&= 2^{n-1}
+\end{align*}
+
+\end{document}

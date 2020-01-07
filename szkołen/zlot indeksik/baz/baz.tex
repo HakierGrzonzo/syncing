@@ -1,0 +1,145 @@
+%&pdflatex --translate-file=il2-pl
+%Wzór dokumentu
+%tu zmień marginesy i rozmiar czcionki
+    \documentclass[a4paper,12pt]{article}
+    \usepackage[margin=2.5cm]{geometry}
+
+ %Lepiej tego nie zmieniaj, jak co to dodawaj pakiety
+	\usepackage{titlesec}
+	\usepackage{titling}
+	\usepackage{fancyhdr}
+	\usepackage{mdframed}
+	\usepackage{graphicx}
+	\usepackage{amsmath}
+	\usepackage{amsfonts}
+	\usepackage{rotating}
+  \usepackage{listings}
+
+%inny wygląd
+	%\usepackage{tgbonum}
+
+
+	%Zmienne, zmień je!
+	\graphicspath{ {./ilustracje/} }
+    \title{Baza Danych}
+    \author{INF974658}
+    \date{[data]}
+
+  %lokalizacja polska (odkomentuj jak piszesz po polsku)
+
+    \usepackage{polski}
+    %\usepackage[polish]{babel}
+    \usepackage{indentfirst}
+	\usepackage{icomma}
+
+    \brokenpenalty=1000
+    \clubpenalty=1000
+    \widowpenalty=1000
+
+ %nie odkometowuj wszystkiego, użyj mózgu
+    %\renewcommand\thechapter{\arabic{chapter}.}
+	\renewcommand\thesection{\arabic{section}.}
+	\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}.}
+	\renewcommand\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
+
+%Makra
+\newcommand{\obrazek}[2]{
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=#1]{#2}
+	\end{figure}
+}
+
+
+    \newcommand{\twierdzonko}[1]{
+        \begin{center}
+        \begin{mdframed}
+        #1
+        \end{mdframed}
+        \end{center}
+    }
+
+    \newcommand{\dwanajeden}[2]{
+	\ensuremath \left( \begin{array}{c}
+		#1\\
+		#2
+	\end{array} \right)
+}
+
+%Stopka i head (sekcja której nie powinno się zmieniać)
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyfoot{}
+
+    %Zmieniaj od tego miejsca
+    \lhead{\theauthor, \guillemotleft baz\guillemotright}
+	\rfoot{\thepage}
+	\renewcommand{\headrulewidth}{1pt}
+	\renewcommand{\footrulewidth}{1pt}
+
+
+\begin{document}
+
+\section{Opis:}
+
+Baza danych składa się z 4 tabel.
+\begin{itemize}
+		\item Modele Rolet - zawiera ofertę firmy ,,Roletka''.
+		\item Rolety - zawiera wszystkie wyprodukowane wariacje modeli rolet.
+		\item Wymiary - zawiera wszystkie dostępne wymiary dla danego modelu rolety. W razie potrzeby
+				można dodać więcej kolumn z innymi wymiarami. Wymiary są podawane jako wartości całkowite
+				(w milimetrach).
+		\item Sprzedaż - zawiera informacje o sprzedanych roletach.
+\end{itemize}
+
+\section{Skrypt generujący:}
+
+\lstset{language = SQL,
+	numbers = left,
+	columns = fullflexible,
+	title = Skrypt \emph{mysql} generujący bazę danych:,
+	frame = single}
+\begin{lstlisting}
+CREATE DATABASE rolety_baza;
+USE rolety_baza;
+CREATE TABLE modele_rolet(
+    Numer_modelu int NOT NULL,
+    nazwaModelu varchar(255),
+    opis text,
+    PRIMARY KEY (Numer_modelu)
+);
+CREATE TABLE rolety(
+    id int NOT NULL,
+    Numer_modelu int NOT NULL,
+    kolor_materialu varchar(255),
+    kolor_mocowan varchar(255),
+    ID_wymiaru int NOT NULL,
+    PRIMARY KEY (id)
+);
+CREATE TABLE wymiary(
+    id int NOT NULL,
+    id_modelu int NOT NULL,
+    wymiar_rolety_mm_0 int,
+    wymiar_rolety_mm_1 int,
+    wymiar_rolety_mm_2 int,
+    wymiar_rolety_mm_3 int,
+    wymiar_rolety_mm_4 int,
+    wymiar_rolety_mm_5 int,
+    Na_zamowienie bool,
+    PRIMARY KEY (id)
+);
+CREATE TABLE sprzedaz(
+    numer_transakcji int NOT NULL,
+    imie_klienta varchar(127),
+    nazwisko_klienta varchar(127),
+    adres_klienta varchar(511),
+    liczba_rolet int,
+    id_rolety int NOT NULL,
+    cena DECIMAL(18, 2),
+    PRIMARY KEY (numer_transakcji)
+);
+\end{lstlisting}
+
+
+
+\end{document}
