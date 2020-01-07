@@ -16,7 +16,7 @@ def GetFanficInfo(id):
             fanfic['wordcount'] = soup.find('dd','words').string
             fanfic['title'] = soup.find('h2', 'title heading').string.replace('\n      ','').replace('\n    ','')
             fanfic['id'] = id
-            print('Managed to get info on: ' + fanfic['title'])
+            print('Managed to get info on:\t' + fanfic['title'] + '\tLast updated:\t' + fanfic['lastUpdate'])
             return json.dumps(fanfic)
         except:
             print('failed to process ' + id)
@@ -104,7 +104,6 @@ if __name__ == '__main__':
     toDownload = list()
     for fanfic in fanfics:
         try:
-            fanfic = json.loads(fanfic)
             if (not fanfic in data or forced) and fanfic != None:
                 toDownload.append(fanfic)
         except:

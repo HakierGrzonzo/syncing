@@ -9,11 +9,14 @@ def is_sorted(data) -> bool:
 
 def bogosort(data) -> list:
     """Shuffle data until sorted."""
+    próby = 0
     while not is_sorted(data):
         random.shuffle(data)
-    return data 
-nums = list(range(3)
+        próby += 1
+        print(próby, end = '\r')
+    return data
+nums = list(range(9))
 random.shuffle(nums)
 print('started\n' + str(nums))
 nums = bogosort(nums)
-print('sorted\n' + str(nums))
+print('\nsorted\n' + str(nums))
