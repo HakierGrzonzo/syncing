@@ -114,7 +114,7 @@ iteracji tej pętli wartość $m$ jest dzielona przez 2 bez reszty w wierszu 9. 
 pętla przestaje się wykonywać. Na przykład:
 
 
-\begin{minipage}[l]{0.3\textwidth}
+\begin{minipage}[c]{0.3\textwidth}
 \begin{align*}
 		15 &\rightarrow 7 \\
 		7 &\rightarrow 3 \\
@@ -122,7 +122,7 @@ pętla przestaje się wykonywać. Na przykład:
 		1 &\rightarrow 0 
 \end{align*}
 \end{minipage}
-\begin{minipage}[l]{0.3\textwidth}
+\begin{minipage}[c]{0.3\textwidth}
 \begin{align*}
 		9 &\rightarrow 4 \\
 		4 &\rightarrow 2 \\
@@ -130,7 +130,7 @@ pętla przestaje się wykonywać. Na przykład:
 		1 &\rightarrow 0 
 \end{align*}
 \end{minipage}
-\begin{minipage}[l]{0.3\textwidth}
+\begin{minipage}[c]{0.3\textwidth}
 \begin{align*}
 		17 &\rightarrow 8 \\
 		8 &\rightarrow 4 \\
@@ -156,7 +156,11 @@ równa ilości jej bitów. Zatem złożoność średnia jest równa:
 \begin{align*}
  T_\text{śr}(n) &= \frac{1 \cdot 1 + 2\cdot2 + 3 \cdot 4 + 4 \cdot 8 + \dots + n\cdot2^{n -  1}}{2 + 2 + 4 + 8 + \dots +
  2^{n - 1}} = \\
- &= \frac{1 \cdot 1 + 2\cdot2 + 3 \cdot 4 + 4 \cdot 8 + \dots + n\cdot2^{n -  1}}{2^n}
+ &= \frac{1 \cdot 1 + 2\cdot2 + 3 \cdot 4 + 4 \cdot 8 + \dots + n\cdot2^{n -  1}}{2^n} = \\
+ &= \frac{2^n - 1 + 2\left(2^n-1\right) + 4 \left( 2^n-1 \right) + \dots + 2^{n-1}\cdot 1}{2^n} = \\
+ &= \frac{2^n - 1 + 2^n - 2 + 2^n - 4 + \dots + 2^n - 2^{n-1}}{2^n} =  \\
+ &= \frac{n\cdot2^n - \left(2^n -1\right)}{2^n} = \frac{\left(n-1\right)\cdot2^n + 1}{2^n} =\\
+ &= n-1 + \frac{1}{2^n}
 \end{align*}
 
 \subsection{Obliczyć średnią liczbę wykonanych operacji mnożenia w wierszu 7 funkcji}
