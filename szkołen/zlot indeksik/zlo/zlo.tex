@@ -109,7 +109,7 @@ def Pow(a, k):
 \subsection{Obliczyć pesymistyczną złożoność czasową przyjmując operację porównania w wierszu 6 funkcji
 jako operację dominującą.}
 
-Operacja porównania w wierszu 6 jest wywyoływana podczas każdej iteracji pętli w wierszu 5. Podczas każdej
+Operacja porównania w wierszu 6 jest wywoływana podczas każdej iteracji pętli w wierszu 5. Podczas każdej
 iteracji tej pętli wartość $m$ jest dzielona przez 2 bez reszty w wierszu 9. Gdy wartość $m$ staje się równa 0
 pętla przestaje się wykonywać. Na przykład:
 
@@ -142,7 +142,7 @@ pętla przestaje się wykonywać. Na przykład:
 
 
 Liczby 9 i 15 da się zapisać na 4 bitach, ale liczbę 17 da się zapisać na minimalnie 5 bitach. Zatem pętla wykonuje
-się dla dannego $k$ $n_m$ razy, gdzie $n_m$ to minimalna liczba bitów potrzebna do zapisania liczby $k$. 
+się dla danego $k$ $n_m$ razy, gdzie $n_m$ to minimalna liczba bitów potrzebna do zapisania liczby $k$. 
 
 Zatem pesymistyczna złożoność dla $n \in N^+$ to:
 \[T_\text{pes}(n) = n\]
@@ -165,15 +165,84 @@ równa ilości jej bitów. Zatem złożoność średnia jest równa:
 
 \subsection{Obliczyć średnią liczbę wykonanych operacji mnożenia w wierszu 7 funkcji}
 
+Przyjrzyjmy się warunkowi w wierszu 6 funkcji, warunek \lstinline[language = python]!m % 2 == 1! musi zostać spełniony by
+mnożenie w wierszu 7 zostało wykonane. Warunek ten jest spełniony tylko i wyłącznie wtedy gdy liczba jest nieparzysta,
+czyli ostatni jej bit jest równy 1.
+
+Zmienna $m$ jest dzielona przez 2 bez reszty podczas każdej iteracji pętli w wierszu 5. Zobaczmy co się dzieje podczas tej
+operacji z liczbą $m$:
+
+
+\begin{minipage}[c]{0.5\textwidth}
+		\begin{align*}
+				16&: \; 10000 \\
+				8&: \; 1000 \\
+				4&:\; 100 \\
+				2&:\; 10\\
+				1&:\; 1
+		\end{align*}
+\end{minipage}
+\begin{minipage}[c]{0.5\textwidth}
+		\begin{align*}
+				22&: \; 10110\\
+				11&: \; 1011\\
+				5&: \; 101\\
+				2&: \; 10\\
+				1&: \; 1
+		\end{align*}
+\end{minipage}
+
+Podczas dzielenia przez 2 bez reszty bity są przesuwane w prawo, dlatego każda cyfra w zapisie binarnym liczby
+będzie tą \emph{ostatnią} która zostanie wzięta pod uwagę w operacji porównywania w wierszu 6. Zatem mnożenie w 
+wierszu 7 zostanie wykonane tyle razy, ile jedynek posiada liczba w zapisie binarnym.
+
+Zatem należy obliczyć średnią liczbę jedynek w $n$ bitowej liczbie całkowitej nieujemnej zapisanej w kodzie binarnym.
+\medskip
+
+Niech $a_n$ to ciąg łącznej ilości jedynek w liczbach $n$ bitowych. Zacznijmy wypisywać po kolei kolejne liczby binarne
+począwszy od 0.
+\[0,  1, 10, 11, \dots\]
+
+Możemy zauważyć iż liczba trzecia i liczba czwarta to odpowiednio liczba pierwsza i liczba druga, z tą różnicą
+że posiadają dodatkową jedynkę z przodu. Zatem ilość jedynek w tych czterech liczbach to dwukrotność ilości jedynek
+w dwóch pierwszych liczbach plus 2. Zatem możemy określić ciąg $a_n$ rekurencyjnie:
+
+\[
+		\left\{
+				\begin{array}{l}
+						a_1 = 1 \\
+						a_n = 2\cdot a_{n-1} + 2^n
+				\end{array}
+		\right.
+\]
+
+Średnia ilość jedynek $c_n$ w liczbach $n$ bitowych jest zatem równa:
+
+\begin{align*}
+		c_n &= \frac{ 2 \cdot a_{n-1} + a^{n-1}}{2^n} = \\
+		&= \underbrace{\frac{a_{n-1}}{2^{n-1}}}_{c_{n-1}} + \frac{1}{2} = c_{n-1} + \frac{1}{2}
+\end{align*}
+
+Oraz:
+
+\[ c_1 = \frac{a_1}{2^1} = \frac{1}{2} \]
+
+Ciąg $c_n$ jest arytmetyczny poniewarz róznica kolejnych wyrazów jest stała, zatem:
+
+\[ c_n = \frac{1}{2} + \left( n - 1 \right) \cdot \frac{1}{2} = \frac{n}{2} \]
+
+Więc instrukcja mnożenia w wierszu 7 jest wykonywana średnio $\frac{n}{2}$ razy,
+dla liczb całkowitych nieujemnych zapisanych na $n$ bitach.
+
 \subsection{Opisać  krótko,  jaki  warunek  musi  spełnić  wykładnik k aby  zachodził  przypadek pesymistyczny}
 
 Z obliczeń z zadania pierwszego wiemy że złożoność dla liczby $k_4$ zapisanej na minimalnej liczbie bitów jest
 równa ilości jej bitów. Zatem liczba bitów $k_4$ jest równa $n$.
 
-Zatem:
+Więc $k_4$ musi spełniać warunek:
 \[ k_4 \in \left\langle 2^{n-1} - 1; 2^n - 1 \right\rangle \wedge k_4 \in Z\]
 
-Aby wykładnik $k_4$ był przypadkiem pesymistycznym funkcji Pow.
+aby wykładnik być przypadkiem pesymistycznym funkcji Pow.
 
 \subsection{Obliczyć liczbę przypadków, dla których zachodzi przypadek pesymistyczny}
 
