@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7230) (preloaded format=pdflatex 2019.11.2)  23 DEC 2019 23:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7230) (preloaded format=pdflatex 2019.11.2)  9 JAN 2020 19:20
 entering extended mode
 **./Template.tex
 (Template.tex
@@ -1067,13 +1067,13 @@ File: ./images/wykres.png Graphic file (type png)
 <use ./images/wykres.png>
 Package pdftex.def Info: ./images/wykres.png  used on input line 250.
 (pdftex.def)             Requested size: 702.78308pt x 402.50014pt.
-[4] [5 <./images/wykres.png (PNG copy)>]
-Overfull \hbox (18.99765pt too wide) in paragraph at lines 283--288
+[4] [5 <./images/wykres.png (PNG copy)>] [6]
+Overfull \hbox (18.99765pt too wide) in paragraph at lines 291--296
 \OT4/cmr/m/n/12 sznurka na którym zostaª powieszony ci¦»arek b¦d¡cy wahadªem. M
 iarka któr¡ dokonywali±my
  []
 
-[6] (Template.lot)
+(Template.lot)
 \tf@lot=\write4
 \openout4 = `Template.lot'.
 
@@ -1083,10 +1083,10 @@ iarka któr¡ dokonywali±my
 
  [7] (Template.aux) ) 
 Here is how much of TeX's memory you used:
- 25622 strings out of 494857
- 508196 string characters out of 3177752
- 529056 words of memory out of 3000000
- 28901 multiletter control sequences out of 15000+200000
+ 25618 strings out of 494857
+ 508169 string characters out of 3177752
+ 529054 words of memory out of 3000000
+ 28897 multiletter control sequences out of 15000+200000
  546132 words of font info for 66 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  55i,13n,65p,835b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1106,7 +1106,7 @@ miktex/texmfs/install/fonts/type1/public/pl/plr6.pfb></home/hakiergrzonzo/.mikt
 ex/texmfs/install/fonts/type1/public/pl/plr8.pfb></home/hakiergrzonzo/.miktex/t
 exmfs/install/fonts/type1/public/pl/plsy10.pfb></home/hakiergrzonzo/.miktex/tex
 mfs/install/fonts/type1/public/pl/plti12.pfb>
-Output written on Template.pdf (8 pages, 110954 bytes).
+Output written on Template.pdf (8 pages, 111037 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
