@@ -1,5 +1,12 @@
 from bs4 import BeautifulSoup
-import requests, json, os, sys, multiprocessing
+import requests, json, os, sys
+
+isColorful = False
+def LOLprint(txt):
+    if isColorful:
+        os.system("echo \"" + str(txt) + "\" | lolcat -a -d 24")
+    else:
+        print(txt)
 
 def GetFanficInfo(id):
     global site
@@ -16,8 +23,8 @@ def GetFanficInfo(id):
             fanfic['wordcount'] = soup.find('dd','words').string
             fanfic['title'] = soup.find('h2', 'title heading').string.replace('\n      ','').replace('\n    ','')
             fanfic['id'] = id
-            print('Managed to get info on:\t' + fanfic['title'] + '\tLast updated:\t' + fanfic['lastUpdate'])
-            return json.dumps(fanfic)
+            LOLprint('Managed to get info on:\t' + fanfic['title'] + '\tLast updated:\t' + fanfic['lastUpdate'])
+            return fanfic
         except:
             print('failed to process ' + id)
             return None
@@ -28,7 +35,7 @@ def DownoloadFanfic(fanfic):
     global site
     title = fanfic['title'].replace('\'','') + '.epub'
     try:
-        print('Downloading: ' + title)
+        LOLprint('Downloading: ' + title)
         r = requests.get(site + '/downloads/' + fanfic['id'] + '/' + title)
         try:
             os.remove(title)
@@ -41,7 +48,6 @@ def DownoloadFanfic(fanfic):
         print('failed to download ' + title)
         print(e)
         return None
-
 def GetFanficVault():
     global vaultFile
     try:
@@ -52,9 +58,12 @@ def GetFanficVault():
         f.close()
         data = json.load(open(vaultFile, 'r'))
     return data
-
 def DumpFanficVault(data):
     global vaultFile
+    try:
+        os.remove(vaultFile)
+    except:
+        pass
     f = open(vaultFile, 'w+')
     f.write(json.dumps(data, indent = 4))
     f.close()
@@ -62,64 +71,38 @@ def DumpFanficVault(data):
 vaultFile = os.path.expanduser('~/.fanfics.json')
 site = 'https://archiveofourown.org'
 
-if __name__ == '__main__':
-    print('Fanfic Downloader v.0')
-    identifiers = list()
-    if len(sys.argv) > 1:
-        if sys.argv[1] == '-F':
-            forced = True
-            print('Running in forced download mode')
-        else:
-            forced = False
+
+def main(args):
+    global isColorful
+    Data = GetFanficVault()
+    FanficIDs = [x['id'] for x in Data['fanfics']]
+    Forced = False
 
     for x in sys.argv[1:]:
         if x.startswith(site + '/works/'):
             x = x.replace(site + '/works/','')
         if x.find('/chapter') != -1:
             x = x[:x.find('/chapter')]
-        if not x == '-F':
-            identifiers.append(str(x))
+        if x == '-F':
+            LOLprint('Running in forced download mode')
+            Forced = True
+        elif x == '-c':
+            isColorful = True
+        else:
+            FanficIDs.append(str(x))
+    LOLprint('FanficDownloader v.1')
+    ToDownload = list()
+    fics = list()
+    for id in FanficIDs:
+        fanfic = GetFanficInfo(id)
+        if fanfic != None:
+            fics.append(fanfic)
+            if fanfic not in Data['fanfics'] or Forced:
+                DownoloadFanfic(fanfic)
+    Data['fanfics'] = fics
+    DumpFanficVault(Data)
 
-    dataAll = GetFanficVault()
-    data = dataAll['fanfics']
 
-    #Get fanfics from vault to check
-    for fanfic in data:
-        try:
-            if not fanfic['id'] in identifiers:
-                identifiers.append(fanfic['id'])
-        except Exception as e:
-            pass
-
-    # Get info on fanfic updates, in case of failure remove from list
-    fanfics = list()
-    """
-    for id in identifiers:
-        fanfics.append(GetFanficInfo(id))
-    """
-    p = multiprocessing.Pool(4)
-    fanfics = p.map(GetFanficInfo, identifiers)
-    p.close()
-    # Make a list of fanfics that need downloading and download them
-    toDownload = list()
-    for fanfic in fanfics:
-        try:
-            if (not fanfic in data or forced) and fanfic != None:
-                toDownload.append(fanfic)
-        except:
-            pass
-    if len(toDownload) > 0:
-        print('Downloading ' + str(len(toDownload)) + ' fanfics')
-        for fanfic in toDownload:
-            f = DownoloadFanfic(fanfic)
-            f.close()
-    else:
-        print('Nothing to Download :(')
-
-    # Update Vault
-    for fanfic in data:
-        if not fanfic in fanfics:
-            fanfics.append(fanfic)
-    dataAll['fanfics'] = fanfics
-    DumpFanficVault(dataAll)
-    print('Done')
+if __name__ == '__main__':
+    args = sys.argv
+    main(args)
