@@ -84,12 +84,31 @@
 
 Baza danych składa się z 4 tabel.
 \begin{itemize}
-		\item Modele Rolet - zawiera ofertę firmy ,,Roletka''.
-		\item Rolety - zawiera wszystkie wyprodukowane wariacje modeli rolet.
+		\item Modele Rolet - zawiera ofertę firmy ,,Roletka''. Zawiera:
+				\begin{itemize}
+						\item Numer modelu rolety.
+						\item Nazwę modelu rolety.
+						\item Opis modelu.
+				\end{itemize}
+		\item Rolety - zawiera informacje o wszystkich wyprodukowanych wariacji modeli rolet:
+				\begin{itemize}
+						\item Numer seryjny rolety.
+						\item Numer modelu bazowego.
+						\item Kolor materiału oraz kolor mocowań.
+						\item numer użytego podmodelu wymiarowego.
+				\end{itemize}
 		\item Wymiary - zawiera wszystkie dostępne wymiary dla danego modelu rolety. W razie potrzeby
 				można dodać więcej kolumn z innymi wymiarami. Wymiary są podawane jako wartości całkowite
-				(w milimetrach).
-		\item Sprzedaż - zawiera informacje o sprzedanych roletach.
+				(w milimetrach). Jeśli wymiar posiada atrybut \emph{Nai\_zwmowienie} to jest on dostępny tylko
+				na zamówienie i nie jest dostępny w produkcji seryjnej.
+		\item Sprzedaż - zawiera informacje o sprzedanych roletach:
+				\begin{itemize}
+						\item Numer transakcji.
+						\item Dane klienta (imię, nazwisko, adres).
+						\item liczbę rolet.
+						\item Numer seryjny rolet.
+						\item cena.
+				\end{itemize}
 \end{itemize}
 
 \section{Skrypt generujący:}
