@@ -1,0 +1,2896 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="pl-PL"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="pl-PL"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="pl-PL"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="pl-PL"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="pl-PL">
+ <!--<![endif]-->
+ <head>
+  <title>
+   Zastępstwa  |  lo1.gliwice.pl
+  </title>
+  <meta content=" » Zastępstwa | I Liceum Ogólnokształcące Dwujęzyczne im. E. Dembowskiego" name="description"/>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="//gmpg.org/xfn/11" rel="profile"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/uploads/2015/04/favicon.ico" rel="icon" type="image/x-icon"/>
+  <link href="http://www.lo1.gliwice.pl/xmlrpc.php" rel="pingback"/>
+  <link href="http://www.lo1.gliwice.pl/feed/" rel="alternate" title="lo1.gliwice.pl" type="application/rss+xml"/>
+  <link href="http://www.lo1.gliwice.pl/feed/atom/" rel="alternate" title="lo1.gliwice.pl" type="application/atom+xml"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/themes/zso10/bootstrap/css/bootstrap.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/themes/zso10/bootstrap/css/responsive.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/css/camera.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/themes/zso10/style.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="//maps.googleapis.com" rel="dns-prefetch"/>
+  <link href="//ajax.googleapis.com" rel="dns-prefetch"/>
+  <link href="//www.google.com" rel="dns-prefetch"/>
+  <link href="//netdna.bootstrapcdn.com" rel="dns-prefetch"/>
+  <link href="//s.w.org" rel="dns-prefetch"/>
+  <link href="http://www.lo1.gliwice.pl/feed/" rel="alternate" title="lo1.gliwice.pl » Kanał z wpisami" type="application/rss+xml"/>
+  <link href="http://www.lo1.gliwice.pl/comments/feed/" rel="alternate" title="lo1.gliwice.pl » Kanał z komentarzami" type="application/rss+xml"/>
+  <script type="text/javascript">
+   window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.lo1.gliwice.pl\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+  </script>
+  <style type="text/css">
+   img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+  </style>
+  <link href="http://www.lo1.gliwice.pl/wp-content/uploads/shadowbox-js/src/shadowbox.css?ver=3.0.3" id="shadowbox-css-css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/plugins/shadowbox-js/css/extras.css?ver=3.0.3.10" id="shadowbox-extras-css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/flexslider.css?ver=2.2.0" id="flexslider-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.carousel.css?ver=1.24" id="owl-carousel-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.theme.css?ver=1.24" id="owl-theme-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?ver=3.2.1" id="font-awesome-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/plugins/cherry-plugin/includes/css/cherry-plugin.css?ver=1.2.8.1" id="cherry-plugin-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6" id="contact-form-7-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css?ver=1.11.4" id="jquery-ui-theme-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/jquery-ui-timepicker-addon.min.css?ver=5.3.2" id="jquery-ui-timepicker-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/plugins/featured-video-plus/styles/frontend.css?ver=2.3.3" id="fvp-frontend-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/themes/zso10/main-style.css" id="zso10-css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/css/magnific-popup.css?ver=0.9.3" id="magnific-popup-css" media="all" rel="stylesheet" type="text/css"/>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/jquery-1.7.2.min.js?ver=1.7.2" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/plugins/cherry-plugin/lib/js/jquery.easing.1.3.js?ver=1.3" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/plugins/cherry-plugin/lib/js/elasti-carousel/jquery.elastislide.js?ver=1.2.8.1" type="text/javascript">
+  </script>
+  <script src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;ver=5.3.2" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/plugins/featured-video-plus/js/jquery.fitvids.min.js?ver=master-2015-08" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   /* <![CDATA[ */
+var fvpdata = {"ajaxurl":"http:\/\/www.lo1.gliwice.pl\/wp-admin\/admin-ajax.php","nonce":"90bd8e4b17","fitvids":"1","dynamic":"","overlay":"","opacity":"0.75","color":"b","width":"640"};
+/* ]]> */
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/plugins/featured-video-plus/js/frontend.min.js?ver=2.3.3" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/jquery-migrate-1.2.1.min.js?ver=1.2.1" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-includes/js/swfobject.js?ver=2.2-20120417" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/modernizr.js?ver=2.0.6" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/jflickrfeed.js?ver=1.0" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/custom.js?ver=1.0" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/bootstrap/js/bootstrap.min.js?ver=2.3.0" type="text/javascript">
+  </script>
+  <link href="http://www.lo1.gliwice.pl/wp-json/" rel="https://api.w.org/"/>
+  <link href="http://www.lo1.gliwice.pl/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+  <link href="http://www.lo1.gliwice.pl/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+  <meta content="WordPress 5.3.2" name="generator"/>
+  <link href="http://www.lo1.gliwice.pl/zastepstwa-2/" rel="canonical"/>
+  <link href="http://www.lo1.gliwice.pl/?p=3833" rel="shortlink"/>
+  <link href="http://www.lo1.gliwice.pl/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.lo1.gliwice.pl%2Fzastepstwa-2%2F" rel="alternate" type="application/json+oembed"/>
+  <link href="http://www.lo1.gliwice.pl/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.lo1.gliwice.pl%2Fzastepstwa-2%2F&amp;format=xml" rel="alternate" type="text/xml+oembed"/>
+  <script>
+   var system_folder = 'http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/admin/data_management/',
+	 CHILD_URL ='http://www.lo1.gliwice.pl/wp-content/themes/zso10',
+	 PARENT_URL = 'http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework', 
+	 CURRENT_THEME = 'zso10'
+  </script>
+  <style type="text/css">
+   @media (max-width: 767px) {
+	.mobile-no-display { display:none; }
+.slider { display:none; }
+}
+
+@import url("../CherryFramework/style.css");
+
+body { background:#2b3b4b; }
+@media (max-width: 767px) {
+	body { padding:0; }
+}
+.main-holder { overflow:hidden; }
+.main-holder input[type="text"], .main-holder input[type="email"], .main-holder textarea {
+	background:#f5f5f5;
+	min-height:34px;
+	margin:0 0 0 0;
+	padding:8px 7px 8px 7px !important;
+	border:1px solid #dfdede;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	resize:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#777;
+}
+html.ie8 .main-holder input[type="text"], html.ie8 .main-holder input[type="email"], html.ie8 .main-holder textarea { line-height:21px; }
+.main-holder input[type="text"], .main-holder input[type="email"] { height:21px; }
+.main-holder input[type="submit"], .main-holder input[type="reset"] {
+	background:#e48e04;
+	height:60px;
+	margin:0 15px 0 0;
+	padding:0 30px 0 30px;
+	border:none;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	font-family:'Roboto', sans-serif;
+	font-size:19px;
+	font-weight:700;
+	text-shadow:none;
+	color:#fff;
+}
+.main-holder input[type="submit"]:hover, .main-holder input[type="reset"]:hover {
+	background:#2b3b4b;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	color:#fff;
+}
+.main-holder .search-form {
+	background:#f5f5f5;
+	width:167px;
+	height:28px;
+	border:1px solid #dfdede;
+	-webkit-border-radius:14px;
+	-moz-border-radius:14px;
+	border-radius:14px;
+}
+.main-holder .search-form input[type="text"] {
+	background:none;
+	float:left;
+	width:121px;
+	min-height:20px;
+	height:20px;
+	margin:0;
+	padding:4px 0 4px 12px !important;
+	border:none;
+}
+.main-holder .search-form input[type="submit"] {
+	background:url(images/search_submit.png) no-repeat 0% 0%;
+	float:left;
+	width:34px;
+	height:28px;
+	margin:0;
+	padding:0;
+	line-height:0;
+	font-size:0;
+}
+.main-holder .search-form input[type="submit"]:hover {
+	background-position:0% -28px;
+	-webkit-transition:none;
+	-moz-transition:none;
+	-o-transition:none;
+	transition:none;
+}
+h2 a {
+	text-decoration:none;
+	color:#f2990b;
+}
+h2 a:focus {
+	text-decoration:none;
+	color:#f2990b;
+}
+h2 a:hover {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+h4 { margin-bottom:15px; }
+h4 a {
+	text-decoration:none;
+	color:#fff;
+}
+h4 a:focus {
+	text-decoration:none;
+	color:#fff;
+}
+h4 a:hover {
+	text-decoration:none;
+	color:#e48e04;
+}
+h5 a { text-decoration:none; }
+h5 a:focus {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+h5 a:hover {
+	text-decoration:none;
+	color:#f2990b;
+}
+p { margin:0 0 20px 0; }
+.header {
+	background:#2b3b4b;
+	margin:0;
+	padding:0 0 0px 0;
+	border:none;
+}
+@media (max-width: 767px) {
+	.header {
+		padding:0 20px;
+		text-align:center;
+	}
+}
+.header .header_block {
+	background:#fff;
+	position:relative;
+	padding:0px 0 0px 0;
+}
+.header .header_block:before {
+	background:#fff;
+	display:block;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:-99%;
+	z-index:-1;
+	content:'';
+}
+.header .header_block:after {
+	background:#fff;
+	display:block;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	right:-99%;
+	z-index:-1;
+	content:'';
+}
+.header .header_block h4 { display:none; }
+.header .header_block ul {
+	margin:0;
+	padding:0;
+}
+.header .header_block ul li {
+	background:url(images/divider.gif) no-repeat 0% 0%;
+	display:inline-block;
+	margin:0;
+	padding:5px 13px 9px 14px;
+	vertical-align:top;
+	list-style:none;
+	line-height:19px;
+	font-size:13px;
+	font-weight:400;
+	color:#2b3b4b;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.header .header_block ul li { padding:5px 10px 9px 11px; }
+}
+@media (max-width: 767px) {
+	.header .header_block ul li {
+		padding:5px 7px 9px 8px;
+		font-size:11px;
+	}
+}
+@media (max-width: 480px) {
+	.header .header_block ul li { background:none; }
+}
+.header .header_block ul li:first-child {
+	background:none;
+	padding-left:0;
+}
+.header .header_block ul li a {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.header .header_block ul li a:focus {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.header .header_block ul li a:hover {
+	text-decoration:none;
+	color:#f2990b;
+}
+.header .search-form {
+	float:right;
+	margin:1px 2px 0 0;
+}
+.header .logo { margin:15px 0 0 -1px; }
+@media (min-width: 979px) and (max-width: 1200px) {
+	.header .logo { margin:45px 0 0 0; }
+}
+html.ie8 .header .logo { margin:45px 0 0 0; }
+@media (min-width: 768px) and (max-width: 979px) {
+	.header .logo {
+		width:100%;
+		margin:35px 0 0 0;
+	}
+}
+@media (max-width: 767px) {
+	.header .logo {
+		float:none;
+		margin:25px 0 20px 0;
+	}
+}
+.header .logo .logo_h__txt {
+	margin:-7px 0 -4px 0;
+	padding:0;
+	letter-spacing:-2px;
+}
+.header .logo .logo_h__txt a {
+	text-decoration:none;
+	color:#fff;
+}
+.header .logo .logo_h__txt a:focus {
+	text-decoration:none;
+	color:#fff;
+}
+.header .logo .logo_h__txt a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	.header .logo img {
+		width:99%;
+		height:auto;
+	}
+}
+html.ie8 .header .logo img {
+	width:99%;
+	height:auto;
+}
+.header .logo .logo_tagline {
+	margin:5px 0 0 2px;
+	line-height:19px;
+	font-size:11px;
+	font-weight:400;
+	text-transform:none;
+	color:#ffffff;
+}
+.header .nav__primary .sf-menu ul {
+	background:#f2990b;
+	width:195px;
+}
+.header .nav__primary .sf-menu > li {
+	background:none;
+	margin:0 0 0 1px;
+}
+.header .nav__primary .sf-menu > li:first-child { margin:0; }
+.header .nav__primary .sf-menu > li > a {
+	padding:58px 11px 31px 11px;
+	border:none;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	.header .nav__primary .sf-menu > li > a {
+		padding:58px 10px 31px 10px;
+		font-size:15px;
+		font-weight:400;
+	}
+}
+html.ie8 .header .nav__primary .sf-menu > li > a {
+	padding:58px 10px 31px 10px;
+	font-size:15px;
+	font-weight:400;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.header .nav__primary .sf-menu > li > a {
+		padding:58px 7px 31px 7px;
+		font-size:12px;
+		font-weight:400;
+	}
+}
+.header .nav__primary .sf-menu > li li {
+	background:none;
+	border-top:1px solid #000;
+	line-height:18px;
+	font-family:'Roboto', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	text-align:left;
+	color:#fff;
+}
+.header .nav__primary .sf-menu > li li:first-child { border:none; }
+.header .nav__primary .sf-menu > li li a {
+	padding:10px 13px 9px 13px;
+	border:none;
+	text-decoration:none;
+	color:#fff;
+}
+.header .nav__primary .sf-menu > li li .sf-sub-indicator { display:none; }
+.header .nav__primary ul.sf-menu li li:hover ul, .header .nav__primary ul.sf-menu li li.sfHover ul {
+	top:0;
+	right:100%;
+	left:auto;
+}
+.header .nav__primary .sf-menu > li > a:hover, .header .nav__primary .sf-menu > li.sfHover> a, .header .nav__primary .sf-menu > li.current-menu-item > a, .header .nav__primary .sf-menu > li.current_page_item > a { background:#e48e04; }
+.header .nav__primary .sf-menu li li > a:hover, .header .nav__primary .sf-menu li li.sfHover > a, .header .nav__primary .sf-menu li li.current-menu-item > a, .header .nav__primary .sf-menu li li.current_page_item > a {
+	background:none;
+	color:#2b3b4b;
+}
+.header .nav__primary .sf-sub-indicator {
+	margin:0 -5px 0 0;
+	top:85px;
+	right:50%;
+}
+#slider-wrapper { margin:0 0 14px 0; }
+@media (max-width: 767px) {
+	#slider-wrapper { margin:0 -20px 14px -20px; }
+}
+#slider-wrapper .camera_wrap { margin:0 !important; }
+#slider-wrapper .camera_caption {
+	width:auto;
+	position:absolute;
+	right:40px;
+	bottom:35px;
+	left:40px;
+}
+@media (max-width: 767px) {
+	#slider-wrapper .camera_caption {
+		right:60px;
+		left:60px;
+	}
+}
+#slider-wrapper .camera_caption div {
+	background:none;
+	padding:0 180px 0 0;
+	line-height:20px;
+	font-family:'Roboto', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#fff;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	#slider-wrapper .camera_caption div { padding:0 175px 0 0; }
+}
+html.ie8 #slider-wrapper .camera_caption div { padding:0 175px 0 0; }
+@media (min-width: 768px) and (max-width: 979px) {
+	#slider-wrapper .camera_caption div {
+		padding:0 175px 0 0;
+		line-height:18px;
+		font-size:12px;
+	}
+}
+@media (max-width: 767px) {
+	#slider-wrapper .camera_caption div {
+		padding:0;
+		line-height:16px;
+		font-size:11px;
+	}
+}
+#slider-wrapper .camera_caption div strong {
+	display:block;
+	margin:0 0 9px 0;
+	line-height:44px;
+	font-size:42px;
+	font-weight:700;
+	color:#fff;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	#slider-wrapper .camera_caption div strong {
+		line-height:34px;
+		font-size:32px;
+	}
+}
+html.ie8 #slider-wrapper .camera_caption div strong {
+	line-height:34px;
+	font-size:32px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	#slider-wrapper .camera_caption div strong {
+		line-height:24px;
+		font-size:22px;
+	}
+}
+@media (max-width: 767px) {
+	#slider-wrapper .camera_caption div strong {
+		line-height:24px;
+		font-size:22px;
+	}
+}
+@media (max-width: 480px) {
+	#slider-wrapper .camera_caption div strong {
+		line-height:16px;
+		font-size:14px;
+		font-weight:400;
+	}
+}
+#slider-wrapper .camera_caption div p { margin:0; }
+@media (max-width: 767px) {
+	#slider-wrapper .camera_caption div p { display:none; }
+}
+#slider-wrapper .camera_caption div a {
+	background:#e48e04;
+	display:inline-block;
+	width:121px;
+	height:60px;
+	padding:0 15px;
+	vertical-align:top;
+	line-height:54px;
+	font-size:19px;
+	font-weight:700;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	position:absolute;
+	right:0;
+	bottom:5px;
+}
+@media (max-width: 767px) {
+	#slider-wrapper .camera_caption div a {
+		position:relative;
+		width:auto;
+		height:30px;
+		padding:0 11px;
+		line-height:30px;
+		font-size:14px;
+		font-weight:400;
+		right:auto;
+		bottom:0;
+	}
+}
+#slider-wrapper .camera_caption div a:focus {
+	background:#e48e04;
+	color:#fff;
+}
+#slider-wrapper .camera_caption div a:hover {
+	background:#2b3b4b;
+	color:#fff;
+}
+#slider-wrapper .camera_prev {
+	background:url(images/prev.png) no-repeat 0% 0%;
+	width:14px;
+	height:24px;
+	overflow:hidden;
+	margin:-12px 0 0 0;
+	left:40px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	#slider-wrapper .camera_prev {
+		margin:0;
+		top:40px;
+	}
+}
+@media (max-width: 767px) {
+	#slider-wrapper .camera_prev {
+		margin:0;
+		top:20px;
+		left:20px;
+	}
+}
+#slider-wrapper .camera_prev:hover { background-position:0% -25px; }
+#slider-wrapper .camera_prev span { display:none; }
+#slider-wrapper .camera_next {
+	background:url(images/next.png) no-repeat 0% 0%;
+	width:14px;
+	height:24px;
+	overflow:hidden;
+	margin:-12px 0 0 0;
+	right:40px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	#slider-wrapper .camera_next {
+		margin:0;
+		top:40px;
+	}
+}
+@media (max-width: 767px) {
+	#slider-wrapper .camera_next {
+		margin:0;
+		top:20px;
+		right:20px;
+	}
+}
+#slider-wrapper .camera_next:hover { background-position:0% -25px; }
+#slider-wrapper .camera_next span { display:none; }
+#slider-wrapper .camera_commands { right:60px; }
+@media (min-width: 768px) and (max-width: 979px) {
+	#slider-wrapper .camera_commands { top:50px; }
+}
+@media (max-width: 767px) {
+	#slider-wrapper .camera_commands {
+		top:33px;
+		right:40px;
+	}
+}
+@media (max-width: 480px) {
+	#slider-wrapper .camera_commands { display:none; }
+}
+#slider-wrapper .camera_pag {
+	width:100%;
+	position:absolute;
+	left:0;
+	bottom:5px;
+}
+#slider-wrapper .camera_pag ul li { margin:0 3px; }
+#slider-wrapper .camera_thumbs {
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#slider-wrapper .camera_thumbs .camera_thumbs_cont { background:none; }
+.content-holder {
+	background:#efefef;
+	margin:0;
+	padding:33px 0 40px 0;
+}
+@media (max-width: 767px) {
+	.content-holder { padding:33px 20px 40px 20px; }
+}
+body.home .content-holder { padding:10px 0 11px 0; }
+@media (max-width: 767px) {
+	body.home .content-holder { padding:40px 20px 11px 20px; }
+}
+.content-holder #content { padding-top:30px; }
+#sidebar { padding-top:30px; }
+#sidebar .widget {
+	background:#fff;
+	padding:12px 20px 31px 20px;
+}
+#sidebar h3 { margin:0 0 8px 0; }
+#sidebar ul {
+	margin:0;
+	padding:0;
+}
+#sidebar ul li {
+	background:url(images/marker.png) no-repeat 0% 4px;
+	margin:12px 0 0 0;
+	padding:0 0 0 15px;
+	list-style:none;
+	line-height:18px;
+	font-size:13px;
+	color:#777;
+}
+#sidebar ul li:first-child { margin:0; }
+#sidebar ul li a {
+	text-decoration:none;
+	color:#777;
+}
+#sidebar ul li a:focus {
+	text-decoration:none;
+	color:#777;
+}
+#sidebar ul li a:hover {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+#sidebar ul li ul { padding:12px 0 0 0; }
+#sidebar #wp-calendar caption { color:#2b3b4b; }
+#sidebar #wp-calendar thead tr th { color:#2b3b4b; }
+.list.custom-list { margin:0 0 14px 0; }
+.list.custom-list ul {
+	margin:0;
+	padding:0;
+}
+.list.custom-list ul li {
+	margin:0;
+	padding:11px 0 12px 0;
+	border-top:1px solid #dfdede;
+	list-style:none;
+	line-height:25px;
+	font-family:'Roboto', sans-serif;
+	font-size:19px;
+	font-weight:700;
+	color:#f2990b;
+}
+.list.custom-list ul li:first-child { border:none; }
+.list.custom-list ul li:before { display:none; }
+.list.custom-list ul li a {
+	text-decoration:none;
+	color:#f2990b;
+}
+.list.custom-list ul li a:hover {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.list.unstyled ul {
+	margin:0;
+	padding:0;
+}
+.list.unstyled ul li {
+	display:inline-block;
+	width:47%;
+	margin:0 0 0 3%;
+	vertical-align:top;
+}
+@media (max-width: 767px) {
+	.list.unstyled ul li {
+		width:100%;
+		margin:0 0 20px 0 !important;
+	}
+}
+.list.unstyled ul li:first-child { margin:0; }
+.list.unstyled ul li:before { display:none !important; }
+.list.unstyled ul li strong {
+	display:block;
+	overflow:hidden;
+	margin:0 0 20px 0;
+	padding:0;
+	line-height:20px;
+	font-size:13px;
+	font-weight:400;
+	color:#2b3b4b;
+}
+.list.unstyled ul li em {
+	display:block;
+	overflow:hidden;
+	font-style:normal;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.list.unstyled ul li em { overflow:visible; }
+}
+@media (max-width: 480px) {
+	.list.unstyled ul li em { overflow:visible; }
+}
+@media (max-width: 767px) {
+	.list.arrow-list { padding:0 0 12px 0; }
+}
+.list.arrow-list ul {
+	margin:0;
+	padding:0;
+}
+.list.arrow-list ul li {
+	background:url(images/marker.png) no-repeat 0% 4px;
+	margin:12px 0 0 0;
+	padding:0 0 0 15px;
+	list-style:none;
+	line-height:18px;
+	font-size:13px;
+	color:#777;
+}
+.list.arrow-list ul li:first-child { margin:0; }
+.list.arrow-list ul li:before { display:none; }
+.list.arrow-list ul li a {
+	text-decoration:none;
+	color:#777;
+}
+.list.arrow-list ul li a:focus {
+	text-decoration:none;
+	color:#777;
+}
+.list.arrow-list ul li a:hover {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.list.arrow-list ul li ul { padding:12px 0 0 0; }
+.dropcap {
+	background:#e48e04;
+	width:62px;
+	height:62px;
+	overflow:hidden;
+	margin:5px 20px 5px 0;
+	-webkit-border-radius:62px;
+	-moz-border-radius:62px;
+	border-radius:62px;
+	line-height:60px;
+	font-family:'Roboto', sans-serif;
+	font-size:27px;
+	font-weight:700;
+	text-align:center;
+	color:#fff;
+}
+.banner-wrap { margin:0 0 0px 0; }
+.banner-wrap.extra {
+	position:relative;
+	max-width:330px;
+	height:235px;
+	padding:176px 20px 20px 20px;
+	line-height:20px;
+	font-family:'Roboto', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#fff;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	.banner-wrap.extra { padding:96px 20px 20px 20px; }
+}
+html.ie8 .banner-wrap.extra { padding:96px 20px 20px 20px; }
+@media (min-width: 768px) and (max-width: 979px) {
+	.banner-wrap.extra {
+		height:225px;
+		padding:35px 20px 20px 20px;
+	}
+}
+@media (min-width: 410px) and (max-width: 767px) {
+	.banner-wrap.extra {
+		height:235px;
+		padding:176px 20px 20px 20px;
+	}
+}
+@media (min-width: 300px) and (max-width: 410px) {
+	.banner-wrap.extra {
+		max-width:240px;
+		height:210px;
+		padding:96px 20px 20px 20px;
+	}
+}
+.banner-wrap.extra .featured-thumbnail {
+	width:100%;
+	float:none !important;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+}
+.banner-wrap.extra .featured-thumbnail a {
+	float:none !important;
+	border:none;
+}
+.banner-wrap.extra .featured-thumbnail a img {
+	float:none !important;
+	width:100%;
+	max-width:100%;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	.banner-wrap.extra .featured-thumbnail a img {
+		width:100%;
+		height:auto;
+	}
+}
+html.ie8 .banner-wrap.extra .featured-thumbnail a img {
+	width:100%;
+	height:auto;
+	max-width:inherit;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.banner-wrap.extra .featured-thumbnail a img {
+		width:100%;
+		height:auto;
+	}
+}
+@media (max-width: 767px) {
+	.banner-wrap.extra .featured-thumbnail a img {
+		width:100% !important;
+		height:auto !important;
+	}
+}
+@media (min-width: 410px) and (max-width: 767px) {
+	.banner-wrap.extra .featured-thumbnail a img {
+		width:100%;
+		height:auto;
+	}
+}
+.banner-wrap.extra h5 {
+	margin-bottom:1px;
+	line-height:20px;
+	font-family:'Roboto', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	text-transform:none;
+	color:#e48e04;
+}
+.banner-wrap.extra h5 a {
+	text-decoration:none;
+	color:#e48e04;
+}
+.banner-wrap.extra h5 a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+.banner-wrap.extra strong {
+	display:block;
+	margin:0 0 7px 0;
+	line-height:31px;
+	font-size:27px;
+	font-weight:700;
+	color:#fff;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	.banner-wrap.extra strong {
+		line-height:26px;
+		font-size:22px;
+	}
+}
+html.ie8 .banner-wrap.extra strong {
+	line-height:24px;
+	font-size:20px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.banner-wrap.extra strong {
+		line-height:20px;
+		font-size:16px;
+	}
+}
+@media (min-width: 410px) and (max-width: 767px) {
+	.banner-wrap.extra strong {
+		line-height:31px;
+		font-size:27px;
+	}
+}
+@media (min-width: 300px) and (max-width: 410px) {
+	.banner-wrap.extra strong {
+		line-height:20px;
+		font-size:16px;
+	}
+}
+.banner-wrap.extra p { margin:0 0 14px 0; }
+@media (min-width: 979px) and (max-width: 1200px) {
+	.banner-wrap.extra p {
+		line-height:18px;
+		font-size:12px;
+	}
+}
+html.ie8 .banner-wrap.extra p {
+	line-height:18px;
+	font-size:12px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.banner-wrap.extra p {
+		line-height:16px;
+		font-size:12px;
+	}
+}
+@media (min-width: 300px) and (max-width: 410px) {
+	.banner-wrap.extra p {
+		line-height:16px;
+		font-size:12px;
+	}
+}
+.banner-wrap.extra .banner-btn a {
+	background:#e48e04;
+	display:inline-block;
+	height:58px;
+	padding:0 28px;
+	vertical-align:top;
+	line-height:56px;
+	font-family:'Roboto', sans-serif;
+	font-size:19px;
+	font-weight:700;
+	text-align:center;
+	text-shadow:none;
+	text-decoration:none;
+	color:#fff;
+}
+.banner-wrap.extra .banner-btn a:focus {
+	background:#e48e04;
+	color:#fff;
+}
+.banner-wrap.extra .banner-btn a:hover {
+	background:#2b3b4b;
+	color:#fff;
+}
+.hero-unit {
+	background:#2b3b4b;
+	margin:0 0 30px 0;
+	padding:14px 40px 19px 20px;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}
+.hero-unit h1 {
+	background:none;
+	margin:0 0 7px 0;
+	padding:0;
+	letter-spacing:normal;
+	line-height:31px;
+	font-family:'Roboto', sans-serif;
+	font-size:27px;
+	font-weight:700;
+	color:#fff;
+}
+@media (max-width: 480px) {
+	.hero-unit h1 {
+		line-height:23px !important;
+		font-size:19px !important;
+	}
+}
+.hero-unit p {
+	margin:0 0 17px 0;
+	line-height:20px;
+	font-size:13px;
+	color:#fff;
+}
+.hero-unit .btn-align a {
+	background:#f2990b;
+	display:inline-block;
+	height:58px;
+	padding:0 28px;
+	vertical-align:top;
+	line-height:56px;
+	font-family:'Roboto', sans-serif;
+	font-size:19px;
+	font-weight:700;
+	text-align:center;
+	text-shadow:none;
+	text-decoration:none;
+	color:#fff;
+}
+.hero-unit .btn-align a:focus {
+	background:#2b3b4b;
+	color:#fff;
+}
+.hero-unit .btn-align a:hover {
+	background:#fff;
+	color:#2b3b4b;
+}
+ul.news { padding:16px 0 5px 0; }
+ul.news li {
+	background:#f2990b;
+	position:relative;
+	padding:14px 20px 0 20px;
+}
+@media (min-width: 1200px) and (max-width: 5000px) {
+	ul.news li {
+		width:370px !important;
+		margin-left:30px !important;
+	}
+}
+@media (min-width: 1200px) and (max-width: 5000px) {
+	ul.news li:first-child { margin-left:0 !important; }
+}
+ul.news li .excerpt {
+	margin:0 0 4px 0;
+	padding:0;
+	line-height:31px;
+	font-family:'Roboto', sans-serif;
+	font-size:27px;
+	font-weight:700;
+	color:#fff;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	ul.news li .excerpt {
+		line-height:29px;
+		font-size:25px;
+	}
+}
+html.ie8 ul.news li .excerpt {
+	line-height:29px;
+	font-size:25px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	ul.news li .excerpt {
+		line-height:23px;
+		font-size:19px;
+	}
+}
+@media (max-width: 480px) {
+	ul.news li .excerpt {
+		line-height:23px;
+		font-size:19px;
+	}
+}
+ul.news li h5 {
+	margin:0 0 15px 0;
+	line-height:20px;
+	font-family:'Roboto', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#fff;
+}
+ul.news li h5 a {
+	text-decoration:none;
+	color:#fff;
+}
+ul.news li h5 a:hover {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+ul.news li .thumbnail {
+	float:none;
+	margin:0 -20px 0 -20px;
+}
+ul.news li .post_meta {
+	background:url(images/meta.png) repeat 0% 0%;
+	margin:0;
+	padding:10px 0 12px 20px;
+	border:none;
+	line-height:18px;
+	font-family:'Roboto', sans-serif;
+	font-size:11px;
+	font-weight:400;
+	color:#fff;
+	position:absolute;
+	right:0;
+	bottom:0;
+	left:0;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	ul.news li .post_meta {
+		padding:10px 0 12px 12px;
+		font-size:10px;
+	}
+}
+ul.news li .post_meta .post_date {
+	background:url(images/icon_time.png) no-repeat 0% 1px;
+	margin:0 16px 0 0;
+	padding:0 0 0 19px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	ul.news li .post_meta .post_date { margin:0 10px 0 0; }
+}
+ul.news li .post_meta .post_comment {
+	background:url(images/icon_comment.png) no-repeat 0% 1px;
+	padding:0 0 0 22px;
+}
+ul.news li .post_meta a {
+	text-decoration:none;
+	color:#fff;
+}
+ul.news li .post_meta a:hover {
+	text-decoration:none;
+	color:#e48e04;
+}
+ul.news li .social_block { display:none !important; }
+.social_block {
+display:none;
+}
+.social_block ul {
+	height:auto;
+	margin:0 !important;
+}
+@media (max-width: 480px) {
+	.social_block ul { display:block !important; }
+}
+.social_block ul li {
+	background:none !important;
+	float:none !important;
+	display:inline-block;
+	max-height:26px;
+	overflow:hidden;
+	margin:0 0 5px 9px !important;
+	padding:0 !important;
+	vertical-align:top;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	.social_block ul li { margin:0 9px 5px 0 !important; }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.social_block ul li { margin:0 9px 5px 0 !important; }
+}
+@media (max-width: 767px) {
+	.social_block ul li { margin:0 9px 5px 0 !important; }
+}
+.social_block ul li:first-child {
+	margin:0 !important;
+	padding:0 !important;
+}
+.social_block ul li.pinterest { display:none !important; }
+ul.list_1 li {
+	background:#fff;
+	margin-bottom:30px;
+	padding:14px 20px 24px 20px;
+}
+ul.list_1 li .excerpt {
+display:none;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	ul.list_1 li .excerpt {
+		line-height:29px;
+		font-size:25px;
+	}
+}
+html.ie8 ul.list_1 li .excerpt {
+	line-height:29px;
+	font-size:25px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	ul.list_1 li .excerpt {
+		line-height:23px;
+		font-size:19px;
+	}
+}
+@media (max-width: 480px) {
+	ul.list_1 li .excerpt {
+		line-height:23px;
+		font-size:19px;
+	}
+}
+ul.list_1 li h5 {
+	margin:0 0 15px 0;
+	line-height:20px;
+	font-family:'Roboto', sans-serif;
+	font-size:23px;
+	font-weight:400;
+	color:#2b3b4b;
+}
+ul.list_1 li h5 a {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+ul.list_1 li h5 a:focus {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+ul.list_1 li h5 a:hover {
+	text-decoration:none;
+	color:#f2990b;
+}
+ul.list_1 li .thumbnail { margin:0 -20px 14px -20px; }
+@media (max-width: 767px) {
+	ul.list_1 li .thumbnail { margin:0 0 14px 0; }
+}
+ul.list_1 li .post_meta {
+	background:none;
+	margin:0;
+	padding:0 0 10px 0;
+	border:none;
+	line-height:18px;
+	font-family:'Roboto', sans-serif;
+	font-size:11px;
+	font-weight:400;
+	color:#2b3b4b;
+}
+ul.list_1 li .post_meta .post_date {
+	background:url(images/icon_time.png) no-repeat 0% 1px;
+	margin:0 16px 0 0;
+	padding:0 0 0 19px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	ul.list_1 li .post_meta .post_date { display:block; }
+}
+ul.list_1 li .post_meta .post_comment {
+display:none;
+}
+ul.list_1 li .post_meta a {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+ul.list_1 li .post_meta a:hover {
+	text-decoration:none;
+	color:#f2990b;
+}
+ul.list_1 li .post_info {
+	display:inline;
+	line-height:20px;
+	font-size:13px;
+	color:#777;
+}
+ul.list_1 li a.btn-primary {
+	background:none;
+	margin:0 0 0 9px;
+	padding:0;
+	border:none;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	line-height:0;
+	font-size:0;
+}
+ul.list_1 li a.btn-primary:hover:before { color:#2b3b4b; }
+ul.list_1 li a.btn-primary:before {
+	display:inline-block;
+	vertical-align:top;
+	line-height:20px;
+	font-family:'Roboto', sans-serif;
+	font-size:17px;
+	color:#e48e04;
+	content:'czytaj dalej';
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	ul.list_2 li h5 {
+		padding:10px 0 0 0;
+		clear:both;
+	}
+}
+.thumbnail {
+	padding:0;
+	border:none;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+a.btn-primary {
+	background:#e48e04;
+	margin:0;
+	padding:18px 30px 18px 30px;
+	border:none;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	line-height:24px;
+	font-family:'Roboto', sans-serif;
+	font-size:19px;
+	font-weight:700;
+	text-shadow:none;
+	text-decoration:none;
+	color:#fff;
+}
+a.btn-primary:focus {
+	background:#e48e04;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	color:#fff;
+}
+a.btn-primary:hover {
+	background:#2b3b4b;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	color:#fff;
+}
+.info_box {
+	background:#fff;
+	margin:0 0 30px 0;
+	padding:20px 20px 20px 20px;
+}
+.info_box h1 {
+	background:#f2990b;
+	margin:-20px -20px 14px -20px;
+	padding:15px 20px 15px 20px;
+	line-height:31px;
+	font-size:27px;
+	color:#fff;
+}
+.info_box h2 {
+	background:#f2990b;
+	margin:-20px -20px 0 -20px;
+	padding:15px 20px 15px 20px;
+	line-height:31px;
+	font-size:27px;
+	color:#fff;
+}
+.info_box h3 { margin-top:0; }
+.info_box p { margin:0 0 15px 0; }
+.info_box img.alignnone {
+	width:auto;
+	max-width:inherit;
+	margin:0 -20px 0 -20px;
+}
+@media (min-width: 979px) and (max-width: 1200px) {
+	.info_box img.alignnone {
+		margin:20px 0 0 0;
+		width:100%;
+		height:auto;
+	}
+}
+html.ie8 .info_box img.alignnone {
+	margin:20px 0 0 0;
+	width:100%;
+	height:auto;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.info_box img.alignnone {
+		margin:20px 0 0 0;
+		width:100%;
+		height:auto;
+	}
+}
+@media (max-width: 767px) {
+	.info_box img.alignnone {
+		margin:20px 0 0 0;
+		width:100%;
+		height:auto;
+	}
+}
+.info_box a.btn-primary { margin:3px 0 0 0; }
+ul.team {
+	margin:0 !important;
+	padding:5px 0 0 0;
+}
+ul.team li {
+	display:inline-block;
+	width:23%;
+	margin:0 1% 0 1%;
+	vertical-align:top;
+	line-height:20px;
+	font-size:13px;
+	color:#777;
+}
+@media (max-width: 480px) {
+	ul.team li {
+		width:46%;
+		margin:2%;
+	}
+}
+ul.team li .thumbnail {
+	width:100%;
+	margin:0 0 15px 0;
+}
+ul.team li .excerpt { margin:0; }
+.footer {
+	background:#2b3b4b;
+	margin:0;
+	padding:0 0 43px 0;
+	border:none;
+	line-height:20px;
+	font-family:'Roboto', sans-serif;
+	font-size:12px;
+	font-weight:400;
+	color:#8ba3a8;
+}
+@media (max-width: 767px) {
+	.footer { padding:0 20px 0 20px; }
+}
+.footer .footer-widgets { padding:24px 0 24px 0; }
+.footer .footer-widgets .textwidget { padding:0 0 11px 0; }
+.footer .footer-widgets .textwidget b {
+	display:block;
+	margin:-10px 0 0 0;
+	line-height:30px;
+	font-size:22px;
+	font-weight:700;
+	color:#8ba3a8;
+}
+.footer .copyright {
+	margin:0;
+	padding:8px 0 0 0;
+	border-top:1px solid #2e5963;
+}
+@media (max-width: 767px) {
+	.footer .copyright { padding:20px 0 20px 0; }
+}
+.footer .copyright .footer-text {
+	line-height:20px;
+	font-size:13px;
+	font-weight:400;
+	color:#fff;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.footer .copyright .footer-text { font-size:12px; }
+}
+@media (max-width: 767px) {
+	.footer .copyright .footer-text {
+		margin:0;
+		text-align:left;
+	}
+}
+.footer .copyright .footer-text b {
+	margin:0 3px 0 0;
+	font-weight:400;
+}
+.footer .copyright .footer-text i {
+	margin:0 0 0 3px;
+	font-style:normal;
+}
+.footer .copyright .footer-text a {
+	text-decoration:none;
+	color:#fff;
+}
+.footer .copyright .footer-text a:hover {
+	text-decoration:none;
+	color:#e48e04;
+}
+@media (max-width: 767px) {
+	.footer .footer-nav { margin:10px 0 0 0; }
+}
+.footer .footer-nav ul {
+	margin:0;
+	padding:0;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.footer .footer-nav ul { text-align:right; }
+}
+@media (max-width: 767px) {
+	.footer .footer-nav ul { text-align:left; }
+}
+.footer .footer-nav ul li {
+	margin:0 0 0 12px;
+	padding:0;
+	list-style:none;
+}
+@media (max-width: 767px) {
+	.footer .footer-nav ul li { margin:0 10px 0 0 !important; }
+}
+.footer .footer-nav ul li:first-child { margin:0; }
+.footer .footer-nav ul li.current-menu-item a {
+	text-decoration:none;
+	color:#e48e04;
+}
+.footer .footer-nav ul li a { text-decoration:none; }
+@media (min-width: 768px) and (max-width: 979px) {
+	.footer .footer-nav ul li a {
+		font-size:12px;
+		font-weight:400;
+	}
+}
+.footer .footer-nav ul li a:hover {
+	text-decoration:none;
+	color:#e48e04;
+}
+.footer ul {
+	margin:0;
+	padding:1px 0 0 0;
+}
+@media (max-width: 767px) {
+	.footer ul { padding:0 0 15px 0; }
+}
+.footer ul li {
+	margin:0 0 12px 0;
+	padding:0;
+	list-style:none;
+	line-height:18px;
+	font-family:'Roboto', sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#e48e04;
+}
+.footer ul li a {
+	text-decoration:none;
+	color:#e48e04;
+}
+.footer ul li a:focus {
+	text-decoration:none;
+	color:#e48e04;
+}
+.footer ul li a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+.footer .social-nets-wrapper { padding:17px 0 0 0; }
+.footer .social-nets-wrapper ul {
+	margin:0;
+	padding:0;
+}
+.footer .social-nets-wrapper ul li {
+	display:inline-block;
+	margin:0 0 0 10px;
+	padding:0;
+	list-style:none;
+	vertical-align:top;
+}
+.footer .social-nets-wrapper ul li:first-child { margin:0; }
+.footer .social-nets-wrapper ul li a {
+	display:inline-block;
+	vertical-align:top;
+}
+.footer .social-nets-wrapper ul li a:hover:before { color:#000; }
+.footer .social-nets-wrapper ul li a[title="facebook"]:before {
+	background:#4b67b8;
+	content:'\f09a';
+}
+.footer .social-nets-wrapper ul li a[title="twitter"]:before { content:'\f099'; }
+.footer .social-nets-wrapper ul li a[title="rss"]:before {
+	background:#f8ab06;
+	content:'\f09e';
+}
+.footer .social-nets-wrapper ul li a:before {
+	background:#00acee;
+	display:inline-block;
+	width:53px;
+	height:53px;
+	-webkit-border-radius:53px;
+	-moz-border-radius:53px;
+	border-radius:53px;
+	vertical-align:top;
+	line-height:53px;
+	font-family:FontAwesome;
+	font-size:26px;
+	text-align:center;
+	color:#fff;
+	content:'';
+}
+.footer .social-nets-wrapper ul li a img { display:none; }
+#back-top-wrapper p#back-top { margin:0; }
+#back-top-wrapper p#back-top a:hover span { background-color:#f2990b; }
+#back-top-wrapper p#back-top a span {
+	background-color:#e48e04;
+	margin:0;
+}
+.title-section { padding:0; }
+.title-section h1 {
+	margin:0 0 11px 0;
+	padding:0;
+	line-height:27px;
+	font-size:19px;
+}
+.title-section ul {
+	background:none;
+	margin:0;
+	padding:14px 0 14px 0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	border-top:1px solid #dfdede;
+	border-bottom:1px solid #dfdede;
+}
+.title-section ul li {
+	line-height:20px;
+	font-size:13px;
+	text-shadow:none;
+	color:#777;
+}
+.title-section ul li.divider { margin:0 5px; }
+.title-section ul li.active { color:#2b3b4b; }
+.title-section ul li a {
+	text-decoration:none;
+	color:#777;
+}
+.title-section ul li a:focus {
+	text-decoration:none;
+	color:#777;
+}
+.title-section ul li a:hover {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.pagination ul li a {
+	-webkit-border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	border-radius:0 !important;
+}
+article.post {
+	background:#fff;
+	padding:20px;
+}
+article.post h2 {
+	background:#f2990b;
+	margin:-20px -20px 19px -20px;
+	padding:17px 20px 14px 20px;
+	line-height:30px;
+	font-size:20px;
+	color:#fff;
+}
+article.post h2 a {
+	text-decoration:none;
+	color:#fff;
+}
+article.post h2 a:focus {
+	text-decoration:none;
+	color:#fff;
+}
+article.post h2 a:hover {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.post_meta {
+	line-height:19px;
+	font-size:11px;
+}
+.post_meta i { color:#e48e04; }
+.post_meta a { color:#2b3b4b; }
+.post_meta a:focus {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.post_meta a:hover {
+	text-decoration:none;
+	color:#f2990b;
+}
+.post_meta a:hover i { color:#2b3b4b !important; }
+.post-author {
+display:none;
+}
+.post-author h3 {
+	margin:0 0 15px 0;
+	padding:0;
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:400;
+	color:#2b3b4b;
+}
+.post-author h3 a {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.post-author h3 a:hover {
+	text-decoration:none;
+	color:#f2990b;
+}
+.post-author .post-author_gravatar { margin:0 20px 5px 0; }
+.post-author .post-author_gravatar img {
+	padding:0;
+	border:none;
+}
+.post-author .post-author_desc { overflow:hidden; }
+@media (max-width: 480px) {
+	.post-author .post-author_desc { overflow:visible; }
+}
+.post-author .post-author_link p {
+	margin:0;
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:400;
+	color:#2b3b4b;
+}
+.related-posts {
+	background:#fff;
+	padding:20px;
+}
+.related-posts h3 {
+	background:#f2990b;
+	margin:-20px -20px 19px -20px;
+	padding:17px 20px 14px 20px;
+	line-height:30px;
+	font-size:20px;
+	color:#fff;
+}
+.related-posts ul { margin-bottom:-20px; }
+.related-posts ul li {
+	line-height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:400;
+	color:#2b3b4b;
+}
+.related-posts ul li a {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.related-posts ul li a:focus {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.related-posts ul li a:hover {
+	text-decoration:none;
+	color:#f2990b;
+}
+.comment-holder {
+	background:#fff;
+	padding:20px;
+}
+.comment-holder > h3 {
+	background:#f2990b;
+	margin:-20px -20px 19px -20px;
+	padding:17px 20px 14px 20px;
+	line-height:30px;
+	font-size:20px;
+	color:#fff;
+}
+ol.comment-list li .comment-body {
+	background:none !important;
+	border:1px solid #dfdede;
+}
+ol.comment-list li .comment-body .author {
+	line-height:21px;
+	font-size:11px;
+	font-weight:400;
+	text-align:left;
+	color:#f2990b;
+}
+@media (max-width: 480px) {
+	ol.comment-list li .comment-body .extra-wrap { overflow:visible; }
+}
+ol.comment-list li .comment-body .reply a {
+	background:#e48e04;
+	margin:0;
+	padding:18px 30px 18px 30px;
+	border:none;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	line-height:24px;
+	font-family:'Roboto', sans-serif;
+	font-size:19px;
+	font-weight:700;
+	text-shadow:none;
+	text-decoration:none;
+	color:#fff;
+}
+@media (max-width: 480px) {
+	ol.comment-list li .comment-body .reply a {
+		padding:9px 15px 9px 15px;
+		font-size:14px;
+	}
+}
+ol.comment-list li .comment-body .reply a:focus {
+	background:#e48e04;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	color:#fff;
+}
+ol.comment-list li .comment-body .reply a:hover {
+	background:#2b3b4b;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	color:#fff;
+}
+ol.comment-list li .comment-body .comment-meta {
+	line-height:60px;
+	font-size:11px;
+	color:#2b3b4b;
+}
+@media (max-width: 480px) {
+	ol.comment-list li .comment-body .comment-meta { line-height:42px; }
+}
+.cancel-comment-reply { padding:0 0 8px 0; }
+.wpcf7-form input[type="text"], .wpcf7-form input[type="email"], .wpcf7-form textarea { padding:6px !important; }
+.wpcf7-form .wpcf7-not-valid-tip {
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}
+.wpcf7-form .ajax-loader { margin:20px 0 0 0; }
+.wpcf7-form .wpcf7-response-output {
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}
+.filter-wrapper { margin:0 0 25px 0; }
+.filter-wrapper strong {
+	margin:0;
+	padding:0;
+	line-height:24px;
+	font-family:'Roboto', sans-serif;
+	font-size:19px;
+	font-weight:500;
+	text-decoration:none;
+	color:#f2990b;
+}
+@media (max-width: 767px) {
+	.filter-wrapper strong { font-size:14px; }
+}
+.filter-wrapper ul { margin:0; }
+.filter-wrapper ul li { margin:0 0 0 30px; }
+@media (max-width: 767px) {
+	.filter-wrapper ul li { margin:0 0 0 15px; }
+}
+.filter-wrapper ul li.active a {
+	background:none;
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.filter-wrapper ul li.active a:focus {
+	background:none;
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.filter-wrapper ul li.active a:hover {
+	background:none;
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.filter-wrapper ul li a {
+	background:none;
+	margin:0;
+	padding:0;
+	border:none;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	line-height:24px;
+	font-family:'Roboto', sans-serif;
+	font-size:19px;
+	font-weight:500;
+	text-decoration:none;
+	color:#f2990b;
+}
+@media (max-width: 767px) {
+	.filter-wrapper ul li a { font-size:14px; }
+}
+.filter-wrapper ul li a:focus {
+	background:none;
+	text-decoration:none;
+	color:#f2990b;
+}
+.filter-wrapper ul li a:hover {
+	background:none;
+	text-decoration:none;
+	color:#2b3b4b;
+}
+#portfolio-grid li .thumbnail { margin:0 0 20px 0; }
+#portfolio-grid li h3 {
+	margin:0 0 10px 0;
+	line-height:24px;
+	font-size:19px;
+	font-weight:700;
+	color:#f2990b;
+}
+#portfolio-grid li h3 a {
+	text-decoration:none;
+	color:#f2990b;
+}
+#portfolio-grid li h3 a:focus {
+	text-decoration:none;
+	color:#f2990b;
+}
+#portfolio-grid li h3 a:hover {
+	text-decoration:none;
+	color:#2b3b4b;
+}
+.type-portfolio .thumbnail.large { margin:0; }
+ul.pager { margin-top:30px; }
+ul.pager li a {
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+}
+.faq-list h4 {
+	margin:0;
+	font-weight:400;
+	color:#f2990b;
+}
+@media (max-width: 767px) {
+	.error404-holder { text-align:center; }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.error404-holder .error404-holder_num { font-size:220px; }
+}
+.error404-holder h4 {
+	font-weight:400;
+	color:#2b3b4b;
+}
+@media (max-width: 767px) {
+	.error404-holder .search-form { margin:0 auto; }
+}
+html.ie8 .posts-grid li .thumbnail img { max-width:inherit; }
+.clearfix { *zoom:1; }
+.clearfix:before, .clearfix:after {
+	display:table;
+	content:"";
+	line-height:0;
+}
+.clearfix:after { clear:both; }
+.hide-text {
+	font:0/0 a;
+	color:transparent;
+	text-shadow:none;
+	background-color:transparent;
+	border:0;
+}
+.input-block-level {
+	display:block;
+	width:100%;
+	min-height:30px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+  </style>
+  <style type="text/css">
+   h1 { font: bold 27px/35px Roboto, sans-serif;  color:#f2990b; }
+h2 { font: bold 27px/35px Roboto, sans-serif;  color:#f2990b; }
+h3 { font: bold 27px/35px Roboto, sans-serif;  color:#f2990b; }
+h4 { font: bold 19px/24px Roboto, sans-serif;  color:#ffffff; }
+h5 { font: normal 13px/20px Arial, Helvetica, sans-serif;  color:#164651; }
+h6 { font: normal 13px/20px Arial, Helvetica, sans-serif;  color:#164651; }
+body { font-weight: normal;}
+.logo_h__txt, .logo_link { font: normal 49px/49px Roboto, sans-serif;  color:#ffffff; }
+.sf-menu > li > a { font: bold 17px/27px Roboto, sans-serif;  color:#ffffff; }
+.nav.footer-nav a { font: normal 13px/20px Roboto, sans-serif;  color:#ffffff; }
+  </style>
+  <!--[if lt IE 9]>
+		<div id="ie7-alert" style="width: 100%; text-align:center;">
+			<img src="http://tmbhtest.com/images/ie7.jpg" alt="Upgrade IE 8" width="640" height="344" border="0" usemap="#Map" />
+			<map name="Map" id="Map"><area shape="rect" coords="496,201,604,329" href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank" alt="Download Interent Explorer" /><area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank" alt="Download Apple Safari" /><area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank" alt="Download Opera" /><area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank" alt="Download Firefox" /><area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank" alt="Download Google Chrome" />
+			</map>
+		</div>
+	<![endif]-->
+  <!--[if gte IE 9]><!-->
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/jquery.mobile.customized.min.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   jQuery(function(){
+				jQuery('.sf-menu').mobileMenu({defaultText: "Navigate to..."});
+			});
+  </script>
+  <!--<![endif]-->
+  <script type="text/javascript">
+   // Init navigation menu
+		jQuery(function(){
+		// main navigation init
+			jQuery('ul.sf-menu').superfish({
+				delay: 1000, // the delay in milliseconds that the mouse can remain outside a sub-menu without it closing
+				animation: {
+					opacity: "show",
+					height: "show"
+				}, // used to animate the sub-menu open
+				speed: "normal", // animation speed
+				autoArrows: false, // generation of arrow mark-up (for submenu)
+				disableHI: true // to disable hoverIntent detection
+			});
+
+		//Zoom fix
+		//IPad/IPhone
+			var viewportmeta = document.querySelector && document.querySelector('meta[name="viewport"]'),
+				ua = navigator.userAgent,
+				gestureStart = function () {
+					viewportmeta.content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0";
+				},
+				scaleFix = function () {
+					if (viewportmeta && /iPhone|iPad/.test(ua) && !/Opera Mini/.test(ua)) {
+						viewportmeta.content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+						document.addEventListener("gesturestart", gestureStart, false);
+					}
+				};
+			scaleFix();
+		})
+  </script>
+  <!-- stick up menu -->
+  <script type="text/javascript">
+   jQuery(document).ready(function(){
+			if(!device.mobile() && !device.tablet()){
+				jQuery('.header .nav__primary').tmStickUp({
+					correctionSelector: jQuery('#wpadminbar')
+				,	listenSelector: jQuery('.listenSelector')
+				,	active: false				,	pseudo: true				});
+			}
+		})
+  </script>
+ </head>
+ <body class="page-template-default page page-id-3833">
+  <div class="main-holder" id="motopress-main">
+   <!--Begin #motopress-main-->
+   <header class="motopress-wrapper header">
+    <div class="container">
+     <div class="row">
+      <div class="span12" data-motopress-id="5e1c8f7fb7df2" data-motopress-wrapper-file="wrapper/wrapper-header.php" data-motopress-wrapper-type="header">
+       <div class="header_block">
+        <div class="row">
+         <div class="span8" data-motopress-sidebar-id="header-sidebar" data-motopress-type="dynamic-sidebar">
+         </div>
+         <div class="span4 hidden-phone" data-motopress-static-file="static/static-search.php" data-motopress-type="static">
+          <!-- BEGIN SEARCH FORM -->
+          <!-- END SEARCH FORM -->
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="span3" data-motopress-static-file="static/static-logo.php" data-motopress-type="static">
+         <!-- BEGIN LOGO -->
+         <div class="logo pull-left">
+          <a class="logo_h logo_h__img" href="http://www.lo1.gliwice.pl/">
+           <img alt="lo1.gliwice.pl" src="http://www.lo1.gliwice.pl/wp-content/uploads/2015/04/logo_zso10.png" title="I Liceum Ogólnokształcące Dwujęzyczne im. E. Dembowskiego"/>
+          </a>
+          <p class="logo_tagline">
+           I Liceum Ogólnokształcące Dwujęzyczne im. E. Dembowskiego
+          </p>
+          <!-- Site Tagline -->
+         </div>
+         <!-- END LOGO -->
+        </div>
+        <div class="span9" data-motopress-static-file="static/static-nav.php" data-motopress-type="static">
+         <!-- BEGIN MAIN NAVIGATION -->
+         <nav class="nav nav__primary clearfix">
+          <ul class="sf-menu" id="topnav">
+           <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home" id="menu-item-4576">
+            <a href="http://www.lo1.gliwice.pl/">
+             Start
+            </a>
+           </li>
+           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id="menu-item-4559">
+            <a href="http://www.lo1.gliwice.pl/o-szkole/organizacja/">
+             O szkole
+            </a>
+            <ul class="sub-menu">
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4630">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/organizacja/">
+               ORGANIZACJA
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4632">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/prawo-szkolne/">
+               PRAWO SZKOLNE
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4626">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/koncepcja-pracy-szkoly/">
+               KONCEPCJA PRACY SZKOŁY
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-13254">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/informacja-o-przetwarzaniu-danych/">
+               INFORMACJA O PRZETWARZANIU DANYCH
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4629">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/opis-szkoly/">
+               OPIS SZKOŁY
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4631">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/osiagniecia-uczniow/">
+               OSIĄGNIĘCIA UCZNIÓW
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4625">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/historia-szkoly/">
+               HISTORIA SZKOŁY
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-7251">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/patron/">
+               PATRON
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4622">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/absolwenci/">
+               ABSOLWENCI
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4623">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/edukacyjna-wartosc-dodana/">
+               EDUKACYJNA WARTOŚĆ DODANA
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4633">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/szkolne-szkolo-wolontariatu/">
+               SZKOLNE KOŁO WOLONTARIATU
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4624">
+              <a href="http://www.lo1.gliwice.pl/o-szkole/galeria/">
+               GALERIA
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-6034">
+              <a href="http://www.lo1.gliwice.pl/tv-jedynka/">
+               TV JEDYNKA
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id="menu-item-14232">
+              <a href="#">
+               ARCHIWUM
+              </a>
+              <ul class="sub-menu">
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4616">
+                <a href="http://www.lo1.gliwice.pl/dla-uczniow/programy-edukacyjne/">
+                 PROGRAMY EDUKACYJNE
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4618">
+                <a href="http://www.lo1.gliwice.pl/dla-uczniow/projekty-gimnazjalne/">
+                 PROJEKTY GIMNAZJALNE
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4617">
+                <a href="http://www.lo1.gliwice.pl/dla-uczniow/projekt-comenius/">
+                 PROJEKT COMENIUS
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4628">
+                <a href="http://www.lo1.gliwice.pl/o-szkole/kronika-szkolna/">
+                 KRONIKA SZKOLNA
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4691">
+                <a href="http://www.lo1.gliwice.pl/o-szkole/program-operacyjny-wiedza-edukacja-rozwoj/">
+                 PROGRAM OPERACYJNY WIEDZA EDUKACJA ROZWÓJ
+                </a>
+               </li>
+              </ul>
+             </li>
+            </ul>
+           </li>
+           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id="menu-item-4561">
+            <a href="http://www.lo1.gliwice.pl/category/dla-uczniow/aktualnosci-dla-uczniow/">
+             Dla uczniów
+            </a>
+            <ul class="sub-menu">
+             <li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-4567">
+              <a href="http://www.lo1.gliwice.pl/category/dla-uczniow/aktualnosci-dla-uczniow/">
+               AKTUALNOŚCI DLA UCZNIÓW
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-16383">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/kontakt-alarmowy/">
+               KONTAKT ALARMOWY
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4620">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/samorzad/">
+               SAMORZĄD
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4609">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/biblioteka/">
+               BIBLIOTEKA
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-4569">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/aktualnosci/szkolny-rejestr-podrecznikow-na-rok-szkolny-20152016/">
+               PODRĘCZNIKI
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4610">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/dokumenty-do-pobrania/">
+               DOKUMENTY DO POBRANIA
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4612">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/egzaminy-maturalne/">
+               EGZAMINY MATURALNE
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4619">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/przedmiotowy-system-oceniania/">
+               PRZEDMIOTOWE OCENIANIE
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4621">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/zajecia-dodatkowe/">
+               ZAJĘCIA DODATKOWE
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-13420">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/kolo-turystyczne/">
+               KOŁO TURYSTYCZNE
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-5096">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/szkolny-doradca-zawodowy/">
+               DORADCA ZAWODOWY
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-6010">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/psycholog-szkolny/">
+               PSYCHOLOG SZKOLNY
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-15685">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/pedagog-szkolny/">
+               PEDAGOG SZKOLNY
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" id="menu-item-4687">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/grupa-niemiecka-z-dsd/">
+               GRUPA NIEMIECKA Z DSD
+              </a>
+              <ul class="sub-menu">
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4688">
+                <a href="http://www.lo1.gliwice.pl/dla-uczniow/grupa-niemiecka-z-dsd/wymiana-mlodziezy/">
+                 WYMIANA MŁODZIEŻY
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id="menu-item-6260">
+              <a>
+               JĘZYKI OBCE
+              </a>
+              <ul class="sub-menu">
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-6258">
+                <a href="http://www.lo1.gliwice.pl/dla-uczniow/jezyki-obce/jezyk-angielski/">
+                 JĘZYK ANGIELSKI
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" id="menu-item-6255">
+                <a href="http://www.lo1.gliwice.pl/dla-uczniow/jezyki-obce/jezyk-francuski/">
+                 JĘZYK FRANCUSKI
+                </a>
+                <ul class="sub-menu">
+                 <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-16551">
+                  <a href="http://www.lo1.gliwice.pl/dla-uczniow/jezyki-obce/jezyk-francuski/przydatne-linki/">
+                   PRZYDATNE LINKI
+                  </a>
+                 </li>
+                </ul>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-6256">
+                <a href="http://www.lo1.gliwice.pl/dla-uczniow/jezyki-obce/jezyk-hiszpanski/">
+                 JĘZYK HISZPAŃSKI
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-6257">
+                <a href="http://www.lo1.gliwice.pl/dla-uczniow/jezyki-obce/jezyk-niemiecki/">
+                 JĘZYK NIEMIECKI
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-14243">
+              <a href="http://www.lo1.gliwice.pl/dla-uczniow/projekt-erasmus/">
+               PROJEKT ERASMUS+
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id="menu-item-4562">
+            <a href="http://www.lo1.gliwice.pl/category/dla-kandydatow/aktualnosci-dla-kandydatow/">
+             Dla kandydatów
+            </a>
+            <ul class="sub-menu">
+             <li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-4557">
+              <a href="http://www.lo1.gliwice.pl/category/dla-kandydatow/aktualnosci-dla-kandydatow/">
+               AKTUALNOŚCI DLA KANDYDATÓW
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4601">
+              <a href="http://www.lo1.gliwice.pl/dla-kandydatow/liceum/">
+               LICEUM
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children" id="menu-item-16145">
+            <a href="http://www.lo1.gliwice.pl/category/rodzice/aktualnosci-dla-rodzicow/">
+             Dla rodziców
+            </a>
+            <ul class="sub-menu">
+             <li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-15843">
+              <a href="http://www.lo1.gliwice.pl/category/rodzice/aktualnosci-dla-rodzicow/">
+               AKTUALNOŚCI DLA RODZICÓW
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-16382">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/kontakt-alarmowy/">
+               KONTAKT ALARMOWY
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4602">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/rada-rodzicow/">
+               RADA RODZICÓW
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-8134">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/stowarzyszenie/">
+               STOWARZYSZENIE
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4605">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/podreczniki/">
+               PODRĘCZNIKI
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-16528">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/dokumenty-do-pobrania/">
+               DOKUMENTY DO POBRANIA
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4606">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/organizacja-roku-szkolnego-1/">
+               ORGANIZACJA ROKU SZKOLNEGO
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4603">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/zebrania-i-konsultacje/">
+               ZEBRANIA I KONSULTACJE
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-6009">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/psycholog-szkolny/">
+               PSYCHOLOG SZKOLNY
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-8049">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/pedagog-szkolny/">
+               PEDAGOG SZKOLNY
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-16367">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/opieka-zdrowotna/">
+               OPIEKA ZDROWOTNA
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-16368">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/opieka-stomatologiczna/">
+               OPIEKA STOMATOLOGICZNA
+              </a>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-5342">
+              <a href="http://www.lo1.gliwice.pl/dla-rodzicow/obiady/">
+               OBIADY
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" id="menu-item-4560">
+            <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/">
+             IB
+            </a>
+            <ul class="sub-menu">
+             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" id="menu-item-4634">
+              <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/">
+               DIPLOMA PROGRAMME
+              </a>
+              <ul class="sub-menu">
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4637">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/certificate-of-authorization/">
+                 CERTIFICATE OF AUTHORIZATION
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4644">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/important-deadlines/">
+                 IMPORTANT DEADLINES
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4638">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/code-of-conduct/">
+                 CODE OF CONDUCT
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4648">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/prospective-students/">
+                 PROSPECTIVE STUDENTS
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4642">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/ib-gliwice-learner-profile-video/">
+                 IB GLIWICE LEARNER PROFILE (VIDEO)
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4639">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/examinations/">
+                 EXAMINATIONS
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4635">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/best-students/">
+                 BEST STUDENTS
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4636">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/cas/">
+                 CAS
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4641">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/g4p/">
+                 G4P
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4643">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/ib-review-gliwice-magazine/">
+                 IB REVIEW GLIWICE MAGAZINE
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4650">
+                <a href="http://www.lo1.gliwice.pl/ib/diploma-programme/ucas/">
+                 UCAS
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" id="menu-item-4652">
+              <a href="http://www.lo1.gliwice.pl/ib/middle-years-programme/">
+               MIDDLE YEARS PROGRAMME
+              </a>
+              <ul class="sub-menu">
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-10213">
+                <a href="http://www.lo1.gliwice.pl/ib/middle-years-programme/certificate-of-authorization/">
+                 CERTIFICATE OF AUTHORIZATION
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-15156">
+                <a href="http://www.lo1.gliwice.pl/ib/middle-years-programme/code-of-conduct/">
+                 CODE OF CONDUCT
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4646">
+                <a href="http://www.lo1.gliwice.pl/ib/middle-years-programme/subjects/">
+                 SUBJECTS
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-15155">
+                <a href="http://www.lo1.gliwice.pl/ib/middle-years-programme/assessment/">
+                 ASSESSMENT
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-15154">
+                <a href="http://www.lo1.gliwice.pl/ib/middle-years-programme/our-projects/">
+                 OUR PROJECTS
+                </a>
+               </li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-15153">
+                <a href="http://www.lo1.gliwice.pl/ib/middle-years-programme/partner-schools/">
+                 PARTNER SCHOOLS
+                </a>
+               </li>
+              </ul>
+             </li>
+             <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-16197">
+              <a href="http://www.lo1.gliwice.pl/ib/wplata-za-egzamin/">
+               WPŁATA ZA EGZAMIN
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-4558">
+            <a href="http://www.lo1.gliwice.pl/category/dla-uczniow/aktualnosci/">
+             Aktualności
+            </a>
+           </li>
+           <li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-4575">
+            <a href="http://www.lo1.gliwice.pl/contacts/">
+             Kontakt
+            </a>
+           </li>
+          </ul>
+         </nav>
+         <!-- END MAIN NAVIGATION -->
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </header>
+   <div class="motopress-wrapper content-holder clearfix">
+    <div class="container">
+     <div class="row">
+      <div class="span12" data-motopress-wrapper-file="page.php" data-motopress-wrapper-type="content">
+       <div class="row">
+        <div class="span12" data-motopress-static-file="static/static-title.php" data-motopress-type="static">
+         <section class="title-section">
+          <h1 class="title-header">
+           Zastępstwa
+          </h1>
+          <!-- BEGIN BREADCRUMBS-->
+          <ul class="breadcrumb breadcrumb__t">
+           <li>
+            <a href="http://www.lo1.gliwice.pl">
+             Home
+            </a>
+           </li>
+           <li class="divider">
+           </li>
+           <li class="active">
+            Zastępstwa
+           </li>
+          </ul>
+          <!-- END BREADCRUMBS -->
+         </section>
+         <!-- .title-section -->
+        </div>
+       </div>
+       <div class="row">
+        <div class="span8 left left" data-motopress-loop-file="loop/loop-page.php" data-motopress-type="loop" id="content">
+         <div class="page post-3833 type-page status-publish hentry" id="post-3833">
+          <p style="text-align: center;">
+           <strong>
+            <u>
+             Zastępstwa 27.01.2020
+            </u>
+           </strong>
+          </p>
+          <p style="text-align: center;">
+           <strong>
+            p. Świtońska
+           </strong>
+          </p>
+          <p>
+           <strong>
+           </strong>
+          </p>
+          <p>
+           0l – IAg gr. p. Świtońskiej przychodzi na 8.00
+          </p>
+          <p>
+           1l – IIIC gr. p. Świtońskiej przychodzi na 8.50
+          </p>
+          <p>
+           2l – IDg biologia p. Dziedzic
+          </p>
+          <p>
+           7,8l – IIID gr. p. Świtońskiej zwolniona do domu
+          </p>
+          <p>
+           <strong>
+           </strong>
+          </p>
+          <p>
+           Zajęcia z p. Świtońską w klasach matury międzynarodowej są odwołane.
+          </p>
+          <div class="clear">
+          </div>
+          <!--.pagination-->
+         </div>
+         <!--post-->
+        </div>
+        <div class="span4 sidebar" data-motopress-sidebar-file="sidebar.php" data-motopress-type="static-sidebar" id="sidebar">
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer class="motopress-wrapper footer">
+    <div class="container">
+     <div class="row">
+      <div class="span12" data-motopress-id="5e1c8f803ef5f" data-motopress-wrapper-file="wrapper/wrapper-footer.php" data-motopress-wrapper-type="footer">
+       <div class="footer-widgets">
+        <div class="row">
+         <div class="span2" data-motopress-sidebar-id="footer-sidebar-1" data-motopress-type="dynamic-sidebar">
+          <div id="search-3">
+           <h4>
+            Szukaj
+           </h4>
+           <div class="search-form">
+            <form accept-charset="utf-8" action="http://www.lo1.gliwice.pl" id="searchform" method="get">
+             <input class="search-form_it" id="s" name="s" type="text" value=""/>
+             <input class="search-form_is btn btn-primary" id="search-submit" type="submit" value="search"/>
+            </form>
+           </div>
+          </div>
+         </div>
+         <div class="span2" data-motopress-sidebar-id="footer-sidebar-2" data-motopress-type="dynamic-sidebar">
+         </div>
+         <div class="span2" data-motopress-sidebar-id="footer-sidebar-3" data-motopress-type="dynamic-sidebar">
+          <div id="nav_menu-3">
+           <h4>
+            Menu
+           </h4>
+           <div class="menu-stopka-container">
+            <ul class="menu" id="menu-stopka">
+             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4543" id="menu-item-4543">
+              <a href="https://login.poczta.home.pl/" rel="noopener noreferrer" target="_blank">
+               POCZTA SZKOLNA
+              </a>
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+         <div class="span2" data-motopress-sidebar-id="footer-sidebar-4" data-motopress-type="dynamic-sidebar">
+          <div class="visible-all-devices" id="text-2">
+           <h4>
+            Adres
+           </h4>
+           <div class="textwidget">
+            <p>
+             I Liceum Ogólnokształcące
+             <br/>
+             Dwujęzyczne
+             <br/>
+             im. E. Dembowskiego
+             <br/>
+             ul. Zimnej Wody 8
+             <br/>
+             44-100 Gliwice
+            </p>
+           </div>
+          </div>
+         </div>
+         <div class="span4">
+          <div data-motopress-sidebar-id="footer-sidebar-5" data-motopress-type="dynamic-sidebar">
+           <div class="visible-all-devices" id="text-3">
+            <h4>
+             Telefon
+            </h4>
+            <div class="textwidget">
+             <p>
+              <b>
+               (+48) 32 231 47 32
+              </b>
+             </p>
+            </div>
+           </div>
+           <div class="visible-all-devices" id="text-4">
+            <div class="textwidget">
+             <p>
+              <a href="http://lo1.bip.gliwice.eu" rel="noopener noreferrer" target="_blank">
+               <img alt="bip" class="alignnone size-full wp-image-4794" height="63" src="http://www.lo1.gliwice.pl/wp-content/uploads/2015/04/bip.gif" width="56"/>
+              </a>
+             </p>
+            </div>
+           </div>
+          </div>
+          <!-- Social Links -->
+          <div class="social-nets-wrapper" data-motopress-static-file="static/static-social-networks.php" data-motopress-type="static">
+           <ul class="social">
+           </ul>
+          </div>
+          <!-- /Social Links -->
+         </div>
+        </div>
+       </div>
+       <div class="copyright">
+        <div class="row">
+         <div class="span4" data-motopress-static-file="static/static-footer-text.php" data-motopress-type="static">
+          <div class="footer-text" id="footer-text">
+           <b>
+            <a class="site-name" href="http://www.lo1.gliwice.pl/" title="I Liceum Ogólnokształcące Dwujęzyczne im. E. Dembowskiego">
+             lo1.gliwice.pl
+            </a>
+           </b>
+           © 2020.
+           <i>
+            <a href="http://www.lo1.gliwice.pl/strony-internetowe-2/" title="Wykonanie">
+             Wykonanie
+            </a>
+           </i>
+           <a href="http://www.stronyzpomyslem.pl" rel="dofollow" target="_blank">
+            strony internetowej
+           </a>
+          </div>
+         </div>
+         <div class="span8" data-motopress-static-file="static/static-footer-nav.php" data-motopress-type="static">
+          <nav class="nav footer-nav">
+          </nav>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </footer>
+   <!--End #motopress-main-->
+  </div>
+  <div class="visible-desktop" id="back-top-wrapper">
+   <p id="back-top">
+    <a href="#top">
+     <span>
+     </span>
+    </a>
+   </p>
+  </div>
+  <script src="http://www.lo1.gliwice.pl/wp-content/uploads/shadowbox-js/ab894337c3b83f3572a7714c3eee3b04.js?ver=3.0.3" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/jquery.flexslider-min.js?ver=2.2.2" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   /* <![CDATA[ */
+var items_custom = [[0,1],[480,2],[768,3],[980,4],[1170,5]];
+/* ]]> */
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/plugins/cherry-plugin/includes/js/cherry-plugin.js?ver=1.2.8.1" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   /* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/www.lo1.gliwice.pl\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Zamknij","currentText":"Dzi\u015b","monthNames":["Stycze\u0144","Luty","Marzec","Kwiecie\u0144","Maj","Czerwiec","Lipiec","Sierpie\u0144","Wrzesie\u0144","Pa\u017adziernik","Listopad","Grudzie\u0144"],"monthNamesShort":["Sty","Lut","Mar","Kwi","Maj","Cze","Lip","Sie","Wrz","Pa\u017a","Lis","Gru"],"nextText":"Nast\u0119pny","prevText":"Poprzedni","dayNames":["niedziela","poniedzia\u0142ek","wtorek","\u015broda","czwartek","pi\u0105tek","sobota"],"dayNamesShort":["nie","pon","wt","\u015br","czw","pt","sob"],"dayNamesMin":["N","P","W","\u015a","C","P","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+  </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/i18n/datepicker-pl.min.js?ver=1.11.4" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/jquery-ui-timepicker-addon.min.js?ver=5.3.2" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/i18n/jquery-ui-timepicker-pl.js?ver=5.3.2" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-sliderAccess.js?ver=5.3.2" type="text/javascript">
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6Lexy4AUAAAAAG_WZYMwdrCl--V829AJ7oYqRIDC&amp;ver=3.0" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/superfish.js?ver=1.5.3" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/jquery.mobilemenu.js?ver=1.0" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/jquery.magnific-popup.min.js?ver=0.9.3" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/jplayer.playlist.min.js?ver=2.3.0" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/jquery.jplayer.min.js?ver=2.6.0" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/tmstickup.js?ver=1.0.0" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/device.min.js?ver=1.0.0" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/jquery.zaccordion.min.js?ver=2.1.0" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-content/themes/CherryFramework/js/camera.min.js?ver=1.3.4" type="text/javascript">
+  </script>
+  <script src="http://www.lo1.gliwice.pl/wp-includes/js/wp-embed.min.js?ver=5.3.2" type="text/javascript">
+  </script>
+  <!-- Begin Shadowbox JS v3.0.3.10 -->
+  <!-- Selected Players: html, iframe, img, qt, swf, wmp -->
+  <script type="text/javascript">
+   /* <![CDATA[ */
+	var shadowbox_conf = {
+		animate: true,
+		animateFade: true,
+		animSequence: "sync",
+		modal: false,
+		showOverlay: true,
+		overlayColor: "#000",
+		overlayOpacity: "0.8",
+		flashBgColor: "#000000",
+		autoplayMovies: true,
+		showMovieControls: true,
+		slideshowDelay: 0,
+		resizeDuration: "0.35",
+		fadeDuration: "0.35",
+		displayNav: true,
+		continuous: false,
+		displayCounter: true,
+		counterType: "default",
+		counterLimit: "10",
+		viewportPadding: "20",
+		handleOversize: "resize",
+		handleUnsupported: "link",
+		autoDimensions: false,
+		initialHeight: "160",
+		initialWidth: "320",
+		enableKeys: true,
+		skipSetup: false,
+		useSizzle: false,
+		flashParams: {bgcolor:"#000000", allowFullScreen:true},
+		flashVars: {},
+		flashVersion: "9.0.0"
+	};
+	Shadowbox.init(shadowbox_conf);
+/* ]]> */
+  </script>
+  <!-- End Shadowbox JS -->
+  <script type="text/javascript">
+   ( function( grecaptcha, sitekey, actions ) {
+
+	var wpcf7recaptcha = {
+
+		execute: function( action ) {
+			grecaptcha.execute(
+				sitekey,
+				{ action: action }
+			).then( function( token ) {
+				var forms = document.getElementsByTagName( 'form' );
+
+				for ( var i = 0; i < forms.length; i++ ) {
+					var fields = forms[ i ].getElementsByTagName( 'input' );
+
+					for ( var j = 0; j < fields.length; j++ ) {
+						var field = fields[ j ];
+
+						if ( 'g-recaptcha-response' === field.getAttribute( 'name' ) ) {
+							field.setAttribute( 'value', token );
+							break;
+						}
+					}
+				}
+			} );
+		},
+
+		executeOnHomepage: function() {
+			wpcf7recaptcha.execute( actions[ 'homepage' ] );
+		},
+
+		executeOnContactform: function() {
+			wpcf7recaptcha.execute( actions[ 'contactform' ] );
+		},
+
+	};
+
+	grecaptcha.ready(
+		wpcf7recaptcha.executeOnHomepage
+	);
+
+	document.addEventListener( 'change',
+		wpcf7recaptcha.executeOnContactform, false
+	);
+
+	document.addEventListener( 'wpcf7submit',
+		wpcf7recaptcha.executeOnHomepage, false
+	);
+
+} )(
+	grecaptcha,
+	'6Lexy4AUAAAAAG_WZYMwdrCl--V829AJ7oYqRIDC',
+	{"homepage":"homepage","contactform":"contactform"}
+);
+  </script>
+  <script type="text/javascript">
+   deleteCookie('cf-cookie-banner');
+  </script>
+  <!-- this is used by many Wordpress features and for plugins to work properly -->
+ </body>
+</html>

@@ -31,11 +31,14 @@ def GetFanficInfo(id):
     except requests.exceptions.ConnectionError as e:
         print('failure')
         return None
+
 def DownoloadFanfic(fanfic):
+
     global site
     title = fanfic['title'].replace('\'','') + '.epub'
     try:
         LOLprint('Downloading: ' + title)
+        print(site + '/downloads/' + fanfic['id'] + '/' + title)
         r = requests.get(site + '/downloads/' + fanfic['id'] + '/' + title)
         try:
             os.remove(title)
@@ -43,12 +46,14 @@ def DownoloadFanfic(fanfic):
             pass
         f = open(title,'wb+')
         f.write(r.content)
-        return f
+        f.close()
+        return True
     except requests.exceptions.ConnectionError as e:
         print('failed to download ' + title)
         print(e)
         return None
 def GetFanficVault():
+
     global vaultFile
     try:
         data = json.load(open(vaultFile, 'r'))

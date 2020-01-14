@@ -8,7 +8,7 @@ def GetUpperMedian(nums):
     return nums[x]
 while True:
     try:
-        dane = random.sample(range(1, 10000), random.randint(2, 20))
+        dane = random.sample(range(1, 1000), random.randint(100, 200))
     except:
         dane = random.sample(range(1, 10000), random.randint(2, 20))
     dane.sort()
