@@ -23,6 +23,10 @@ def GetFanficInfo(id):
             fanfic['wordcount'] = soup.find('dd','words').string
             fanfic['title'] = soup.find('h2', 'title heading').string.replace('\n      ','').replace('\n    ','')
             fanfic['id'] = id
+            for link in soup.find('ul', 'expandable secondary').find_all('a'):
+                if link.text.strip() == 'EPUB':
+                    fanfic['link'] = site + link.get('href')
+                    break
             LOLprint('Managed to get info on:\t' + fanfic['title'] + '\tLast updated:\t' + fanfic['lastUpdate'])
             return fanfic
         except:
@@ -33,13 +37,11 @@ def GetFanficInfo(id):
         return None
 
 def DownoloadFanfic(fanfic):
-
     global site
     title = fanfic['title'].replace('\'','') + '.epub'
     try:
         LOLprint('Downloading: ' + title)
-        print(site + '/downloads/' + fanfic['id'] + '/' + title)
-        r = requests.get(site + '/downloads/' + fanfic['id'] + '/' + title)
+        r = requests.get(fanfic['link'])
         try:
             os.remove(title)
         except:
