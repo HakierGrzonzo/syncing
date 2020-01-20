@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7230) (preloaded format=pdflatex 2019.11.2)  9 JAN 2020 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7230) (preloaded format=pdflatex 2019.11.2)  15 JAN 2020 12:43
 entering extended mode
 **./baz.tex
 (baz.tex
@@ -666,15 +666,24 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \c@lstlisting=\count284
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
+<./ilustracje/model.png, id=1, 1907.125pt x 863.225pt>
+File: ./ilustracje/model.png Graphic file (type png)
+<use ./ilustracje/model.png>
+Package pdftex.def Info: ./ilustracje/model.png  used on input line 85.
+(pdftex.def)             Requested size: 457.71936pt x 207.17824pt.
 
+Overfull \hbox (2.47525pt too wide) in paragraph at lines 85--85
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
 (/home/hakiergrzonzo/.miktex/texmfs/install/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
 
-Overfull \hbox (12.552pt too wide) in paragraph at lines 100--104
+Overfull \hbox (12.552pt too wide) in paragraph at lines 105--109
 \OT4/cmr/m/n/12 jako warto±ci caªkowite (w milimetrach). Je±li wymiar posiada a
 trybut \OT4/cmr/m/it/12 Nai[]zwmowienie
  []
@@ -690,25 +699,25 @@ This may cause the page layout to be inconsistent, however.
 
 [1{/home/hakiergrzonzo/.miktex/texmfs/data/pdftex/config/pdftex.map}
 
-] [2]
-(baz.aux) ) 
+ <./ilustracje/model.png>] [2] (baz.aux) ) 
 Here is how much of TeX's memory you used:
- 16404 strings out of 494857
- 292075 string characters out of 3177752
- 535627 words of memory out of 3000000
- 19942 multiletter control sequences out of 15000+200000
+ 16413 strings out of 494857
+ 292242 string characters out of 3177752
+ 542800 words of memory out of 3000000
+ 19948 multiletter control sequences out of 15000+200000
  535430 words of font info for 31 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 47i,12n,65p,830b,1876s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl/plit.
-enc}{/home/hakiergrzonzo/.miktex/texmfs/install/fonts/enc/dvips/pl/plrm.enc}</h
-ome/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plbx12.pf
-b></home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plr12.pfb><
-/home/hakiergrzonzo/.miktex/texmfs/install/fonts/type1/public/pl/plti12.pfb>
-Output written on baz.pdf (2 pages, 46358 bytes).
+ 47i,11n,65p,830b,1212s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/home/hakiergrzonzo/.miktex/texmfs/i
+nstall/fonts/enc/dvips/pl/plit.enc}{/home/hakiergrzonzo/.miktex/texmfs/install/
+fonts/enc/dvips/pl/plrm.enc}</home/hakiergrzonzo/.miktex/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></home/hakiergrzonzo/.miktex/texmfs/install/
+fonts/type1/public/pl/plbx12.pfb></home/hakiergrzonzo/.miktex/texmfs/install/fo
+nts/type1/public/pl/plr12.pfb></home/hakiergrzonzo/.miktex/texmfs/install/fonts
+/type1/public/pl/plti12.pfb>
+Output written on baz.pdf (2 pages, 115363 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

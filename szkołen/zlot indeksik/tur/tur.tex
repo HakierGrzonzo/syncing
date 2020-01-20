@@ -98,11 +98,11 @@
 	\item $q_4$ - Szukam cyfry lub ,,$\emptyset$''. Jeżeli znaleziona liczba nie jest dziewiątką to dodaje do niej 1.\\
 		Jeżeli znalezłem ,,9'' to zmieniam je na ,,0'' i idę w lewo.\\
 		Jeśli znalazłem ,,$\emptyset$'' to zmieniam go na ,,1'', idę w lewo i zmieniam stan na $q_3$. 
-	\item $q_5$ - Szukam ,,X'', idąc w prawo. Gdy go znajdę to zmieniam stan na $q_6$.
+	\item $q_5$ - Szukam ,,X'', idąc w prawo, zamieniam z powrotem ,,z'' na ,,b''. Gdy go znajdę to zmieniam stan na $q_6$.
 	\item $q_6$ - Szukam ,,a'' idąc w lewo.
 			Jeżeli na taśmie jest ,,a'' to zamieniam je na ,,z'' i  przechodzę w $q_7$.\\
 			Jeżeli znajduje ,,$\emptyset$'' to przechodzę w $q_8$.
-	\item $q_7$ - Szukam cyfry, idąc w prawo. Jeśli znajdę cyfrę to odejmuję od niej jeden. \\
+	\item $q_7$ - Szukam cyfry, idąc w prawo, zamieniam z powrotem ,,z'' na ,,a''. Jeśli znajdę cyfrę to odejmuję od niej jeden. \\
 			Jeżeli liczba jest równa 0 to zamieniam ją na 9 i idę w prawo.\\
 			Jeżeli znajdę ,,$\emptyset$'' to przechodzę w $q_9$.
 	\item $q_8$ - Szukam cyfry różnej od zera, idąc w prawo. Jeżeli ją znajdę to przechodzę w $q_{10}$.\\
@@ -110,9 +110,9 @@
 \end{itemize}
 \subsubsection*{Stany końcowe:}
 \begin{itemize}
-	\item $q_9$ - szukam ,,X'' idąc w prawo, zmieniam go na A.
-	\item $q_{10}$ - szukam ,,X'' idąc w lewo, zmieniam go na B.
-	\item $q_{11}$ - szukam ,,X'' idąc w lewo, zmieniam go na N.
+		\item $q_9$ - szukam ,,X'' idąc w lewo, zmieniam go na A, zamieniam napotkane cyfry na ,,$\emptyset$''.
+	\item $q_{10}$ - szukam ,,X'' idąc w lewo, zmieniam go na B, zamieniam napotkane cyfry na ,,$\emptyset$''.
+	\item $q_{11}$ - szukam ,,X'' idąc w lewo, zmieniam go na N, zamieniam napotkane cyfry na ,,$\emptyset$''.
 \end{itemize}
 
 \section{Tabela}
@@ -128,30 +128,30 @@
 			X	&	&	&	\tur{3}{L, X}	&	\tur{4}{P, X}	&	\tur{6}{L, X}	&	\tur{6}{L, X}	&	\tur{7}{P, X}	&	\tur{8}{P, X}	&	\tur{9}{0, A}
 			&	\tur{10}{0, B}	& \tur{11}{0, N} \\\hline
 
-			z	&	&	&	\tur{3}{L, z}	&	\tur{4}{P, z}	&	\tur{5}{P, z}	&	\tur{6}{L, z}	&	\tur{7}{P, z}	&	\tur{8}{P, z}	& \tur{9}{P, z}	&&\\\hline
+			z	&	&	&	\tur{3}{L, z}	&	\tur{4}{P, z}	&	\tur{5}{P, b}	&	\tur{6}{L, z}	&	\tur{7}{P, a}	&	\tur{8}{P, z}	&&&\\\hline
 			
 			$\emptyset$	&	\tur{1}{L, \nu}	&	\tur{3}{L, X}	&	\tur{5}{P, \nu}	&	\tur{3}{L, 1}	&	\tur{5}{P, \nu}	&	\tur{8}{P, \nu}	&	\tur{9}{L, \nu}	&
-			\tur{11}{L, \nu}	&	\tur{9}{P, \nu}	&	\tur{10}{L, \nu}	&	\tur{11}{L, \nu} \\\hline
+			\tur{11}{L, \nu}	&	\tur{9}{L, \nu}	&	\tur{10}{L, \nu}	&	\tur{11}{L, \nu} \\\hline
 			
-			0   &   &   &  \tur{3}{L, 0}    &   \tur{3}{L, 1}   &   \tur{5}{P, 0}   &   \tur{6}{L, 0}   &   \tur{7}{P, 9}   &   \tur{11}{L, 0}  &   &   \tur{10}{L, 0}  &   \tur{11}{L, 0} \\\hline
+			0   &   &   &  \tur{3}{L, 0}    &   \tur{3}{L, 1}   &   \tur{5}{P, 0}   &   \tur{6}{L, 0}   &   \tur{7}{P, 9}   &   \tur{11}{L, 0}  &	\tur{9}{L, \nu}   &   \tur{10}{L, \nu}  &   \tur{11}{L, \nu} \\\hline
 
-1   &   &   &  \tur{3}{L, 1}    &   \tur{3}{L, 2}   &   \tur{5}{P, 1}   &   \tur{6}{L, 1}   &   \tur{6}{L, 0}   &   \tur{10}{L, 1}  &   &   \tur{10}{L, 1}  &   \tur{11}{L, 1} \\\hline
+1   &   &   &  \tur{3}{L, 1}    &   \tur{3}{L, 2}   &   \tur{5}{P, 1}   &   \tur{6}{L, 1}   &   \tur{6}{L, 0}   &   \tur{10}{L, 1}  &	\tur{9}{L, \nu}   &   \tur{10}{L, \nu}  &   \tur{11}{L, \nu} \\\hline
 
-2   &   &   &  \tur{3}{L, 2}    &   \tur{3}{L, 3}   &   \tur{5}{P, 2}   &   \tur{6}{L, 2}   &   \tur{6}{L, 1}   &   \tur{10}{L, 2}  &   &   \tur{10}{L, 2}  &   \tur{11}{L, 2} \\\hline
+2   &   &   &  \tur{3}{L, 2}    &   \tur{3}{L, 3}   &   \tur{5}{P, 2}   &   \tur{6}{L, 2}   &   \tur{6}{L, 1}   &   \tur{10}{L, 2}  &	\tur{9}{L, \nu}   &   \tur{10}{L, \nu}  &   \tur{11}{L, \nu} \\\hline
 
-3   &   &   &  \tur{3}{L, 3}    &   \tur{3}{L, 4}   &   \tur{5}{P, 3}   &   \tur{6}{L, 3}   &   \tur{6}{L, 2}   &   \tur{10}{L, 3}  &   &   \tur{10}{L, 3}  &   \tur{11}{L, 3} \\\hline
+3   &   &   &  \tur{3}{L, 3}    &   \tur{3}{L, 4}   &   \tur{5}{P, 3}   &   \tur{6}{L, 3}   &   \tur{6}{L, 2}   &   \tur{10}{L, 3}  &	\tur{9}{L, \nu}   &   \tur{10}{L, \nu}  &   \tur{11}{L, \nu} \\\hline
 
-4   &   &   &  \tur{3}{L, 4}    &   \tur{3}{L, 5}   &   \tur{5}{P, 4}   &   \tur{6}{L, 4}   &   \tur{6}{L, 3}   &   \tur{10}{L, 4}  &   &   \tur{10}{L, 4}  &   \tur{11}{L, 4} \\\hline
+4   &   &   &  \tur{3}{L, 4}    &   \tur{3}{L, 5}   &   \tur{5}{P, 4}   &   \tur{6}{L, 4}   &   \tur{6}{L, 3}   &   \tur{10}{L, 4}  &	\tur{9}{L, \nu}   &   \tur{10}{L, \nu}  &   \tur{11}{L, \nu} \\\hline
 
-5   &   &   &  \tur{3}{L, 5}    &   \tur{3}{L, 6}   &   \tur{5}{P, 5}   &   \tur{6}{L, 5}   &   \tur{6}{L, 4}   &   \tur{10}{L, 5}  &   &   \tur{10}{L, 5}  &   \tur{11}{L, 5} \\\hline
+5   &   &   &  \tur{3}{L, 5}    &   \tur{3}{L, 6}   &   \tur{5}{P, 5}   &   \tur{6}{L, 5}   &   \tur{6}{L, 4}   &   \tur{10}{L, 5}  &	\tur{9}{L, \nu}   &   \tur{10}{L, \nu}  &   \tur{11}{L, \nu} \\\hline
 
-6   &   &   &  \tur{3}{L, 6}    &   \tur{3}{L, 7}   &   \tur{5}{P, 6}   &   \tur{6}{L, 6}   &   \tur{6}{L, 5}   &   \tur{10}{L, 6}  &   &   \tur{10}{L, 6}  &   \tur{11}{L, 6} \\\hline
+6   &   &   &  \tur{3}{L, 6}    &   \tur{3}{L, 7}   &   \tur{5}{P, 6}   &   \tur{6}{L, 6}   &   \tur{6}{L, 5}   &   \tur{10}{L, 6}  &	\tur{9}{L, \nu}   &   \tur{10}{L, \nu}  &   \tur{11}{L, \nu} \\\hline
 
-7   &   &   &  \tur{3}{L, 7}    &   \tur{3}{L, 8}   &   \tur{5}{P, 7}   &   \tur{6}{L, 7}   &   \tur{6}{L, 6}   &   \tur{10}{L, 7}  &   &   \tur{10}{L, 7}  &   \tur{11}{L, 7} \\\hline
+7   &   &   &  \tur{3}{L, 7}    &   \tur{3}{L, 8}   &   \tur{5}{P, 7}   &   \tur{6}{L, 7}   &   \tur{6}{L, 6}   &   \tur{10}{L, 7}  &	\tur{9}{L, \nu}   &   \tur{10}{L, \nu}  &   \tur{11}{L, \nu} \\\hline
 
-8   &   &   &  \tur{3}{L, 8}    &   \tur{3}{L, 9}   &   \tur{5}{P, 8}   &   \tur{6}{L, 8}   &   \tur{6}{L, 7}   &   \tur{10}{L, 8}  &   &   \tur{10}{L, 8}  &   \tur{11}{L, 8} \\\hline
+8   &   &   &  \tur{3}{L, 8}    &   \tur{3}{L, 9}   &   \tur{5}{P, 8}   &   \tur{6}{L, 8}   &   \tur{6}{L, 7}   &   \tur{10}{L, 8}  &	\tur{9}{L, \nu}   &   \tur{10}{L, \nu}  &   \tur{11}{L, \nu} \\\hline
 
-9   &   &   &  \tur{3}{L, 9}    &   \tur{4}{P, 0}   &   \tur{5}{P, 9}   &   \tur{6}{L, 9}   &   \tur{6}{L, 8}   &   \tur{10}{L, 9}  &   &   \tur{10}{L, 9}  &   \tur{11}{L, 9} \\\hline
+9   &   &   &  \tur{3}{L, 9}    &   \tur{4}{P, 0}   &   \tur{5}{P, 9}   &   \tur{6}{L, 9}   &   \tur{6}{L, 8}   &   \tur{10}{L, 9}  &	\tur{9}{L, \nu}   &   \tur{10}{L, \nu}  &   \tur{11}{L, \nu} \\\hline
 		\end{tabular}
 		\caption{Tabela charakterystyczna maszyny Turinga}
 \end{sidewaystable}

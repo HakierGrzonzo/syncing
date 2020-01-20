@@ -80,6 +80,10 @@
 
 \begin{document}
 
+\section{Model}
+
+\obrazek{0.24}{model}
+
 \section{Opis:}
 
 Baza danych składa się z 4 tabel.
@@ -90,12 +94,13 @@ Baza danych składa się z 4 tabel.
 						\item Nazwę modelu rolety.
 						\item Opis modelu.
 				\end{itemize}
-		\item Rolety - zawiera informacje o wszystkich wyprodukowanych wariacji modeli rolet:
+		\item Rolety - zawiera informacje o wszystkich wyprodukowanych seriach rolet:
 				\begin{itemize}
 						\item Numer seryjny rolety.
 						\item Numer modelu bazowego.
 						\item Kolor materiału oraz kolor mocowań.
-						\item numer użytego podmodelu wymiarowego.
+						\item Numer użytego podmodelu wymiarowego.
+						\item Ilość rolet w serii
 				\end{itemize}
 		\item Wymiary - zawiera wszystkie dostępne wymiary dla danego modelu rolety. W razie potrzeby
 				można dodać więcej kolumn z innymi wymiarami. Wymiary są podawane jako wartości całkowite
@@ -128,11 +133,12 @@ CREATE TABLE modele_rolet(
     PRIMARY KEY (Numer_modelu)
 );
 CREATE TABLE rolety(
-    id int NOT NULL,
+    numer_serii int NOT NULL,
     Numer_modelu int NOT NULL,
     kolor_materialu varchar(255),
     kolor_mocowan varchar(255),
     ID_wymiaru int NOT NULL,
+	ilosc_w_serii int,
     PRIMARY KEY (id)
 );
 CREATE TABLE wymiary(

@@ -27,11 +27,12 @@ def GetFanficInfo(id):
                 if link.text.strip() == 'EPUB':
                     fanfic['link'] = site + link.get('href')
                     break
+            fanfic['status'] = True
             LOLprint('Managed to get info on:\t' + fanfic['title'] + '\tLast updated:\t' + fanfic['lastUpdate'])
             return fanfic
         except:
             print('failed to process ' + id)
-            return None
+            return {'status': False, 'id' : id}
     except requests.exceptions.ConnectionError as e:
         print('failure')
         return None
@@ -104,7 +105,7 @@ def main(args):
         fanfic = GetFanficInfo(id)
         if fanfic != None:
             fics.append(fanfic)
-            if fanfic not in Data['fanfics'] or Forced:
+            if (fanfic not in Data['fanfics'] or Forced) and fanfic['status']:
                 DownoloadFanfic(fanfic)
     Data['fanfics'] = fics
     DumpFanficVault(Data)
