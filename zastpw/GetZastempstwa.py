@@ -88,26 +88,64 @@ class Zastempstwa(object):
                 # Strip L form the end of string
                 klasa = klasa[:len(klasa) - 1]
             if klasa[0] == '1':
-                return str('I' + klasa[1:])
+                return str('I' + klasa[1].upper() + klasa[2:])
             elif klasa[0] == '2':
-                return str('II' + klasa[1:])
+                return str('II' + klasa[1].upper() + klasa[2:])
             elif klasa[0] == '3':
-                return str('III' + klasa[1:])
+                return str('III' + klasa[1].upper() + klasa[2:])
             elif klasa[0] == '4':
                 # Compatibility with education reform
-                return str('IV' + klasa[1:])
+                return str('IV' + klasa[1].upper() + klasa[2:])
             else:
                 return klasa
         klasy = [romanize(k) for k, v in self.plan.items()]
         lines = self.zastepstwa.copy()
+        res = list()
         for line in lines:
             line = line.split(' ')
-            print(line)
-
+            zastempstwo = dict()
+            zastempstwo['godziny'] = line[0].replace('l', '').split(',')
+            if line[2] not in klasy:
+                pre = str()
+                post = str()
+                classes = list()
+                for char in line[2]:
+                    if char == 'I':
+                        pre += char
+                    elif char == char.upper():
+                        classes.append(char)
+                    else:
+                        post += char
+                classes = [str(pre + x + post) for x in classes]
+                for x in classes:
+                    assert x in klasy
+                zastempstwo['klasa'] = classes
+            else:
+                zastempstwo['klasa'] = line[2]
+            # Handle groups
+            if 'gr.' == line[3]:
+                AbsentTeacher = list()
+                expectingTeacher = True
+                for text in line[4:]:
+                    if text != 'p.' and expectingTeacher:
+                        code = self.findTeacherID(text)
+                        expectingTeacher = False
+                        AbsentTeacher.append(code)
+                    elif text == 'i':
+                        expectingTeacher = True
+                    elif text != 'p.':
+                        break
+                zastempstwo['group'] = AbsentTeacher
+            else:
+                zastempstwo['group'] = 'all'
+            if 'zwolniona' in line and 'do' in line and 'domu' in line:
+                zastempstwo['substitution'] = 'zwolniona'
+            res.append(zastempstwo)
+        return res
 
 def main():
     zastempstwa = Zastempstwa()
-    zastempstwa.ParseZastempstwa()
+    print(json.dumps(zastempstwa.ParseZastempstwa(), indent = 4 ))
 
 if __name__ == '__main__':
     main()
