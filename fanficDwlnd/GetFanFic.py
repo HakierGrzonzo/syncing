@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import requests, json, os, sys
+import requests, json, os, sys, datetime
 
 isColorful = False
 def LOLprint(txt):
@@ -8,6 +8,10 @@ def LOLprint(txt):
     else:
         print(txt)
 
+def PrintTimeDelta(dateString):
+    y, m, d = [int(x) for x in dateString.split('-')]
+    date = datetime.date(y, m, d)
+    return str((datetime.date.today() - date).days)
 def GetFanficInfo(id):
     global site
     try:
@@ -28,14 +32,18 @@ def GetFanficInfo(id):
                     fanfic['link'] = site + link.get('href')
                     break
             fanfic['status'] = True
-            LOLprint('Managed to get info on:\t' + fanfic['title'] + '\tLast updated:\t' + fanfic['lastUpdate'])
+            LOLprint('Managed to get info on:\t' + fanfic['title'] + '\tLast updated ' + PrintTimeDelta(fanfic['lastUpdate']) + ' days ago')
             return fanfic
-        except:
+        except requests.exceptions.ReadTimeout:
             print('failed to process ' + id)
             return {'status': False, 'id' : id}
-    except requests.exceptions.ConnectionError as e:
+        except Exception as e:
+            print('failed to process ' + id)
+            print(e)
+            breakpoint()
+    except:
         print('failure')
-        return None
+        return {'status': False, 'id' : id}
 
 def DownoloadFanfic(fanfic):
     global site
@@ -56,7 +64,6 @@ def DownoloadFanfic(fanfic):
         print(e)
         return None
 def GetFanficVault():
-
     global vaultFile
     try:
         data = json.load(open(vaultFile, 'r'))
