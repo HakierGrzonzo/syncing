@@ -1,13 +1,23 @@
 import json, os
 def inputFile(fileName):
     with open(fileName, 'r') as f:
-        dane = json.load(f)
+        dane = f.readlines()
+        dane = [x.split(',') for x in dane]
         res = list()
-        for k, v in dane.items():
-            res.append(v)
+        sample = dict()
+        for x in dane[0]:
+            x = x.strip()
+            sample[x] = None
+        for x in dane:
+            osoba = sample.copy()
+            i = 0
+            for k, v in sample.items():
+                osoba[k] = x[i]
+                i += 1
+            res.append(osoba)
     return res
 
-dane = inputFile('../zastpw/teachers.json')
+dane = inputFile('dane.csv')
 print('got', len(dane), 'people!')
 with open('Template.tex', 'r') as f:
     template = f.read()

@@ -2,8 +2,8 @@
 %Wzór dokumentu
 
 %tu zmień marginesy i rozmiar czcionki
-    \documentclass[a4paper,12pt]{article}
-    \usepackage[margin=3.5cm]{geometry}
+    \documentclass[a4paper,10pt]{article}
+    \usepackage[margin=1.0cm]{geometry}
 
  %Lepiej tego nie zmieniaj, jak co to dodawaj pakiety
 	\usepackage{titlesec}
@@ -13,6 +13,7 @@
 	\usepackage{graphicx}
 	\usepackage{amsmath}
 	\usepackage{amsfonts}
+  \usepackage{multicol}
 
 %inny wygląd
 	%\usepackage{tgbonum}
@@ -26,20 +27,21 @@
 
   %lokalizacja polska (odkomentuj jak piszesz po polsku)
 
-    %\usepackage{polski}
+    \usepackage{polski}
     %\usepackage[polish]{babel}
     %\usepackage{indentfirst}
-	%\usepackage{icomma}
+	\usepackage{icomma}
 
-    %\brokenpenalty=1000
-    %\clubpenalty=1000
-    %\widowpenalty=1000
+    \brokenpenalty=1000
+    \clubpenalty=1000
+    \widowpenalty=1000
 
  %nie odkometowuj wszystkiego, użyj mózgu
     %\renewcommand\thechapter{\arabic{chapter}.}
 	%\renewcommand\thesection{\arabic{section}.}
 	%\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}.}
 	%\renewcommand\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
+  \hbadness=10000
 
 %Makra
 
@@ -77,5 +79,10 @@
 
 
 \begin{document}
+\begin{multicols}{3}
 ?marker
+\end{multicols}
+
+Grzegorz Koperwas płakał jak pisał ten program z 39 stopniami gorączki.
+
 \end{document}
