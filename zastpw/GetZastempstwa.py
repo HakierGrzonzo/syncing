@@ -104,6 +104,7 @@ class Zastempstwa(object):
         for line in lines:
             line = line.split(' ')
             zastempstwo = dict()
+            # zastempstwo['raw'] = line
             zastempstwo['godziny'] = line[0].replace('l', '').split(',')
             if line[2] not in klasy:
                 pre = str()
@@ -123,6 +124,7 @@ class Zastempstwa(object):
             else:
                 zastempstwo['klasa'] = line[2]
             # Handle groups
+            lastTeacher = 3
             if 'gr.' == line[3]:
                 AbsentTeacher = list()
                 expectingTeacher = True
@@ -131,6 +133,7 @@ class Zastempstwa(object):
                         code = self.findTeacherID(text)
                         expectingTeacher = False
                         AbsentTeacher.append(code)
+                        lastTeacher = line.index(text) + 1
                     elif text == 'i':
                         expectingTeacher = True
                     elif text != 'p.':
@@ -140,12 +143,26 @@ class Zastempstwa(object):
                 zastempstwo['group'] = 'all'
             if 'zwolniona' in line and 'do' in line and 'domu' in line:
                 zastempstwo['substitution'] = 'zwolniona'
+            elif 'przychodzi' in line and 'na' in line:
+                zastempstwo['substitution'] = 'zwolniona'
+            else:
+                text = str()
+                for x in line[lastTeacher:]:
+                    text += x +' '
+                zastempstwo['substitution'] = text.strip()
             res.append(zastempstwo)
+        self.parsedZastempstwa = res
         return res
 
 def main():
+    parseTeacherList('teachers.txt')
     zastempstwa = Zastempstwa()
-    print(json.dumps(zastempstwa.ParseZastempstwa(), indent = 4 ))
+    print(zastempstwa.lines)
+    while True:
+        klasa = input('klasa: ')
+        for x in zastempstwa.ParseZastempstwa():
+            if x['klasa'] == klasa:
+                print(json.dumps(x, indent = 4))
 
 if __name__ == '__main__':
     main()
