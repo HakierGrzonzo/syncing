@@ -1,0 +1,11 @@
+/home/admin/Desktop/programy/syncing/Csharp/test/bin/Debug/netcoreapp3.1/test
+/home/admin/Desktop/programy/syncing/Csharp/test/bin/Debug/netcoreapp3.1/test.deps.json
+/home/admin/Desktop/programy/syncing/Csharp/test/bin/Debug/netcoreapp3.1/test.runtimeconfig.json
+/home/admin/Desktop/programy/syncing/Csharp/test/bin/Debug/netcoreapp3.1/test.runtimeconfig.dev.json
+/home/admin/Desktop/programy/syncing/Csharp/test/bin/Debug/netcoreapp3.1/test.dll
+/home/admin/Desktop/programy/syncing/Csharp/test/bin/Debug/netcoreapp3.1/test.pdb
+/home/admin/Desktop/programy/syncing/Csharp/test/obj/Debug/netcoreapp3.1/test.csprojAssemblyReference.cache
+/home/admin/Desktop/programy/syncing/Csharp/test/obj/Debug/netcoreapp3.1/test.AssemblyInfoInputs.cache
+/home/admin/Desktop/programy/syncing/Csharp/test/obj/Debug/netcoreapp3.1/test.AssemblyInfo.cs
+/home/admin/Desktop/programy/syncing/Csharp/test/obj/Debug/netcoreapp3.1/test.dll
+/home/admin/Desktop/programy/syncing/Csharp/test/obj/Debug/netcoreapp3.1/test.pdb

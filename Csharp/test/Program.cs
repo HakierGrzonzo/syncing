@@ -1,3 +1,5 @@
+// Zadanie 3, Szyfr mendelejewa, C#
+// Program oczekuje na dane na stdin
 ﻿using System;
 using System.Collections.Generic;
 namespace test
