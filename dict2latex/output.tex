@@ -1,0 +1,4532 @@
+%&pdflatex --translate-file=il2-pl
+%Wzór dokumentu
+
+%tu zmień marginesy i rozmiar czcionki
+    \documentclass[a4paper,10pt]{article}
+    \usepackage[margin=1.0cm]{geometry}
+
+ %Lepiej tego nie zmieniaj, jak co to dodawaj pakiety
+	\usepackage{titlesec}
+	\usepackage{titling}
+	\usepackage{fancyhdr}
+	\usepackage{mdframed}
+	\usepackage{graphicx}
+	\usepackage{amsmath}
+	\usepackage{amsfonts}
+  \usepackage{multicol}
+
+%inny wygląd
+	%\usepackage{tgbonum}
+
+
+	%Zmienne, zmień je!
+	\graphicspath{ {./ilustracje/} }
+    \title{title}
+    \author{Grzegorz Koperwas}
+    \date{[data]}
+
+  %lokalizacja polska (odkomentuj jak piszesz po polsku)
+
+    \usepackage{polski}
+    %\usepackage[polish]{babel}
+    %\usepackage{indentfirst}
+	\usepackage{icomma}
+
+    \brokenpenalty=1000
+    \clubpenalty=1000
+    \widowpenalty=1000
+
+ %nie odkometowuj wszystkiego, użyj mózgu
+    %\renewcommand\thechapter{\arabic{chapter}.}
+	%\renewcommand\thesection{\arabic{section}.}
+	%\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}.}
+	%\renewcommand\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}.}
+  \hbadness=10000
+
+%Makra
+
+\newcommand{\obrazek}[2]{
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=#1]{#2}
+	\end{figure}
+}
+
+
+    \newcommand{\twierdzonko}[1]{
+        \begin{center}
+        \begin{mdframed}
+        #1
+        \end{mdframed}
+        \end{center}
+    }
+
+    \newcommand{\dwanajeden}[2]{
+	\ensuremath \left( \begin{array}{c}
+		#1\\
+		#2
+	\end{array} \right)
+}
+
+%Stopka i head (sekcja której nie powinno się zmieniać)
+    \pagestyle{fancy}
+    \fancyhead{}
+    \fancyfoot{}
+
+    %Zmieniaj od tego miejsca
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{0pt}
+
+
+\begin{document}
+\begin{multicols}{3}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{osoba}
+
+  \begin{itemize}
+    \item match1
+    \item match2
+    \item match3
+    \item match4
+    \item match5
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Babkin Katiusza}
+
+  \begin{itemize}
+    \item Iep Utratny szczepan
+    \item Iep Fligier Paweł
+    \item II a Krzyżanowski Wojciech
+    \item IId Górecki Seweryn
+    \item Icp Ratka Piotr
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Lampart Franek}
+
+  \begin{itemize}
+    \item Ibg Andraczek Hanna
+    \item II c Piontek Victoria
+    \item II c Koprek Karolina
+    \item Iep Gaj Joanna
+    \item Idp Wnuk Hanna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II c Makuch Julia}
+
+  \begin{itemize}
+    \item Ibp Glinkowski Wiktor
+    \item Idg Mochnacki Mikołaj
+    \item Iep Utratny szczepan
+    \item Iep Fligier Paweł
+    \item IIb Bajer Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icp Łazor Agata}
+
+  \begin{itemize}
+    \item Icg Niegowski Witek
+    \item IIIb Plaza Karol
+    \item IIIb Mroczko Patryk
+    \item IId Korzeń Kuba
+    \item IIb Bajer Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II c Mrozek Agnieszka}
+
+  \begin{itemize}
+    \item Iep Fligier Paweł
+    \item IIb Bajer Jakub
+    \item Idg Mochnacki Mikołaj
+    \item I cg Kciuk Piotr
+    \item IIb Roetkegel Jan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icp Budzisz Julia}
+
+  \begin{itemize}
+    \item Icp Dziuma Michalina
+    \item II c Lipińska Natalia
+    \item IIIe Strzezik Martyna
+    \item Iap Nowak Cezary
+    \item Idg Tabor Magda
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Woźniak Weronika}
+
+  \begin{itemize}
+    \item Iep Sztaba Maciej
+    \item IIIc Huckuba Daniel
+    \item Ibp Hartowicz Łukasz
+    \item IIIb Mroczko Patryk
+    \item II b Możdżeń Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Pilot Bartek}
+
+  \begin{itemize}
+    \item Ibp Kołodziej Julia
+    \item Icp Broda Michalina
+    \item II c Koprek Karolina
+    \item IId  Spólnicka Magda
+    \item IIb Sokoła Natalia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Olesiński Maciej}
+
+  \begin{itemize}
+    \item Ibp Mota Alicja
+    \item Icp Worsowicz Ala
+    \item Ibg Haber Martyna
+    \item Idg Wygoda Ania
+    \item Icp Broda Michalina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icp Grabowska Milena}
+
+  \begin{itemize}
+    \item Ibg Wojdlski Miłosz
+    \item Icp Ratka Piotr
+    \item I cg Kciuk Piotr
+    \item IIb Roetkegel Jan
+    \item IIb Bajer Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Szejnoga Weronika}
+
+  \begin{itemize}
+    \item Iap Mrozek Błażej
+    \item II d Bączek Adam
+    \item I bg Zdonek Aleksander
+    \item IIe Kubita mateusz
+    \item Iap Cygan Kamil
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I cg Sapek Mikołaj}
+
+  \begin{itemize}
+    \item II c Lewandowska Magda
+    \item Iap Tomasiak Karolina
+    \item II B Kroczek Wiktoria
+    \item Ibg Nocuń Marcelina
+    \item Ibp Peszke Aleksandra
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I cp Loranty Maja}
+
+  \begin{itemize}
+    \item Idg Zarudzka Maja
+    \item IIe Skoczylas Maciek
+    \item Iep Melon Zuzanna
+    \item Idg Sendek Lila
+    \item I bp Bronikowski Adam
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Utratny szczepan}
+
+  \begin{itemize}
+    \item Iep Fligier Paweł
+    \item I cg Chomicz Mateusz
+    \item Iep Nowak Zofia
+    \item Idg Legut Emilia
+    \item Icg Eksner Amelia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Fligier Paweł}
+
+  \begin{itemize}
+    \item Iep Utratny szczepan
+    \item I cg Chomicz Mateusz
+    \item Idg Idasiak Zosia
+    \item Icg Eksner Amelia
+    \item Idg Borowska Ola
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Melon Zuzanna}
+
+  \begin{itemize}
+    \item Icg Eksner Amelia
+    \item I cp Loranty Maja
+    \item I cg Pałka Justyna
+    \item Iep Utratny szczepan
+    \item IId Pancewicz Miłosz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II c Lewandowska Magda}
+
+  \begin{itemize}
+    \item Iep Zwoliński jan
+    \item IIe Skoczylas Maciek
+    \item II e Behrendt Jan
+    \item I cg Chomicz Mateusz
+    \item IIb Tetera Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Zwoliński jan}
+
+  \begin{itemize}
+    \item II c Lewandowska Magda
+    \item Iap Tomasiak Karolina
+    \item IId Faltus Anita
+    \item IIe Hryń Zosia
+    \item Idg Juśkiewicz Ania
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icp Broda Michalina}
+
+  \begin{itemize}
+    \item Ibp Hartowicz Łukasz
+    \item Iap Klimek Patryk
+    \item Ibg Wojdlski Miłosz
+    \item Iap Kurzak Adam
+    \item Ibp Olesiński Maciej
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II c Zieliński Jakub}
+
+  \begin{itemize}
+    \item II c Lipińska Natalia
+    \item Icg Pajdak Agnieszka
+    \item III a Odrobina Julia
+    \item Ieg Łukasik Zuzia
+    \item Idg Tabor Magda
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Piasecka Aleksandra}
+
+  \begin{itemize}
+    \item IId Pancewicz Miłosz
+    \item IId Hliniak Szymon
+    \item Idg Drewko Adam
+    \item Iep Sztaba Maciej
+    \item Ibp Olesiński Maciej
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idp Trzaska Amelia}
+
+  \begin{itemize}
+    \item Iep Baińczyk Michał
+    \item Idp Cerak Jakub
+    \item IIIc Wysocki Artur
+    \item Idg Jałowiecki Dawid
+    \item Iep Fligier Paweł
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Mota Alicja}
+
+  \begin{itemize}
+    \item Ibg Mrózek mikołaj
+    \item I bp Bronikowski Adam
+    \item Ibp Olesiński Maciej
+    \item IIe Skoczylas Maciek
+    \item Ibp Wilk Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Namysłowska Nina}
+
+  \begin{itemize}
+    \item Iep Utratny szczepan
+    \item IIe Skoczylas Maciek
+    \item Ibg Mrózek mikołaj
+    \item II b Możdżeń Jakub
+    \item Idp Nowakowski Łukasz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icp Dziuma Michalina}
+
+  \begin{itemize}
+    \item Ibp Hartowicz Łukasz
+    \item IIIe Strzezik Martyna
+    \item IIIB Wolny Patryk
+    \item Icp Budzisz Julia
+    \item I eg Bem Michał
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II c Piontek Victoria}
+
+  \begin{itemize}
+    \item II d Bączek Adam
+    \item Idg Tabor Magda
+    \item I dp Nowakowski Przemysław
+    \item Idp Kowalczyk Anna
+    \item Ieg Kawecka Małgosia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II c Kancy Adaś}
+
+  \begin{itemize}
+    \item IIe Wawszczak Ala
+    \item IIa Idzikowska Ala
+    \item IIb Rusak Agnieszka
+    \item II c Lewandowska Magda
+    \item Iep Zwoliński jan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IId Korzeń Kuba}
+
+  \begin{itemize}
+    \item Ieg Beata Szuleka
+    \item Icp Łazor Agata
+    \item Ibp Woźniak Weronika
+    \item Icp Broda Michalina
+    \item IIIe Strzezik Martyna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Drewko Adam}
+
+  \begin{itemize}
+    \item Idp Wnuk Hanna
+    \item II c Schuwald Kuba
+    \item Iep Piasecka Aleksandra
+    \item IId Broja Zuzia
+    \item Iep Nowak Zofia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIb Bajer Jakub}
+
+  \begin{itemize}
+    \item I dg Pałka Pola
+    \item Ibg Haber Martyna
+    \item Idp Browarska Emilia
+    \item II c Mrozek Agnieszka
+    \item Iap Tomasiak Karolina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibg Andraczek Hanna}
+
+  \begin{itemize}
+    \item II d Bączek Adam
+    \item Ibg Wojdlski Miłosz
+    \item Iep Sztaba Maciej
+    \item II a Krzyżanowski Wojciech
+    \item Idg Lampart Franek
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIe Krząkała Julia}
+
+  \begin{itemize}
+    \item I cg Pałka Justyna
+    \item IIIe Strzezik Martyna
+    \item IIIb Plaza Karol
+    \item IIIb Początek Mateusz
+    \item Iep Zwoliński jan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II c Lipińska Natalia}
+
+  \begin{itemize}
+    \item IIb Roetkegel Jan
+    \item Iep Baińczyk Michał
+    \item IId Faltus Anita
+    \item IIa Jankowski Beniamin
+    \item Idg Jałowiecki Dawid
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIb Roetkegel Jan}
+
+  \begin{itemize}
+    \item II c Lipińska Natalia
+    \item Ibp Młynek Hania
+    \item II c Mrozek Agnieszka
+    \item Icp Broda Michalina
+    \item II c Koprek Karolina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIe Strzezik Martyna}
+
+  \begin{itemize}
+    \item Icp Dziuma Michalina
+    \item IIIe Krząkała Julia
+    \item IId  Spólnicka Magda
+    \item Idp Kowalczyk Anna
+    \item IIIb Plaza Karol
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II d Bączek Adam}
+
+  \begin{itemize}
+    \item Ibp Kołodziej Julia
+    \item Ibg Andraczek Hanna
+    \item II c Koprek Karolina
+    \item III a Ignatowicz Krystyna
+    \item Iep Szejnoga Weronika
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I eg Skitał Bartek}
+
+  \begin{itemize}
+    \item Ieg Misztal Ewa
+    \item Ieg Bulik Martyna
+    \item IIe Wawszczak Ala
+    \item IId Broja Zuzia
+    \item Idp Kowalczyk Anna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II b Nowak Robert}
+
+  \begin{itemize}
+    \item Ibg Mrózek mikołaj
+    \item II b Możdżeń Jakub
+    \item Iep Zwoliński jan
+    \item IIe Skoczylas Maciek
+    \item IIIb Początek Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIc Wiśniewska Natalia}
+
+  \begin{itemize}
+    \item I cg Chomicz Mateusz
+    \item Iep Zwoliński jan
+    \item IIa Podgórni Maciek
+    \item IIe Dyło Michał
+    \item Idg Mochnacki Mikołaj
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II c Koprek Karolina}
+
+  \begin{itemize}
+    \item Iep Baińczyk Michał
+    \item Ibp Hartowicz Łukasz
+    \item IIIb Mroczko Patryk
+    \item Iap Nowak Cezary
+    \item II d Bączek Adam
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II e Streb Maksymilian}
+
+  \begin{itemize}
+    \item Iep Szejnoga Weronika
+    \item Ibp Mota Alicja
+    \item II b Szopa Olga
+    \item IIa Kużdżał Kasia
+    \item II B Kroczek Wiktoria
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II b Możdżeń Jakub}
+
+  \begin{itemize}
+    \item II b Nowak Robert
+    \item Ibp Adamiak Karolina
+    \item Idg Juśkiewicz Ania
+    \item Idg Idasiak Zosia
+    \item IIa Idzikowska Ala
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Topolska Katarzyna}
+
+  \begin{itemize}
+    \item I cg Chomicz Mateusz
+    \item IIe Skoczylas Maciek
+    \item Ibp Wilk Mateusz
+    \item I cg Kciuk Piotr
+    \item Iep Utratny szczepan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Gaj Joanna}
+
+  \begin{itemize}
+    \item II a Mrówka Marek
+    \item IIIb Plaza Karol
+    \item IIb Roetkegel Jan
+    \item IIb Bajer Jakub
+    \item IIIB Wolny Patryk
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IId Górecki Seweryn}
+
+  \begin{itemize}
+    \item Iep Babkin Katiusza
+    \item I cg Gawron Maja
+    \item IIe Hryń Zosia
+    \item Ieg Serdeyńska Marta
+    \item II c Makuch Julia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIe Jasto Mateusz}
+
+  \begin{itemize}
+    \item IIe Wawszczak Ala
+    \item II d Sosnowska Milena
+    \item Ieg Misztal Ewa
+    \item Idg Tabor Magda
+    \item III a Ignatowicz Krystyna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IId Faltus Anita}
+
+  \begin{itemize}
+    \item Iep Zwoliński jan
+    \item II e Behrendt Jan
+    \item IIa Jankowski Beniamin
+    \item II c Lipińska Natalia
+    \item IId  Spólnicka Magda
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IId  Spólnicka Magda}
+
+  \begin{itemize}
+    \item Iep Fligier Paweł
+    \item IId Faltus Anita
+    \item Idg Pilot Bartek
+    \item Iep Zwoliński jan
+    \item II c Lipińska Natalia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Zarzycka Julia}
+
+  \begin{itemize}
+    \item Iep Utratny szczepan
+    \item Iep Fligier Paweł
+    \item IIe Skoczylas Maciek
+    \item Ibp Glinkowski Wiktor
+    \item IIIb Plaza Karol
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IId  Mijas Daniel}
+
+  \begin{itemize}
+    \item I cp Loranty Maja
+    \item Iep Melon Zuzanna
+    \item Idg Zarudzka Maja
+    \item Icp Budzisz Julia
+    \item Icg Jans Wiktoria
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Misztal Ewa}
+
+  \begin{itemize}
+    \item I eg Skitał Bartek
+    \item Ibg Wojdlski Miłosz
+    \item Ieg Górecki Piotr
+    \item IIIb Mroczko Patryk
+    \item II e Golla Paweł
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icp Worsowicz Ala}
+
+  \begin{itemize}
+    \item IIe Skoczylas Maciek
+    \item Ibp Wilk Mateusz
+    \item I cg Chomicz Mateusz
+    \item Ibp Olesiński Maciej
+    \item Iep Fligier Paweł
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibg Tymon Zuzia}
+
+  \begin{itemize}
+    \item I cg Kciuk Piotr
+    \item Ibg Mrózek mikołaj
+    \item Iep Utratny szczepan
+    \item II b Możdżeń Jakub
+    \item Idg Mochnacki Mikołaj
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibg Haber Martyna}
+
+  \begin{itemize}
+    \item IIe Skoczylas Maciek
+    \item Idp Cerak Jakub
+    \item Idp Nowakowski Łukasz
+    \item Ibp Olesiński Maciej
+    \item IIb Bajer Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIa Podgórni Maciek}
+
+  \begin{itemize}
+    \item II c Lewandowska Magda
+    \item II B Kroczek Wiktoria
+    \item IIa Idzikowska Ala
+    \item Icp Broda Michalina
+    \item II c Lipińska Natalia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibg Walencka Dagmara}
+
+  \begin{itemize}
+    \item Iep Zwoliński jan
+    \item Idg Mochnacki Mikołaj
+    \item Ibg Wojdlski Miłosz
+    \item Ibg Mrózek mikołaj
+    \item IIIb Plaza Karol
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Sztaba Maciej}
+
+  \begin{itemize}
+    \item Iap Tomasiak Karolina
+    \item IId Broja Zuzia
+    \item Iep Nowak Zofia
+    \item Idg Mazurkiewicz Kaja
+    \item I cp Loranty Maja
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIe Hryń Zosia}
+
+  \begin{itemize}
+    \item Iep Zwoliński jan
+    \item IIe Skoczylas Maciek
+    \item Ibp Wilk Mateusz
+    \item I cg Kciuk Piotr
+    \item IIb Bajer Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIe Skoczylas Maciek}
+
+  \begin{itemize}
+    \item Icp Worsowicz Ala
+    \item Ibg Haber Martyna
+    \item Idg Wygoda Ania
+    \item Idp Browarska Emilia
+    \item I cp Loranty Maja
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icp Ratka Piotr}
+
+  \begin{itemize}
+    \item Idg Zarudzka Maja
+    \item Iep Babkin Katiusza
+    \item Icp Grabowska Milena
+    \item Iep Melon Zuzanna
+    \item Ibg Andraczek Hanna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I eg Kleibert Filip}
+
+  \begin{itemize}
+    \item Iap Niemczakiewicz Kamila
+    \item IId Hetman Natalia
+    \item I dp Sarota Julia
+    \item Ieg Pucek Ola
+    \item Icp Grabowska Milena
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icg Pajdak Agnieszka}
+
+  \begin{itemize}
+    \item Icg Eksner Amelia
+    \item IId Pancewicz Miłosz
+    \item Idg Sendek Lila
+    \item Icp Ratka Piotr
+    \item III a Adamiak Natalia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icg Jans Wiktoria}
+
+  \begin{itemize}
+    \item IIa Kużdżał Kasia
+    \item Idp Cerak Jakub
+    \item Iep Zwoliński jan
+    \item IIb Bajer Jakub
+    \item IIe Skoczylas Maciek
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I cg Gawron Maja}
+
+  \begin{itemize}
+    \item Iap Nowak Cezary
+    \item Icp Dziuma Michalina
+    \item Ibp Hartowicz Łukasz
+    \item IIIb Mroczko Patryk
+    \item Ieg Skowron Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Klimek Patryk}
+
+  \begin{itemize}
+    \item Icp Broda Michalina
+    \item Ibg Haber Martyna
+    \item IIa Kużdżał Kasia
+    \item Ibp Zaleśny Beata
+    \item II c Mrozek Agnieszka
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIe Dyło Michał}
+
+  \begin{itemize}
+    \item II c Lewandowska Magda
+    \item Ibp Namysłowska Nina
+    \item IIc Wiśniewska Natalia
+    \item Ibg Nocuń Marcelina
+    \item IIb Rusak Agnieszka
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II e Behrendt Jan}
+
+  \begin{itemize}
+    \item II c Lewandowska Magda
+    \item Ibg Hajduk Jolanta
+    \item IIb Zelek Maja
+    \item IId Faltus Anita
+    \item Iap Tomasiak Karolina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIe Kołcz Anna}
+
+  \begin{itemize}
+    \item Ibp Wilk Mateusz
+    \item I bp Bronikowski Adam
+    \item IIb Tetera Jakub
+    \item IIe Skoczylas Maciek
+    \item Ibp Hartowicz Łukasz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Glinkowski Wiktor}
+
+  \begin{itemize}
+    \item II c Makuch Julia
+    \item I dp Sarota Julia
+    \item Ieg Zarzycka Julia
+    \item Ibg Haber Martyna
+    \item IId Broja Zuzia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Niemczakiewicz Kamila}
+
+  \begin{itemize}
+    \item IIe Skoczylas Maciek
+    \item I eg Kleibert Filip
+    \item Iep Fligier Paweł
+    \item II b Możdżeń Jakub
+    \item IIIc Wysocki Artur
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icg Potoniec Zuzia}
+
+  \begin{itemize}
+    \item Iep Sztaba Maciej
+    \item IIIc Huckuba Daniel
+    \item I cp Loranty Maja
+    \item Iep Melon Zuzanna
+    \item II c Piontek Victoria
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Idzikowska Ania}
+
+  \begin{itemize}
+    \item Iep Zwoliński jan
+    \item IId Pancewicz Miłosz
+    \item Ibg Krawiec Krzysiu
+    \item I cg Chomicz Mateusz
+    \item IIIb Początek Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Młynek Hania}
+
+  \begin{itemize}
+    \item IIb Roetkegel Jan
+    \item Ibp Hartowicz Łukasz
+    \item Iap Sosna Maciek
+    \item Iep Baińczyk Michał
+    \item IIIb Mroczko Patryk
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Tomasiak Karolina}
+
+  \begin{itemize}
+    \item Iep Zwoliński jan
+    \item IIe Skoczylas Maciek
+    \item Ibp Wilk Mateusz
+    \item II e Behrendt Jan
+    \item IIIb Początek Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Adamiak Karolina}
+
+  \begin{itemize}
+    \item II b Możdżeń Jakub
+    \item Ibp Hartowicz Łukasz
+    \item Ibp Wilk Mateusz
+    \item I bp Bronikowski Adam
+    \item Iep Zwoliński jan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IId Hetman Natalia}
+
+  \begin{itemize}
+    \item I eg Kleibert Filip
+    \item IId Hliniak Szymon
+    \item IIa Podgórni Maciek
+    \item Idg Pilot Bartek
+    \item II a Krzyżanowski Wojciech
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icp Grabowska Emilia}
+
+  \begin{itemize}
+    \item Iap Stolorz Wiktor
+    \item Idg Pilot Bartek
+    \item Iap Garbiec radek
+    \item Iap Krysiński Jakub
+    \item I cg Gawron Maja
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Bulik Martyna}
+
+  \begin{itemize}
+    \item Iep Kaletka Jakub
+    \item Iep Baińczyk Michał
+    \item I eg Skitał Bartek
+    \item I eg Bem Michał
+    \item II e Golla Paweł
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IId Pancewicz Miłosz}
+
+  \begin{itemize}
+    \item Idg Juśkiewicz Ania
+    \item Iep Piasecka Aleksandra
+    \item Iep Melon Zuzanna
+    \item Icg Pajdak Agnieszka
+    \item Ibp Idzikowska Ania
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IId Hliniak Szymon}
+
+  \begin{itemize}
+    \item II c Mrozek Agnieszka
+    \item Iep Piasecka Aleksandra
+    \item I cp Pilc Katarzyna
+    \item IIc Kalinowska Kornelia
+    \item Iep Utratny szczepan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIId Otto Dominika}
+
+  \begin{itemize}
+    \item I cg Kciuk Piotr
+    \item Idg Mochnacki Mikołaj
+    \item Ibp Wilk Mateusz
+    \item II c Kancy Adaś
+    \item IIe Skoczylas Maciek
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIId Czuryłowicz Oliwia}
+
+  \begin{itemize}
+    \item Iep Utratny szczepan
+    \item I cg Chomicz Mateusz
+    \item IIe Skoczylas Maciek
+    \item IId Pancewicz Miłosz
+    \item II a Krzyżanowski Wojciech
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Garbiec radek}
+
+  \begin{itemize}
+    \item Icp Łazor Agata
+    \item Icp Grabowska Emilia
+    \item Ibg Hajduk Jolanta
+    \item Iep Melon Zuzanna
+    \item Icp Broda Michalina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibg Mrózek mikołaj}
+
+  \begin{itemize}
+    \item Ibp Mota Alicja
+    \item Ibg Hajduk Jolanta
+    \item II b Nowak Robert
+    \item Ibg Haber Martyna
+    \item Ibg Walencka Dagmara
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I eg Bem Michał}
+
+  \begin{itemize}
+    \item Ibp Zgraja Karolina
+    \item Idp Wnuk Hanna
+    \item Icg Wójcik Monika
+    \item Icp Dziuma Michalina
+    \item Ieg Bulik Martyna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibg Nocuń Marcelina}
+
+  \begin{itemize}
+    \item I cg Kciuk Piotr
+    \item IIe Skoczylas Maciek
+    \item Idg Mochnacki Mikołaj
+    \item Idp Cerak Jakub
+    \item Idp Nowakowski Łukasz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibg Hajduk Jolanta}
+
+  \begin{itemize}
+    \item Ibg Mrózek mikołaj
+    \item II e Behrendt Jan
+    \item Iep Zwoliński jan
+    \item IIIb Początek Mateusz
+    \item II b Możdżeń Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibg Wojdlski Miłosz}
+
+  \begin{itemize}
+    \item Icp Broda Michalina
+    \item Icp Grabowska Milena
+    \item Ibg Andraczek Hanna
+    \item Ieg Misztal Ewa
+    \item Ibg Walencka Dagmara
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIb Plaza Karol}
+
+  \begin{itemize}
+    \item II c Lewandowska Magda
+    \item Iep Gaj Joanna
+    \item Ibg Walencka Dagmara
+    \item Ibp Peszke Aleksandra
+    \item Ieg Łukasik Zuzia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Kurzak Adam}
+
+  \begin{itemize}
+    \item Icp Broda Michalina
+    \item Ibg Andraczek Hanna
+    \item Ibp Peszke Aleksandra
+    \item Iap Goliszewska Ola
+    \item II B Szumska Aneta
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icg Niegowski Witek}
+
+  \begin{itemize}
+    \item Icp Łazor Agata
+    \item II b Skalska Martyna
+    \item Icg Jans Wiktoria
+    \item I cg Pałka Justyna
+    \item Ieg Zarzycka Julia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Juśkiewicz Ania}
+
+  \begin{itemize}
+    \item Idg Mochnacki Mikołaj
+    \item Iep Zwoliński jan
+    \item IId Pancewicz Miłosz
+    \item II b Możdżeń Jakub
+    \item Iep Fligier Paweł
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Idasiak Zosia}
+
+  \begin{itemize}
+    \item Idg Mochnacki Mikołaj
+    \item Iep Fligier Paweł
+    \item I cg Kciuk Piotr
+    \item Iep Utratny szczepan
+    \item II b Możdżeń Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIb Początek Mateusz}
+
+  \begin{itemize}
+    \item III a Odrobina Julia
+    \item II c Lewandowska Magda
+    \item II b Nowak Robert
+    \item Iap Tomasiak Karolina
+    \item Ibg Hajduk Jolanta
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Zarudzka Maja}
+
+  \begin{itemize}
+    \item I cp Loranty Maja
+    \item I bp Bronikowski Adam
+    \item II a Krzyżanowski Wojciech
+    \item Idp Nowakowski Łukasz
+    \item Icp Ratka Piotr
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIe Wawszczak Ala}
+
+  \begin{itemize}
+    \item II c Kancy Adaś
+    \item I eg Skitał Bartek
+    \item IIIe Jasto Mateusz
+    \item Iep Sztaba Maciej
+    \item IId Hliniak Szymon
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIB Wolny Patryk}
+
+  \begin{itemize}
+    \item Icp Dziuma Michalina
+    \item I cp Loranty Maja
+    \item Iep Gaj Joanna
+    \item III a Odrobina Julia
+    \item Icp Worsowicz Ala
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Mochnacki Mikołaj}
+
+  \begin{itemize}
+    \item Idg Borowska Ola
+    \item Idg Juśkiewicz Ania
+    \item Idg Idasiak Zosia
+    \item II b Szopa Olga
+    \item I dp Sarota Julia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I bg Zdonek Aleksander}
+
+  \begin{itemize}
+    \item Icp Broda Michalina
+    \item Iep Szejnoga Weronika
+    \item III a Ignatowicz Krystyna
+    \item I cp Loranty Maja
+    \item Icp Dziuma Michalina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IId Broja Zuzia}
+
+  \begin{itemize}
+    \item IIe Skoczylas Maciek
+    \item Ibp Glinkowski Wiktor
+    \item Idg Tabor Magda
+    \item I cg Kciuk Piotr
+    \item I cp Loranty Maja
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Hartowicz Łukasz}
+
+  \begin{itemize}
+    \item Icp Broda Michalina
+    \item Ibp Adamiak Karolina
+    \item Icp Dziuma Michalina
+    \item IIb Rusak Agnieszka
+    \item Ibp Mota Alicja
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIb Mroczko Patryk}
+
+  \begin{itemize}
+    \item II c Koprek Karolina
+    \item Icp Łazor Agata
+    \item Ibp Woźniak Weronika
+    \item Ieg Misztal Ewa
+    \item II B Szumska Aneta
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Peszke Aleksandra}
+
+  \begin{itemize}
+    \item Ibg Wojdlski Miłosz
+    \item IIIb Plaza Karol
+    \item I cg Sapek Mikołaj
+    \item IIe Skoczylas Maciek
+    \item Iap Klimek Patryk
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Nowak Cezary}
+
+  \begin{itemize}
+    \item I cg Gawron Maja
+    \item Ibp Kołodziej Julia
+    \item Ibp Zgraja Karolina
+    \item II c Koprek Karolina
+    \item Iep Babkin Katiusza
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIe Kubita mateusz}
+
+  \begin{itemize}
+    \item Idg Wygoda Ania
+    \item Ibg Haber Martyna
+    \item Iap Goliszewska Ola
+    \item Iep Szejnoga Weronika
+    \item Icg Jans Wiktoria
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIe Buława Filip}
+
+  \begin{itemize}
+    \item III a Adamiak Natalia
+    \item II c Lipińska Natalia
+    \item Ibg Tymon Zuzia
+    \item Ibg Haber Martyna
+    \item Iap Tomasiak Karolina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II c Kalka Karolina}
+
+  \begin{itemize}
+    \item Idg Mochnacki Mikołaj
+    \item II a Krzyżanowski Wojciech
+    \item Iep Utratny szczepan
+    \item IIa Podgórni Maciek
+    \item Ibp Glinkowski Wiktor
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Mrozek Błażej}
+
+  \begin{itemize}
+    \item Iep Szejnoga Weronika
+    \item Icg Wójcik Monika
+    \item Idg Mazurkiewicz Kaja
+    \item Idg Sarre Renata
+    \item Iep Gaj Joanna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Cygan Kamil}
+
+  \begin{itemize}
+    \item Iep Szejnoga Weronika
+    \item Ibp Borkowska Zofia
+    \item Icp Budzisz Julia
+    \item Idg Sarre Renata
+    \item II c Piontek Victoria
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Sosna Maciek}
+
+  \begin{itemize}
+    \item Ibp Zgraja Karolina
+    \item Ibp Młynek Hania
+    \item IIc Kalinowska Kornelia
+    \item Icp Grabowska Milena
+    \item Iep Szejnoga Weronika
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IId Bojar Julia}
+
+  \begin{itemize}
+    \item II a Krzyżanowski Wojciech
+    \item Ibp Olesiński Maciej
+    \item IIIf Kopczyk Krzysztof
+    \item IIIc Wysocki Artur
+    \item IIe Skoczylas Maciek
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Sendek Lila}
+
+  \begin{itemize}
+    \item I cp Loranty Maja
+    \item Icg Pajdak Agnieszka
+    \item III a Odrobina Julia
+    \item IIb Bajer Jakub
+    \item IIIb Początek Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Krysiński Jakub}
+
+  \begin{itemize}
+    \item IIa Kużdżał Kasia
+    \item III a Adamiak Natalia
+    \item IIc Kalinowska Kornelia
+    \item Iep Szejnoga Weronika
+    \item Icp Broda Michalina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIf Kopczyk Krzysztof}
+
+  \begin{itemize}
+    \item Iep Babkin Katiusza
+    \item II c Mrozek Agnieszka
+    \item I cg Gawron Maja
+    \item IId Bojar Julia
+    \item Ieg Mojsa Iga
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Goliszewska Ola}
+
+  \begin{itemize}
+    \item IIe Skoczylas Maciek
+    \item Ibp Olesiński Maciej
+    \item IIb Bajer Jakub
+    \item Ibg Mrózek mikołaj
+    \item IIe Kubita mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II B Szumska Aneta}
+
+  \begin{itemize}
+    \item IIIb Mroczko Patryk
+    \item IIb Roetkegel Jan
+    \item IIb Bajer Jakub
+    \item I eg Kleibert Filip
+    \item IId Pancewicz Miłosz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIb Sokoła Natalia}
+
+  \begin{itemize}
+    \item II a Mrówka Marek
+    \item Idg Pilot Bartek
+    \item Iep Fligier Paweł
+    \item II d Bączek Adam
+    \item IIa Podgórni Maciek
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Mojsa Iga}
+
+  \begin{itemize}
+    \item II e Behrendt Jan
+    \item IIIb Plaza Karol
+    \item IIIf Kopczyk Krzysztof
+    \item Idg Kobielski Kacper
+    \item Iep Zwoliński jan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Borkowska Zofia}
+
+  \begin{itemize}
+    \item II a Krzyżanowski Wojciech
+    \item IIb Bajer Jakub
+    \item Ibp Glinkowski Wiktor
+    \item IId Pancewicz Miłosz
+    \item IId Hliniak Szymon
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Kaletka Jakub}
+
+  \begin{itemize}
+    \item Ieg Bulik Martyna
+    \item Ibp Kołodziej Julia
+    \item II c Koprek Karolina
+    \item Icg Wójcik Monika
+    \item Ibp Woźniak Weronika
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II b Szopa Olga}
+
+  \begin{itemize}
+    \item Idg Mochnacki Mikołaj
+    \item IIIc Wysocki Artur
+    \item Idg Jałowiecki Dawid
+    \item Iep Zwoliński jan
+    \item Ibg Wojdlski Miłosz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Nowak Zofia}
+
+  \begin{itemize}
+    \item Iep Utratny szczepan
+    \item Iep Sztaba Maciej
+    \item Ibp Glinkowski Wiktor
+    \item IId Pancewicz Miłosz
+    \item I cg Chomicz Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIa Kużdżał Kasia}
+
+  \begin{itemize}
+    \item Icg Jans Wiktoria
+    \item Iap Klimek Patryk
+    \item IId Faltus Anita
+    \item Ibg Wojdlski Miłosz
+    \item IIIb Początek Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I bp Bronikowski Adam}
+
+  \begin{itemize}
+    \item Ibp Mota Alicja
+    \item Idg Zarudzka Maja
+    \item I cp Loranty Maja
+    \item II b Nowak Robert
+    \item Icp Worsowicz Ala
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II e Golla Paweł}
+
+  \begin{itemize}
+    \item Icg Wójcik Monika
+    \item Ieg Misztal Ewa
+    \item Ieg Bulik Martyna
+    \item III a Adamiak Natalia
+    \item I cg Pałka Justyna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Jędzrzejek Mikołaj}
+
+  \begin{itemize}
+    \item Icp Broda Michalina
+    \item II B Kroczek Wiktoria
+    \item Ibg Andraczek Hanna
+    \item Ibp Peszke Aleksandra
+    \item II d Sosnowska Milena
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Kędzierska Iga}
+
+  \begin{itemize}
+    \item I bp Bronikowski Adam
+    \item II a Krzyżanowski Wojciech
+    \item Idp Nowakowski Łukasz
+    \item II d Bączek Adam
+    \item Iap Klimek Patryk
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idp Pietrusiak Kinga}
+
+  \begin{itemize}
+    \item I cg Chomicz Mateusz
+    \item Iep Zwoliński jan
+    \item IIe Skoczylas Maciek
+    \item Ibg Krawiec Krzysiu
+    \item II c Kancy Adaś
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iep Baińczyk Michał}
+
+  \begin{itemize}
+    \item II c Koprek Karolina
+    \item II c Lipińska Natalia
+    \item Ieg Bulik Martyna
+    \item III a Ignatowicz Krystyna
+    \item Ibp Kołodziej Julia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Gorczyca Maja}
+
+  \begin{itemize}
+    \item I dp Nowakowski Przemysław
+    \item Iep Zwoliński jan
+    \item I cg Kciuk Piotr
+    \item Iep Utratny szczepan
+    \item IIb Bajer Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Łukasik Zuzia}
+
+  \begin{itemize}
+    \item IIIb Plaza Karol
+    \item Iep Zwoliński jan
+    \item IIb Bajer Jakub
+    \item IIb Roetkegel Jan
+    \item IIIb Początek Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Wilk Mateusz}
+
+  \begin{itemize}
+    \item Icp Worsowicz Ala
+    \item IIIe Kołcz Anna
+    \item Iap Tomasiak Karolina
+    \item Ibp Adamiak Karolina
+    \item Ibp Mota Alicja
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idp Talarek Alicja}
+
+  \begin{itemize}
+    \item Iep Utratny szczepan
+    \item Idg Jałowiecki Dawid
+    \item IIb Roetkegel Jan
+    \item II d Bączek Adam
+    \item Icp Ratka Piotr
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I dp Nowakowski Przemysław}
+
+  \begin{itemize}
+    \item Ieg Gorczyca Maja
+    \item II c Mrozek Agnieszka
+    \item II c Piontek Victoria
+    \item Ibg Andraczek Hanna
+    \item II c Koprek Karolina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II a Krzyżanowski Wojciech}
+
+  \begin{itemize}
+    \item Ibp Borkowska Zofia
+    \item Icg Eksner Amelia
+    \item II b Nowak Robert
+    \item Idg Zarudzka Maja
+    \item I dp Sarota Julia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idp Siermantowska Maja}
+
+  \begin{itemize}
+    \item Iap Krysiński Jakub
+    \item II e Golla Paweł
+    \item Idp Cerak Jakub
+    \item Ieg Górecki Piotr
+    \item IId Korzeń Kuba
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idp Kowalczyk Anna}
+
+  \begin{itemize}
+    \item Idg Tabor Magda
+    \item II c Piontek Victoria
+    \item IIIe Strzezik Martyna
+    \item IId Pancewicz Miłosz
+    \item IId Broja Zuzia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II B Kroczek Wiktoria}
+
+  \begin{itemize}
+    \item I cg Sapek Mikołaj
+    \item IIb Bajer Jakub
+    \item IIa Podgórni Maciek
+    \item IIe Skoczylas Maciek
+    \item I bp Bronikowski Adam
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIa Jankowski Beniamin}
+
+  \begin{itemize}
+    \item IId Faltus Anita
+    \item II c Lipińska Natalia
+    \item Iap Tomasiak Karolina
+    \item I dg Pałka Pola
+    \item Idp Browarska Emilia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idp Wnuk Hanna}
+
+  \begin{itemize}
+    \item Idg Drewko Adam
+    \item I eg Bem Michał
+    \item II d Bączek Adam
+    \item Idg Lampart Franek
+    \item Idg Pilot Bartek
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Tabor Magda}
+
+  \begin{itemize}
+    \item Idp Kowalczyk Anna
+    \item II c Piontek Victoria
+    \item IId Pancewicz Miłosz
+    \item IId Broja Zuzia
+    \item Ieg Kawecka Małgosia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I dp Sarota Julia}
+
+  \begin{itemize}
+    \item Idg Mochnacki Mikołaj
+    \item IIe Skoczylas Maciek
+    \item Ibp Glinkowski Wiktor
+    \item II a Krzyżanowski Wojciech
+    \item Ibp Olesiński Maciej
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idp Cerak Jakub}
+
+  \begin{itemize}
+    \item Ibg Haber Martyna
+    \item Ieg Serdeyńska Marta
+    \item Icg Jans Wiktoria
+    \item Ibg Nocuń Marcelina
+    \item I dp Szpor Julia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idp Kaczmarek Olga}
+
+  \begin{itemize}
+    \item IIe Kubita mateusz
+    \item I bp Bronikowski Adam
+    \item Ibp Olesiński Maciej
+    \item Idp Nowakowski Łukasz
+    \item Ibg Mrózek mikołaj
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Beata Szuleka}
+
+  \begin{itemize}
+    \item IId Korzeń Kuba
+    \item Idp Cerak Jakub
+    \item IIA Biały Artur
+    \item II a Mrówka Marek
+    \item Idg Pilot Bartek
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Kobielski Kacper}
+
+  \begin{itemize}
+    \item Ieg Mojsa Iga
+    \item Icg Jans Wiktoria
+    \item Ibg Nocuń Marcelina
+    \item Ibp Peszke Aleksandra
+    \item II b Szopa Olga
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idp Nowakowski Łukasz}
+
+  \begin{itemize}
+    \item Ibg Haber Martyna
+    \item Icp Worsowicz Ala
+    \item Ibg Nocuń Marcelina
+    \item Idg Zarudzka Maja
+    \item Ibp Mota Alicja
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIa Idzikowska Ala}
+
+  \begin{itemize}
+    \item IIb Tetera Jakub
+    \item II b Możdżeń Jakub
+    \item Iep Zwoliński jan
+    \item IIe Skoczylas Maciek
+    \item II e Behrendt Jan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibg Krawiec Krzysiu}
+
+  \begin{itemize}
+    \item Icp Worsowicz Ala
+    \item Iap Tomasiak Karolina
+    \item II c Lewandowska Magda
+    \item Ibp Namysłowska Nina
+    \item II b Nowak Robert
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIb Rusak Agnieszka}
+
+  \begin{itemize}
+    \item IIb Tetera Jakub
+    \item Iep Zwoliński jan
+    \item Idg Mochnacki Mikołaj
+    \item Ibp Hartowicz Łukasz
+    \item Ibp Wilk Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIb Nawracaj Basia}
+
+  \begin{itemize}
+    \item Iep Zwoliński jan
+    \item IIIb Plaza Karol
+    \item Iep Fligier Paweł
+    \item II d Bączek Adam
+    \item Icp Ratka Piotr
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIc Wysocki Artur}
+
+  \begin{itemize}
+    \item II b Szopa Olga
+    \item Icg Eksner Amelia
+    \item II b Nowak Robert
+    \item Iap Tomasiak Karolina
+    \item Idp Browarska Emilia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II e Domanowski Piotr}
+
+  \begin{itemize}
+    \item Icg Wójcik Monika
+    \item Idg Sendek Lila
+    \item Iep Babkin Katiusza
+    \item Icp Worsowicz Ala
+    \item Ibg Tymon Zuzia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Dudek Bartek}
+
+  \begin{itemize}
+    \item Icp Łazor Agata
+    \item IIIe Strzezik Martyna
+    \item Ieg Łukasik Zuzia
+    \item I cg Pałka Justyna
+    \item Idg Beżańska Marta
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II d Sosnowska Milena}
+
+  \begin{itemize}
+    \item Iap Stolorz Wiktor
+    \item I bp Bronikowski Adam
+    \item IIb Bajer Jakub
+    \item IIIe Jasto Mateusz
+    \item Iap Klimek Patryk
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIc Huckuba Daniel}
+
+  \begin{itemize}
+    \item Ibp Woźniak Weronika
+    \item Ibp Adamiak Karolina
+    \item II c Koprek Karolina
+    \item Icg Potoniec Zuzia
+    \item IIId Czuryłowicz Oliwia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Wygoda Ania}
+
+  \begin{itemize}
+    \item IIe Skoczylas Maciek
+    \item Ibp Olesiński Maciej
+    \item Ibg Mrózek mikołaj
+    \item IIe Kubita mateusz
+    \item Ibp Glinkowski Wiktor
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{III a Adamiak Natalia}
+
+  \begin{itemize}
+    \item II a Krzyżanowski Wojciech
+    \item I cp Loranty Maja
+    \item III a Odrobina Julia
+    \item Icg Eksner Amelia
+    \item Iep Melon Zuzanna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{III a Odrobina Julia}
+
+  \begin{itemize}
+    \item IIIb Początek Mateusz
+    \item Iep Zwoliński jan
+    \item Idg Sendek Lila
+    \item II b Możdżeń Jakub
+    \item Ibg Krawiec Krzysiu
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I dg Pałka Pola}
+
+  \begin{itemize}
+    \item IIb Bajer Jakub
+    \item Idg Mochnacki Mikołaj
+    \item Iep Zwoliński jan
+    \item IIe Skoczylas Maciek
+    \item Ibg Mrózek mikołaj
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I dp Szpor Julia}
+
+  \begin{itemize}
+    \item IIA Biały Artur
+    \item IIe Skoczylas Maciek
+    \item Idp Cerak Jakub
+    \item Iep Zwoliński jan
+    \item Ibp Glinkowski Wiktor
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idp Browarska Emilia}
+
+  \begin{itemize}
+    \item IIe Skoczylas Maciek
+    \item Iep Zwoliński jan
+    \item IIb Bajer Jakub
+    \item II e Behrendt Jan
+    \item IIIb Początek Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{III a Ignatowicz Krystyna}
+
+  \begin{itemize}
+    \item Iep Baińczyk Michał
+    \item II d Bączek Adam
+    \item Ibg Wojdlski Miłosz
+    \item I bg Zdonek Aleksander
+    \item Idg Jałowiecki Dawid
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II b Skalska Martyna}
+
+  \begin{itemize}
+    \item Iep Zwoliński jan
+    \item IIIb Plaza Karol
+    \item Icg Niegowski Witek
+    \item I cg Chomicz Mateusz
+    \item Iep Utratny szczepan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I cp Pilc Katarzyna}
+
+  \begin{itemize}
+    \item IId Hliniak Szymon
+    \item Iep Sztaba Maciej
+    \item IId Pancewicz Miłosz
+    \item Idg Pilot Bartek
+    \item I cg Chomicz Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Legut Emilia}
+
+  \begin{itemize}
+    \item I cg Chomicz Mateusz
+    \item Iep Utratny szczepan
+    \item I cp Loranty Maja
+    \item Iep Fligier Paweł
+    \item IId Pancewicz Miłosz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I cg Chomicz Mateusz}
+
+  \begin{itemize}
+    \item Idg Legut Emilia
+    \item Iep Utratny szczepan
+    \item Iep Fligier Paweł
+    \item II c Lewandowska Magda
+    \item Iep Zwoliński jan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Kołodziej Julia}
+
+  \begin{itemize}
+    \item II d Bączek Adam
+    \item Iap Nowak Cezary
+    \item Idg Pilot Bartek
+    \item Iep Baińczyk Michał
+    \item Ibg Wojdlski Miłosz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Zgraja Karolina}
+
+  \begin{itemize}
+    \item I eg Bem Michał
+    \item Iap Nowak Cezary
+    \item Ibg Wojdlski Miłosz
+    \item Ibp Hartowicz Łukasz
+    \item Iap Sosna Maciek
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Skowron Mateusz}
+
+  \begin{itemize}
+    \item I cp Loranty Maja
+    \item Iep Melon Zuzanna
+    \item Ibp Adamiak Karolina
+    \item Idg Zarudzka Maja
+    \item Iep Topolska Katarzyna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ibp Zaleśny Beata}
+
+  \begin{itemize}
+    \item Iap Klimek Patryk
+    \item II b Możdżeń Jakub
+    \item II a Krzyżanowski Wojciech
+    \item II e Behrendt Jan
+    \item IIIc Wysocki Artur
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icg Eksner Amelia}
+
+  \begin{itemize}
+    \item Iep Melon Zuzanna
+    \item Iep Utratny szczepan
+    \item Iep Fligier Paweł
+    \item II a Krzyżanowski Wojciech
+    \item IIIc Wysocki Artur
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIIa Stowski Kuba}
+
+  \begin{itemize}
+    \item Ieg Misztal Ewa
+    \item III a Adamiak Natalia
+    \item III a Odrobina Julia
+    \item Ibp Woźniak Weronika
+    \item II c Koprek Karolina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Kawecka Małgosia}
+
+  \begin{itemize}
+    \item IIA Biały Artur
+    \item IIb Bajer Jakub
+    \item Iep Zwoliński jan
+    \item II c Piontek Victoria
+    \item Ibg Wojdlski Miłosz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Mrozińska Dominika}
+
+  \begin{itemize}
+    \item Iep Zwoliński jan
+    \item IIIb Początek Mateusz
+    \item II b Możdżeń Jakub
+    \item IIIc Wysocki Artur
+    \item IIb Tetera Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Borowska Ola}
+
+  \begin{itemize}
+    \item Idg Mochnacki Mikołaj
+    \item I cg Kciuk Piotr
+    \item Iep Fligier Paweł
+    \item IIe Skoczylas Maciek
+    \item I cg Chomicz Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Jałowiecki Dawid}
+
+  \begin{itemize}
+    \item II b Szopa Olga
+    \item Idg Beżańska Marta
+    \item II c Lipińska Natalia
+    \item Idg Mrozińska Dominika
+    \item IIc Kalinowska Kornelia
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I cg Pałka Justyna}
+
+  \begin{itemize}
+    \item Iep Melon Zuzanna
+    \item IIIe Krząkała Julia
+    \item Icg Eksner Amelia
+    \item Icg Pajdak Agnieszka
+    \item IId Pancewicz Miłosz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Serdeyńska Marta}
+
+  \begin{itemize}
+    \item Idp Cerak Jakub
+    \item Iep Zwoliński jan
+    \item IIb Bajer Jakub
+    \item IIe Skoczylas Maciek
+    \item IIIb Plaza Karol
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Górecki Piotr}
+
+  \begin{itemize}
+    \item Icg Wójcik Monika
+    \item Ieg Misztal Ewa
+    \item Ieg Bulik Martyna
+    \item III a Odrobina Julia
+    \item Ibg Haber Martyna
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Icg Wójcik Monika}
+
+  \begin{itemize}
+    \item Ieg Górecki Piotr
+    \item II a Mrówka Marek
+    \item II e Golla Paweł
+    \item I eg Bem Michał
+    \item Iep Baińczyk Michał
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Kucharczyk Paweł}
+
+  \begin{itemize}
+    \item Icp Broda Michalina
+    \item Ibp Mota Alicja
+    \item Icp Worsowicz Ala
+    \item Iep Babkin Katiusza
+    \item I cg Gawron Maja
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIb Zelek Maja}
+
+  \begin{itemize}
+    \item Iep Utratny szczepan
+    \item II e Behrendt Jan
+    \item I cg Chomicz Mateusz
+    \item Iep Zwoliński jan
+    \item Iep Sztaba Maciej
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Beżańska Marta}
+
+  \begin{itemize}
+    \item Idg Jałowiecki Dawid
+    \item Iep Fligier Paweł
+    \item Ibp Glinkowski Wiktor
+    \item Iep Zwoliński jan
+    \item Idg Mochnacki Mikołaj
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{I cg Kciuk Piotr}
+
+  \begin{itemize}
+    \item Idg Borowska Ola
+    \item Ibg Nocuń Marcelina
+    \item Idg Idasiak Zosia
+    \item II c Mrozek Agnieszka
+    \item Ibp Mota Alicja
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II d Jędras Wiktoria}
+
+  \begin{itemize}
+    \item II e Behrendt Jan
+    \item Iep Zwoliński jan
+    \item IIe Skoczylas Maciek
+    \item IIIb Plaza Karol
+    \item Idg Mochnacki Mikołaj
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIb Tetera Jakub}
+
+  \begin{itemize}
+    \item IIa Idzikowska Ala
+    \item IIb Rusak Agnieszka
+    \item II c Lewandowska Magda
+    \item IIIe Kołcz Anna
+    \item Idg Mrozińska Dominika
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Literacka Natalia}
+
+  \begin{itemize}
+    \item Iep Fligier Paweł
+    \item Ibp Olesiński Maciej
+    \item Iap Klimek Patryk
+    \item Ibp Hartowicz Łukasz
+    \item IIa Jankowski Beniamin
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Wawrzak Tosia}
+
+  \begin{itemize}
+    \item IIa Jankowski Beniamin
+    \item I cg Chomicz Mateusz
+    \item Idg Pilot Bartek
+    \item Iep Utratny szczepan
+    \item Iep Zwoliński jan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Pachońska Julia}
+
+  \begin{itemize}
+    \item Ibp Olesiński Maciej
+    \item Ibp Glinkowski Wiktor
+    \item Idp Cerak Jakub
+    \item IIIc Wysocki Artur
+    \item Ibg Wojdlski Miłosz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II c Schuwald Kuba}
+
+  \begin{itemize}
+    \item Idg Drewko Adam
+    \item Iep Utratny szczepan
+    \item I cg Chomicz Mateusz
+    \item Iep Fligier Paweł
+    \item Iep Zwoliński jan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Mazurkiewicz Kaja}
+
+  \begin{itemize}
+    \item II a Krzyżanowski Wojciech
+    \item Icp Ratka Piotr
+    \item Iep Sztaba Maciej
+    \item Idg Pilot Bartek
+    \item I cg Chomicz Mateusz
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Ieg Pucek Ola}
+
+  \begin{itemize}
+    \item IIe Skoczylas Maciek
+    \item IIb Tetera Jakub
+    \item I eg Kleibert Filip
+    \item Iep Sztaba Maciej
+    \item II e Behrendt Jan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIc Kalinowska Kornelia}
+
+  \begin{itemize}
+    \item II a Mrówka Marek
+    \item Iap Klimek Patryk
+    \item IId Hliniak Szymon
+    \item II a Krzyżanowski Wojciech
+    \item Idp Cerak Jakub
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Iap Stolorz Wiktor}
+
+  \begin{itemize}
+    \item Icp Grabowska Emilia
+    \item II d Sosnowska Milena
+    \item Icp Dziuma Michalina
+    \item Ibp Młynek Hania
+    \item I cg Gawron Maja
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIA Biały Artur}
+
+  \begin{itemize}
+    \item I dp Szpor Julia
+    \item Ieg Kawecka Małgosia
+    \item Ibg Haber Martyna
+    \item III a Ignatowicz Krystyna
+    \item Icp Broda Michalina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II e Kampka Dominika}
+
+  \begin{itemize}
+    \item Idg Mochnacki Mikołaj
+    \item I cg Kciuk Piotr
+    \item II e Golla Paweł
+    \item I cg Sapek Mikołaj
+    \item Iep Utratny szczepan
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{IIa Kasielski Adam}
+
+  \begin{itemize}
+    \item II c Koprek Karolina
+    \item Ibp Mota Alicja
+    \item Iep Szejnoga Weronika
+    \item Icp Broda Michalina
+    \item Icp Dziuma Michalina
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II a Mrówka Marek}
+
+  \begin{itemize}
+    \item Icg Wójcik Monika
+    \item Iep Gaj Joanna
+    \item IIc Kalinowska Kornelia
+    \item IIb Sokoła Natalia
+    \item Iep Szejnoga Weronika
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{Idg Sarre Renata}
+
+  \begin{itemize}
+    \item Iap Mrozek Błażej
+    \item Iap Cygan Kamil
+    \item Iap Krysiński Jakub
+    \item Idg Pilot Bartek
+    \item Icp Ratka Piotr
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+
+
+\begin{minipage}[l]{\textwidth}
+--------------------------
+
+  \footnotesize{SpeedDating SU ILO}
+
+  \bfseries{II e Sztaba Elżbieta}
+
+  \begin{itemize}
+    \item I cg Kciuk Piotr
+    \item I cg Sapek Mikołaj
+    \item II e Streb Maksymilian
+    \item Ibg Mrózek mikołaj
+    \item Iap Kurzak Adam
+
+    \end{itemize}
+
+
+
+\end{minipage}
+
+\end{multicols}
+
+Grzegorz Koperwas płakał jak pisał ten program z 39 stopniami gorączki.
+
+\end{document}

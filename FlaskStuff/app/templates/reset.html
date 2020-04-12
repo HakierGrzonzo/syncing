@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+        <title>Super sekretna strona resetująca</title>
+    </head>
+    <body>
+        <div>By pójść na stronę użytkownika kliknij <a href="/index">TUTAJ_</a></div>
+        <hr>
+        <h1>Witamy administratora</h1>
+        <p>Wyniki zgłoszeń z ostatniego razu</p>
+        <ul>
+          {% for osoba in osoby %}
+          <li>{{ osoba }}</li>
+          {% endfor %}
+        </ul>
+        <p><em><a href="/reset">Resetuj zgłoszenia</a></em></p>
+        <hr>
+        <h2>Instrukcja obsługi tej stronki</h2>
+        <ul>
+          <li>Chwilę przed losowaniem zresetuj zgłoszenia linkiem, który jest
+            odpowiednio podpisany, w celu wyczyszczenia listy z osób które użyły
+            przycisku podczas gry</li>
+          <li>Po zgłoszeniu się osób naciśnij link ponownie by zobaczyć zgłoszenia
+            w kolejności chronologicznej</li>
+    </body>
+</html>

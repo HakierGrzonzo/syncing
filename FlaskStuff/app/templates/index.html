@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Hitler did some things wrong</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    </head>
+    <body>
+        <div>Nie wiem czy to ma prawo działać ale tu jest reset: <a href="/index">RESET</a></div>
+        <hr>
+        <h1>Witaj osobo!</h1>
+        <p>Mam nadzieje że to będzie działać, ale jak co to wykonuj polecenia osoby odpowiedzialnej. Ale mam dla ciebie parę zasad:</p>
+        <ul>
+          <li>Nadajcie sobie różne nicki, bowiem nie planuje obsługi powtórzeń.</li>
+          <li>Nie bawcie się adresem URL, albowiem tam możecie znaleźć swój nick, jego zmiana może mieć ciekawe konsekwencje. Proszę nie podszywać się pod inne osoby.</li>
+          <li>Jak co to u góry jest przycisk reset</li>
+          <li>Nie wpisujcie spacji lub innych dziwnych znaków. Gwarantuje działanie liter nie-polskich oraz cyfr arabskich</li>
+        </ul>
+        <hr>
+        <h3>Wpisz tu swój <em>unikalny</em> nick:</h3>
+        <form action="/gra" class="center-block">
+          <input class="center-block" type="text" id="nick" name="nick"><br><br>
+          <input class="center-block" type="submit" value="Rozpocznij grę">
+        </form>
+    </body>
+</html>
