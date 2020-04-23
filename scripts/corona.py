@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import datetime
-przyrost = [1, 0, 4, 1, 5, 6, 5, 9, 20, 17, 36, 21, 52, 61, 49, 68, 70, 111, 98, 115, 152, 150, 170, 168, 249, 224, 193, 256, 243, 392, 437, 244, 475, 311, 435, 357, 370, 380, 401]
+przyrost = [1, 0, 4, 1, 5, 6, 5, 9, 20, 17, 36, 21, 52, 61, 49, 68, 70, 111, 98, 115, 152, 150, 170, 168, 249, 224, 193, 256, 243, 392, 437, 244, 475, 311, 435, 357, 370, 380, 401, 318, 260, 270, 380, 336, 461, 363, 545, 306, 263, 313]
 
 i = 0
 przyrost_3dni = list()
@@ -16,7 +16,7 @@ przypadki = 0
 y_axis = list()
 
 days = list()
-print('dzień\tprzypdaki\tprzyrost w 3 dni')
+print('dzień\tprzypadki\tprzyrost w 3 dni')
 for i in range(len(przyrost_3dni)):
     przypadki += przyrost_3dni[i]
     if przypadki > 400:
