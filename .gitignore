@@ -31,7 +31,12 @@
 *.out
 *.app
 
+# Other Stuff
+
 *.epub
 
 *.pyc
 *.json
+*.aux
+*.log
+*.pdf

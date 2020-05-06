@@ -3,22 +3,23 @@
 // Program tworzy nowe wątki
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 
 namespace chomonimy
 {
   class Node
   {
-    public string letter;
-    public List<Node> children = new List<Node>();
-    public Node(string letter)
+    public char letter;
+    public static List<Node> children = new List<Node>();
+    public Node(char _letter)
     {
-      this.letter = letter;
+      letter = _letter;
     }
-    public static void add(string word)
+    public void add(string word)
     {
-      if (this.letter != word) {
-        foreach (Node child in this.children) {
+      if (letter != word[0] && word.Length == 1) {
+        foreach (Node child in children) {
           if (child.letter == word[0]) {
             child.add(word.Substring(1));
             break;
@@ -26,9 +27,9 @@ namespace chomonimy
         }
       }
     }
-    public static bool isIn(string word)
+    public bool isIn(string word)
     {
-      if (word == this.letter){
+      if (word[0] == this.letter && word.Length == 1){
         return true;
       }
       foreach (Node child in children) {
@@ -43,7 +44,14 @@ namespace chomonimy
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      Console.WriteLine("Droga Politechniko, czy wiecie że istnieje coś takiego jak unicode?");
+      Console.WriteLine("Lata 90-siąte się skończyły, czemu nawet kodowania nie podacie?");
+      Console.WriteLine("I muszę teraz to na unicode konwertować");
+      var slownik = File.ReadAllLines("slownik.txt");
+      var wordList = new List<string>(slownik);
+      foreach (string str in wordList) {
+        Console.WriteLine(str.replace("¿", ""));
+      }
     }
   }
 }

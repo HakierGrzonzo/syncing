@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+        <title>pls work</title>
+    </head>
+    <body>
+        <div>Nie wiem czy to ma prawo działać ale tu jest reset: <a href="/index">RESET</a></div>
+        <hr>
+        <h1>Witamy w grze {{ nick }}!</h1>
+        {% if pierwsza %}
+        <h3>Udało ci się tu wejść jako pierwsza osoba! To jaka to jest melodia?</h3>
+        {% else %}
+        <p>Niestety nie jesteś pierwszą osobą</p>
+        {% endif %}
+        <ul>
+          {% for osoba in osoby %}
+          <li>{{ osoba }}</li>
+          {% endfor %}
+        </ul>
+        <hr>
+        <p><em><a href="{{ url }}">Zgłoś się!</a></em></p>
+    </body>
+</html>
