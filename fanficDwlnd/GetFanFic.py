@@ -1,5 +1,8 @@
 from bs4 import BeautifulSoup
-import requests, json, os, sys, datetime
+import requests, json, os, sys, datetime, time
+
+headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux 5.6.15-1-MANJARO x86_64) KHTML/5.70.0 (like Gecko) Konqueror/5 KIO/5.70'}
+cookie = {'view_adult': "true"}
 
 isColorful = False
 def LOLprint(txt):
@@ -16,7 +19,14 @@ def GetFanficInfo(id):
     global site
     try:
         url = site + '/works/' + id
-        r = requests.get(url)
+        r = requests.get(url, headers = headers, cookies = cookie)
+        if r.status_code == 500:
+            print('Error 500, is the server overloaded? retrying in 10 seconds.')
+            time.sleep(10)
+            r = requests.get(url, headers = headers, cookies = cookie)
+        if r.status_code != 200:
+            print('Error on {}: {}'.format(id, r.status_code))
+            raise Exception('http error')
         soup = BeautifulSoup(r.content, features = 'lxml')
         fanfic = dict()
         try:
@@ -38,9 +48,8 @@ def GetFanficInfo(id):
             print('failed to process ' + id)
             return {'status': False, 'id' : id}
         except Exception as e:
-            print('failed to process ' + id)
-            print(e)
-            breakpoint()
+            print('failed to process {}: {}'.format(id, r.status_code))
+            return {'status': False, 'id' : id}
     except:
         print('failure')
         return {'status': False, 'id' : id}
@@ -50,7 +59,7 @@ def DownoloadFanfic(fanfic):
     title = fanfic['title'].replace('\'','') + '.epub'
     try:
         LOLprint('Downloading: ' + title)
-        r = requests.get(fanfic['link'])
+        r = requests.get(fanfic['link'], headers = headers, cookies = cookie)
         try:
             os.remove(title)
         except:
