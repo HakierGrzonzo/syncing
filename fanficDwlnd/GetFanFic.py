@@ -50,8 +50,8 @@ def GetFanficInfo(id):
         except Exception as e:
             print('failed to process {}: {}'.format(id, r.status_code))
             return {'status': False, 'id' : id}
-    except:
-        print('failure')
+    except Exception as e:
+        print('failure', e)
         return {'status': False, 'id' : id}
 
 def DownoloadFanfic(fanfic):
