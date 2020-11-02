@@ -40,3 +40,4 @@
 *.aux
 *.log
 *.pdf
+cpp experiments/pedalcpp/test
