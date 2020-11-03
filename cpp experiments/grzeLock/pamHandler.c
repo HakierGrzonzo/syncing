@@ -2,6 +2,9 @@
 #include <security/pam_appl.h>
 #include <security/pam_misc.h>
 
+#define false 0
+#define true 1
+
 struct pam_response *reply;
 
 //function used to get user input
@@ -20,7 +23,7 @@ int checkPassword(const char* username, char* password, const char* appName)
         reply = (struct pam_response *)malloc(sizeof(struct pam_response));
         reply[0].resp = strdup(password);
         reply[0].resp_retcode = 0;
-        return pam_authenticate(pamh, 0) == PAM_SUCCESS;
+        return pam_authenticate(pamh, 0) == PAM_SUCCESS ? true : false;
     }
-    return 0;
+    return false;
 }

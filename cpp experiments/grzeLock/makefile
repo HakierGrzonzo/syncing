@@ -1,5 +1,5 @@
 output: main.o pamHandler.o displayer.o
-	g++ -lsfml-graphics -lsfml-window -lsfml-system -lpam main.o pamHandler.o displayer.o -o output
+	g++ -lsfml-graphics -lsfml-window -lsfml-system -lpam -lpthread main.o pamHandler.o displayer.o -o output
 
 main.o: main.cpp
 	g++ -c  main.cpp
