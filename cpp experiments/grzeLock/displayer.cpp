@@ -6,6 +6,7 @@
 #include <SFML/Graphics/Sprite.hpp>
 #include <time.h>
 #include <stdio.h>
+#include "pamHandler.h"
 
 struct res
 {
@@ -60,8 +61,8 @@ void lockScreen(res screen)
     sf::Text clock;
     clock.setFont(clockFont);
     clock.setCharacterSize(100);
-    clock.setOrigin(sf::Vector2f(1, 0));
-    clock.setPosition(sf::Vector2f((float) 0.1 * screen.x, (float) 0.8 * screen.y ));
+    clock.setOrigin(sf::Vector2f(0, 100));
+    clock.setPosition(sf::Vector2f(10, screen.y - 30));
     clock.setFillColor(sf::Color::White);
 
     std::string time = "";
@@ -79,8 +80,7 @@ void lockScreen(res screen)
             }
             else if (event.type == sf::Event::EventType::Resized)
             {
-                auto windowSize = window.getSize();
-                //backgroundShape.setSize(sf::Vector2f((float) windowSize.x, (float) windowSize.y));
+                sf::Vector2u windowSize = window.getSize();
                 std::cout << "Resized Now to " << windowSize.x << "x" << windowSize.y << std::endl;
             }
         }

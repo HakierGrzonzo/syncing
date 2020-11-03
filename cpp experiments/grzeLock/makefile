@@ -1,20 +1,11 @@
-CC := g++
-CFLAGS := -Wall -g 
-LinkerFlags := -lsfml-graphics -lsfml-window -lsfml-system
-TARGET := test
+output: main.o pamHandler.o displayer.o
+	g++ -lsfml-graphics -lsfml-window -lsfml-system -lpam main.o pamHandler.o displayer.o -o output
 
-# $(wildcard *.cpp /xxx/xxx/*.cpp): get all .cpp files from the current directory and dir "/xxx/xxx/"
-SRCS := $(wildcard *.cpp)
-# $(patsubst %.cpp,%.o,$(SRCS)): substitute all ".cpp" file name strings to ".o" file name strings
-OBJS := $(patsubst %.cpp,%.o,$(SRCS))
+main.o: main.cpp
+	g++ -c  main.cpp
 
-all: $(TARGET)
-$(TARGET): $(OBJS)
-	$(CC) $(LinkerFlags) -o $@ $^
-%.o: %.cpp
-	$(CC) $(CFLAGS) -c $<
-clean:
-	rm -rf $(TARGET) *.o
+displayer.o: displayer.cpp
+	g++ -c displayer.cpp
 
-	
-.PHONY: all clean
+pamHandler.o: pamHandler.c
+	g++ -c pamHandler.c

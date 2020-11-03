@@ -41,3 +41,4 @@
 *.log
 *.pdf
 cpp experiments/pedalcpp/test
+cpp experiments/grzeLock/output
