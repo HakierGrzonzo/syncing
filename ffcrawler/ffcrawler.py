@@ -10,7 +10,7 @@ def pWait(interval):
 
 Show = "The Dragon Prince (Cartoon)"
 
-search = AO3.Search(fandoms=Show)
+search = AO3.Search(fandoms=Show, hits=AO3.utils.Constraint(40))
 search.update()
 total = search.total_results
 print("Found {} works".format(search.total_results))
@@ -55,7 +55,7 @@ results = list()
 
 try:
     for workid in works:
-        this_rate_limit = 0
+        this_rate_limit = 3
         id = AO3.utils.workid_from_url(workid.url)
         print("\rProcessing work {}/{}".format(len(results) + 1, len(works)), end="")
         while True:
@@ -95,6 +95,9 @@ try:
                 print("\nRatelimit detected! trying again in {} seconds".format(timer))
                 pWait(timer)
                 continue
+    if len(results) % 100 == 0:
+        with open("result.json", "w+") as f:
+            f.write(json.dumps(results, indent= 4))
 except KeyboardInterrupt:
     print("\nrecived interrupt, proceeding with {} works..".format(len(results)))
 
