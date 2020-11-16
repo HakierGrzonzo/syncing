@@ -1,0 +1,2 @@
+environment=debug
+FLASK_APP=app

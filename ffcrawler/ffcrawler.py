@@ -1,6 +1,8 @@
 import AO3, time, json
 from pprint import pprint
 
+from AO3.utils import kudos
+
 def pWait(interval):
     for i in range(interval + 1):
         print("\r{}/{}".format(i, interval), end="")
