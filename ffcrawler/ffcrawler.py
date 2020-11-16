@@ -10,7 +10,7 @@ def pWait(interval):
 
 Show = "The Dragon Prince (Cartoon)"
 
-search = AO3.Search(fandoms=Show, hits=AO3.utils.Constraint(40))
+search = AO3.Search(fandoms=Show)
 search.update()
 total = search.total_results
 print("Found {} works".format(search.total_results))
@@ -46,9 +46,7 @@ try:
 except KeyboardInterrupt:
     print("\nrecived interrupt, proceeding with {} works..".format(len(works)))
 
-print("\nWaiting for RateLimit")
-print("Skipped {} works".format(skipped))
-pWait(60)
+print("\nSkipped {} works".format(skipped))
 print("Processing works!")
 results = list()
 cached = list()
