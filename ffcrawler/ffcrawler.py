@@ -1,6 +1,8 @@
 import AO3, time, json
 from pprint import pprint
 
+from AO3.utils import kudos
+
 def pWait(interval):
     for i in range(interval + 1):
         print("\r{}/{}".format(i, interval), end="")
@@ -10,7 +12,7 @@ def pWait(interval):
 
 Show = "The Dragon Prince (Cartoon)"
 
-search = AO3.Search(fandoms=Show, hits=AO3.utils.Constraint(40))
+search = AO3.Search(fandoms=Show, kudos=AO3.utils.Constraint(40))
 search.update()
 total = search.total_results
 print("Found {} works".format(search.total_results))
