@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <title>Service List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Service List:</h1>
+    <ul>
+    {% for port, service in services.items() %}
+        <li><a href="{{service.url}}"">{{ port }}: {{ service.get("title", "Link") }}</a></li>
+    {% endfor %}
+    </ul>
+    <a href="/update">UPDATE LIST</a>
+</body>
