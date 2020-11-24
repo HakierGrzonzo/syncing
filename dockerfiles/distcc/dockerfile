@@ -1,0 +1,5 @@
+FROM archlinux:latest
+RUN pacman -Syu --noconfirm distcc make git gcc cmake
+EXPOSE 3632/tcp
+EXPOSE 3632/udp
+ENTRYPOINT distccd --daemon --no-detach --verbose --allow-private
