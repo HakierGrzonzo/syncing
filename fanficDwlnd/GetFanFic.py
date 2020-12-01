@@ -1,132 +1,87 @@
-from bs4 import BeautifulSoup
-import requests, json, os, sys, datetime, time
+import json, datetime, os
+import AO3, argparse
 
-headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux 5.6.15-1-MANJARO x86_64) KHTML/5.70.0 (like Gecko) Konqueror/5 KIO/5.70'}
-cookie = {'view_adult': "true"}
+def downloadWork(work, lastUpdate = None, forced = False, prefix = ""):
+    print("Checking {}".format(work.title))
+    if lastUpdate == None or forced or work.date_updated != lastUpdate:
+        print("Downloading {}, updated {} days ago.".format(work.title, (datetime.date.today() - work.date_updated).days))
+        print(work.summary)
+        fname = prefix + (" " if len(prefix) > 0 else "") +  work.title + ".epub"
+        print("Downloading as {}...".format(fname))
+        work.download_to_file(prefix + work.title, "EPUB")
 
-isColorful = False
-def LOLprint(txt):
-    if isColorful:
-        os.system("echo \"" + str(txt) + "\" | lolcat -a -d 24")
-    else:
-        print(txt)
+parser = argparse.ArgumentParser(
+    description = "A crude A03 fanfiction checker",prog="GetFanFic.py"
+)
+parser.add_argument('url', type = str, help = "URLs to add to the list of checked works", metavar="url", nargs='*')
+parser.add_argument('-f', dest = "forced", help = "Download all works, even if there were no updates")
+args = parser.parse_args()
 
-def PrintTimeDelta(dateString):
-    y, m, d = [int(x) for x in dateString.split('-')]
-    date = datetime.date(y, m, d)
-    return str((datetime.date.today() - date).days)
-def GetFanficInfo(id):
-    global site
+data = []
+try:
+    data = json.load(open(os.path.expanduser("~/.fanfic2.json"), "r"))
+except:
+    pass
+
+series_ids = list()
+urls = list()
+for point in data:
+    url = point.get("url")
+    if url is None:
+        url = "https://archiveofourown.org/series/{}".format(point.get("id"))
+        series_ids.append(point.get("id"))
+    urls.append(url)
+
+
+if args.url is not None:
+    for arg in args.url:
+        if arg not in urls:
+            data.append({"url": arg})
+res = []
+for item in data:
     try:
-        url = site + '/works/' + id
-        r = requests.get(url, headers = headers, cookies = cookie)
-        if r.status_code == 500:
-            print('Error 500, is the server overloaded? retrying in 10 seconds.')
-            time.sleep(10)
-            r = requests.get(url, headers = headers, cookies = cookie)
-        if r.status_code != 200:
-            print('Error on {}: {}'.format(id, r.status_code))
-            raise Exception('http error')
-        soup = BeautifulSoup(r.content, features = 'lxml')
-        fanfic = dict()
-        try:
-            try:
-                fanfic['lastUpdate'] = soup.find('dd', 'status').string
-            except:
-                fanfic['lastUpdate'] = soup.find('dd', 'published').string
-            fanfic['wordcount'] = soup.find('dd','words').string
-            fanfic['title'] = soup.find('h2', 'title heading').string.replace('\n      ','').replace('\n    ','')
-            fanfic['id'] = id
-            for link in soup.find('ul', 'expandable secondary').find_all('a'):
-                if link.text.strip() == 'EPUB':
-                    fanfic['link'] = site + link.get('href')
-                    break
-            fanfic['status'] = True
-            LOLprint('Managed to get info on:\t' + fanfic['title'] + '\tLast updated ' + PrintTimeDelta(fanfic['lastUpdate']) + ' days ago')
-            return fanfic
-        except requests.exceptions.ReadTimeout:
-            print('failed to process ' + id)
-            return {'status': False, 'id' : id}
-        except Exception as e:
-            print('failed to process {}: {}'.format(id, r.status_code))
-            return {'status': False, 'id' : id}
+        series = None
+        isSeries = False
+        if "works" in item.get("url", str()):
+            work = AO3.Work(AO3.utils.workid_from_url(item["url"]))
+            if len(work.series) == 0:
+                downloadWork(work, datetime.date.fromisoformat(item.get("update")) if item.get("update") is not None else None, args.forced != None)
+                item["update"] = work.date_updated.isoformat()
+                res.append(item)
+                continue
+            else:
+                series = work.series[0]
+                series.reload()
+                if series.seriesid in series_ids:
+                    continue
+                item["id"] = series.seriesid
+                item = {"series": {}, "id" : series.seriesid}
+                print("Adding new series {}".format(series.name))
+                isSeries = True
+
+        if "series" in item.get("url", str()) or item.get("id") is not None or isSeries:
+            if series is None and item.get("series") is None:
+                series = AO3.Series(AO3.utils.workid_from_url(item["url"]))
+                item = {"series": {}, "id" : series.seriesid}
+                print("Adding new series {}".format(series.name))
+            elif series is None:
+                series = AO3.Series(item["id"])
+            i = 0
+            for work in series.work_list:
+                work.reload()
+                series_item = item.get("series", dict()).get(work.url)
+                if series_item is None:
+                    series_item = dict()
+                    print("Adding new member {} to series {}".format(work.title, series.name))
+                downloadWork(work, datetime.date.fromisoformat(series_item.get("update")) if series_item.get("update") is not None else None, args.forced != None, "{}_{}".format(series.name, i))
+                series_item["update"] = work.date_updated.isoformat()
+                item["series"][work.url] = series_item
+                i += 1
+            res.append(item)
     except Exception as e:
-        print('failure', e)
-        return {'status': False, 'id' : id}
-
-def DownoloadFanfic(fanfic):
-    global site
-    title = fanfic['title'].replace('\'','') + '.epub'
-    try:
-        LOLprint('Downloading: ' + title)
-        r = requests.get(fanfic['link'], headers = headers, cookies = cookie)
-        try:
-            os.remove(title)
-        except:
-            pass
-        f = open(title,'wb+')
-        f.write(r.content)
-        f.close()
-        return True
-    except requests.exceptions.ConnectionError as e:
-        print('failed to download ' + title)
         print(e)
-        return None
-def GetFanficVault():
-    global vaultFile
-    try:
-        data = json.load(open(vaultFile, 'r'))
-    except:
-        f = open(vaultFile, 'w+')
-        f.write(json.dumps({'name': 'fanficDwnld v.0', 'fanfics': list()}))
-        f.close()
-        data = json.load(open(vaultFile, 'r'))
-    return data
-def DumpFanficVault(data):
-    global vaultFile
-    try:
-        os.remove(vaultFile)
-    except:
-        pass
-    f = open(vaultFile, 'w+')
-    f.write(json.dumps(data, indent = 4))
-    f.close()
-
-vaultFile = os.path.expanduser('~/.fanfics.json')
-site = 'https://archiveofourown.org'
-
-
-def main(args):
-    global isColorful
-    Data = GetFanficVault()
-    FanficIDs = [x['id'] for x in Data['fanfics']]
-    Forced = False
-
-    for x in sys.argv[1:]:
-        if x.startswith(site + '/works/'):
-            x = x.replace(site + '/works/','')
-        if x.find('/chapter') != -1:
-            x = x[:x.find('/chapter')]
-        if x == '-F':
-            LOLprint('Running in forced download mode')
-            Forced = True
-        elif x == '-c':
-            isColorful = True
-        else:
-            FanficIDs.append(str(x))
-    LOLprint('FanficDownloader v.1')
-    ToDownload = list()
-    fics = list()
-    for id in FanficIDs:
-        fanfic = GetFanficInfo(id)
-        if fanfic != None:
-            fics.append(fanfic)
-            if (fanfic not in Data['fanfics'] or Forced) and fanfic['status']:
-                DownoloadFanfic(fanfic)
-    Data['fanfics'] = fics
-    DumpFanficVault(Data)
-
-
-if __name__ == '__main__':
-    args = sys.argv
-    main(args)
+        print(item)
+        res.append(item)
+        raise e
+json.dump(res, open(os.path.expanduser("~/.fanfic2.json"), "w+"), indent = 4)
+print("Done!")
