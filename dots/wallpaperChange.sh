@@ -25,7 +25,10 @@ pywalfox update
 . "${HOME}/.cache/wal/colors.sh"
 
 # set rgb using ckb next
-echo "rgb $(echo $color1 | sed 's/#//')ff" > /tmp/ckbpipe000
+killall rgbwal
+rgbwal $color1 $color2 $color3 $color4 $color5 $color6 &
+disown
+
 
 # Set the border colors.
 bspc config normal_border_color "$color15"
