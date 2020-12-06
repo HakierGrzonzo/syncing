@@ -17,4 +17,4 @@ clean:
 	rm *.o rgbwal
 
 install: rgbwal
-	killall rgbwal ;cp rgbwal /usr/bin/
+	cp rgbwal /usr/bin/

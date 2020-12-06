@@ -103,7 +103,6 @@ int rgb2int(RGB color)
 
     if (g > 255 || r > 255 || b > 255 || r < 0 || g < 0 || b < 0)
     {
-        std::cerr << r << ' ' << g << ' ' << b << std::endl;
         throw std::invalid_argument("Color is not 24bit!");
     }
     return (int) 256 * 256 * r + 256 * g + b;
