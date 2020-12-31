@@ -25,6 +25,7 @@ void blend (std::vector<Color> colors)
                 ckbfile << "rgb ";
                 ckbfile << std::setfill('0') << std::setw(6) << std::hex << rgb2int(color);
                 ckbfile << "ff"; // provide alpha
+                ckbfile << '\n';
                 ckbfile.close();
                 std::this_thread::sleep_for(std::chrono::milliseconds(50));
             }
