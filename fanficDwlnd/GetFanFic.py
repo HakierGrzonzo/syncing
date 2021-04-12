@@ -1,14 +1,17 @@
 import json, datetime, os
 import AO3, argparse
+from format import formatText
 
 def downloadWork(work, lastUpdate = None, forced = False, prefix = ""):
     print("Checking {}".format(work.title))
     if lastUpdate == None or forced or work.date_updated != lastUpdate:
         print("Downloading {}, updated {} days ago.".format(work.title, (datetime.date.today() - work.date_updated).days))
-        print(work.summary)
+        print("----Summary----")
+        print(formatText(work.summary, 70, True))
         fname = prefix + (" " if len(prefix) > 0 else "") +  work.title + ".epub"
+        print()
         print("Downloading as {}...".format(fname))
-        work.download_to_file(prefix + work.title, "EPUB")
+        work.download_to_file(fname, "EPUB")
 
 parser = argparse.ArgumentParser(
     description = "A crude A03 fanfiction checker",prog="GetFanFic.py"
