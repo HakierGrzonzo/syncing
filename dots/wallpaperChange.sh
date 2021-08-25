@@ -26,6 +26,7 @@ fi
 echo $TargetFile
 cp "${DIR}${TargetFile}" $WALLPAPER
 echo $TargetFile > $WALLPAPER_tmp
+convert ~/Pictures/wallpapers/$TargetFile ~/Pictures/wallpaper.bmp
 
 rm -r "${HOME}/.cache/wal"
 wpg -s ~/Pictures/wallpapers/$(cat ~/Pictures/wallpaper_name)
@@ -36,17 +37,17 @@ pywalfox update
 
 # set rgb using ckb next
 killall rgbwal
-rgbwal $color1 $color2 $color3 $color4 $color5 $color6 &
+rgbwal $color1 $color2 $color3 $color4 $color5 $color6 > /dev/null 2> /dev/null &
 disown
 
 
 # Set the border colors.
-bspc config normal_border_color "$color15"
-bspc config active_border_color "$color2"
-bspc config focused_border_color "$color1"
+#bspc config normal_border_color "$color15"
+#bspc config active_border_color "$color2"
+#bspc config focused_border_color "$color1"
 # Use the line below if you are on bspwm >= 0.9.4
-bspc config presel_feedback_color "$color1"
+#bspc config presel_feedback_color "$color1"
 
-spicetify update
+spicetify update < /dev/null
 
 

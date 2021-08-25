@@ -1,3 +1,4 @@
+#include <cstdlib>
 #include <string>
 #include <vector>
 #include "color.h"
@@ -8,8 +9,9 @@
 #include <cmath>
 void blend (std::vector<Color> colors)
 {
-    const int steps = 32;
+    const int steps = 64;
     std::ofstream ckbfile;
+    std::ofstream hyperionFile;
     while(true)
     {
         for (int i = 0; i < colors.size(); i++)
@@ -27,6 +29,14 @@ void blend (std::vector<Color> colors)
                 ckbfile << "ff"; // provide alpha
                 ckbfile << '\n';
                 ckbfile.close();
+                hyperionFile.open("/tmp/hyperionRGB_color");
+                hyperionFile << color.r << ";"
+                    << color.g << ";"
+                    << color.b << "\n";
+                std::cerr << color.r << ";"
+                    << color.g << ";"
+                    << color.b << std::endl;
+                hyperionFile.close();
                 std::this_thread::sleep_for(std::chrono::milliseconds(50));
             }
         }

@@ -1,0 +1,50 @@
+@import url('file:///home/hakiergrzonzo/.cache/wal/colors.css');
+
+body {	
+    background-color: var(--color0) !important;
+    color: var(--color1) !important;
+    font-family: "Futura";
+    overflow: hidden;
+    text-align: center;
+}
+#container {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 30px);
+}
+.flex-h {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.panel {
+    color: var(--color10);
+    border-color: var(--color1);
+    border-radius: 1px;
+    border-style: solid;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;;
+    padding: 10px;
+    color: var(--color5) !important;
+}
+img {
+    height: 32px;
+}
+em {
+    color: var(--color3);
+}
